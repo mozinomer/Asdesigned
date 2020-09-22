@@ -2,6 +2,11 @@
 * {
     font-family: 'Open Sans', sans-serif;
 }
+img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
 footer {
     background: #3f85c0;
     padding-top: 100px;
@@ -427,6 +432,193 @@ a#viewmore {
 }
 header {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.tagscontainer {
+    padding: 100px 0px;
+}
+
+.tagscontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tagscontainer a {
+    flex: 0 31%;
+    background: #2c5577;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.blogcontainers h2 {
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.blogcontainers p {
+    margin: 20px 0px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #000;
+}
+
+.blogcontainers a {
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #2c5577;
+    display: block;
+    max-width: max-content;
+    padding: 10px 40px;
+    color: #fff;
+    border-radius: 40px;
+    font-size: 13px;
+    margin: 40px 0px;
+}
+
+.blogcontainers .col-md-12 {
+    margin-bottom: 50px;
+}
+
+.blogcontainers img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.authorcontainers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.authorcontainers .contentsliderImage {
+    flex: 0 33%;
+}
+
+.bestSUnit button {
+    border-radius: 30px;
+}
+
+a#viewmore {
+    border-radius: 40px;
+}
+
+.searchAndLoginContainer > a {
+    border-radius: 30px;
+    font-size: 13px;
+}
+.containerheaderTop {
+    display: flex;
+    justify-content: space-between;
+}
+.searchbar {
+    padding-top: 50px;
+}
+
+.searchbar form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchbar input {
+    width: 90%;
+    height: 55px;
+    background: none;
+    border: none;
+    border-bottom: 3px solid #2c5577;
+}
+
+.searchbar button {
+    width: 10%;
+    height: 55px;
+    background: #2c5577;
+    border: 2px solid #2c5577;
+    color: #fff;
+    border-radius: 60px;
+}
+.study .col-md-8 {
+    margin-top: 50px;
+}
+.likeandshare ul {
+    display: flex;
+    align-items: center;
+}
+
+.likeandshare li {
+    border: 1px solid #2c5577;
+    padding: 12px 30px;
+    background: #2c5577;
+    color: #fff;
+    margin-right: 2px;
+}
+
+.likeandshare {
+    margin: 50px 0px;
+}
+
+.likeandshare li:hover {
+    color: #2c5577;
+    background: none;
+}
+.commentsectiionssinglepage {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+}
+
+.imagecontainer {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #cccc;
+    border-radius: 50%;
+}
+
+.formcomment {width: 100%;margin-left: 30px;}
+
+.formcomment textarea {
+    width: 100%;
+    height: 200px;
+    resize: none;
+    border: none;
+    border-bottom: 4px solid #2c5577;
+}
+
+.commentsectiionssinglepage button {
+    margin-left: auto;
+    display: block;
+    padding: 10px 70px;
+    color: #fff;
+    border: 2px solid #2c5577;
+    background: #2c5577;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 40px 0px 40px auto;
+}
+.titleblogdetail .col-md-6:first-child {
+    padding-left: 0px;
+}
+
+.titleblogdetail p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+
+.titleblogdetail h2 {
+    font-size: 42px;
+    font-weight: 800;
+    color: #000;
+}
+
+.blogdetail {
+    padding: 100px 0px 0px;
 }
 
 
