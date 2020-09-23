@@ -620,8 +620,278 @@ a#viewmore {
 .blogdetail {
     padding: 100px 0px 0px;
 }
+.reviews .col-md-12 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
 
+.imagecontainerreview {
+    width: 30%;
+    background: #cccc;
+    min-height: 220px;
+}
 
+.contentcontainerreviews {
+    width: 68%;
+    background: white;
+    box-shadow: 0px 0px 24px -5px #cccc;
+    padding: 40px;
+}
+
+.contentcontainerreviews h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contentcontainerreviews p {
+    font-size: 14px;
+}
+
+.contentcontainerreviews .checked {
+    color: orange;
+}
+
+.startchecker {
+    display: block;
+    margin: 20px 0px 0px;
+}
+
+a#reviewss {
+    background: #2c5577;
+    color: #fff;
+    padding: 10px 40px;
+    display: block;
+    max-width: max-content;
+    margin: 30px 0px 0px;
+}
+.containerlabels label, .studentunivesity > label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.containerlabels input, .containerlabels textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #2c5577;
+    resize: none;
+    margin-bottom: 40px;
+}
+
+form.reviewform {
+    padding: 40px 0px 0px;
+}
+
+.containerlabels input {
+    height: 50px;
+}
+
+.containerlabels textarea {
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.radios input ~ label {
+    background: #3f85c0;
+    padding: 5px 24px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border: 2px solid #3f85c0;
+}
+
+.radios input {
+    display: none;
+}
+
+.radios input:checked ~ label {
+    background: none;
+    color: #3f85c0;
+}
+
+.radios {
+    margin: 20px 0px 10px;
+}
+
+form.reviewform button {
+    background: #3f85c0;
+    color: #fff;
+    padding: 5px 40px;
+    border: 2px solid;
+}
+
+form.reviewform button:hover {background: none;color: #3f85c0;}
+.reviewpages .imagecontainerreview {
+    max-height: 300px;
+}
+.containerreviewigk {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 24px -5px #cccc;
+    margin-bottom: 40px;
+    border: 1px solid #cccc;
+    padding: 50px 40px;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.imagecontianerdetailreviews {
+    width: 30%;
+}
+
+.contentreviewdetail {
+    width: 70%;
+}
+
+.imagecontianerdetailreviews img {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.imagecontianerdetailreviews h5 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 20px 0px 0px;
+}
+
+.contentreviewdetail p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+.universitynames {
+    padding: 100px 0px;
+}
+
+.universitynames h2 {
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.startchcker span {
+    margin-left: 20px;
+}
+.tagscontainer a {
+    border: 2px solid #2c5577;
+}
+
+.tagscontainer a:hover {
+    background: none;
+    color: #2c5577;
+}
+
+a#viewmore:hover {
+    background: none;
+    color: #2c5577;
+}
+
+a#viewmore {
+    border: 2px solid #2c5577;
+}
+.titleforum {
+    display: flex;
+    align-items: center;
+}
+
+.titleforum img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+h2 {}
+
+.columnnumber {
+    border: 1px solid #cccc;
+}
+
+.columnnumber h2 {
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    background: #2c5577;
+    color: #fff;
+}
+
+.containercontentforumclumns li {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #cccc;
+    margin-bottom: 40px;
+}
+
+.containercontentforumclumns li:last-child {
+    border: none;
+}
+
+.titleforum h3 span {
+    display: block;
+    font-size: 13px;
+    font-weight: 100;
+    margin: 10px 0px 0px;
+}
+
+.titleforum h3 {padding-left: 20px;font-size: 22px;font-weight: 600;}
+
+.postnumbers {
+    text-align: center;
+    text-transform: capitalize;
+}
+.columnnumber {
+    margin-bottom: 50px;
+}
+.containerdetailf {display: flex;flex-wrap: wrap;border: 1px solid #cccc;margin-bottom: 40px;padding: 20px;padding-left: 0px;box-shadow: 0px 0px 34px -1px #cccc;padding-bottom: 0px;}
+
+.imageandtitlecontainer {
+    width: 30%;
+}
+
+.contentdetailfinner {
+    flex: 0 70%;
+}
+
+.imageandtitlecontainer img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 40px auto;
+}
+
+.imageandtitlecontainer {
+    text-align: center;
+}
+
+.imageandtitlecontainer h5 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.imageandtitlecontainer h6 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.contentdetailfinner h6 {
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.contentdetailfinner p {
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 90%;
+}
 
 
 
