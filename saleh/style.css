@@ -467,3 +467,63 @@ span.Language {
 a.adate {
     font-size: 13px;
 }
+.bookMainPage img {
+    max-width: 80%;
+    height: 448px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.bookMainPage {
+    padding: 100px 0px;
+}
+
+.tags {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.tags span {
+    background: #0292cf;
+    margin-right: 10px;
+    padding: 3px 20px;
+    color: #ffff;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+h2.nameoftheBook {
+    font-size: 54px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p.authorName {
+    font-size: 20px;
+    font-weight: 300;
+    color: #00000070;
+    margin-bottom: 20px;
+}
+
+p.storyLine {
+    font-size: 17px;
+    line-height: 25px;
+    color: #0202029e;
+    margin-bottom: 40px;
+}
+
+a#addTOCart {
+    background: #0292cf;
+    color: #fff;
+    display: block;
+    padding: 15px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid #0292cf;
+}
+a#addTOCart:hover {
+    background: none;
+    color: #0292cf;
+}
