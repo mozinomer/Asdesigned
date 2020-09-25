@@ -220,6 +220,7 @@ a#readmoreSection2 {
 .contentSection2 h2 {
     font-size: 70px;
     font-weight: 700;
+    margin-top: 50px;
 }
 .rightsidecontent h2 {
     font-weight: 400;
@@ -310,4 +311,136 @@ span.badge.badge-primary {
 .contentcontainergrid h6 {
     font-size: 23px;
     font-weight: 400;
+}
+.contentcontainergrid {
+    max-width: 250px;
+    margin: auto;
+}
+ul#myTab {
+    border: none;
+    margin-bottom: 60px;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul#myTab li a {
+    border: none;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+ul#myTab li a.active {
+    background: #0292cf;
+    color: #ffff;
+    border-radius: 0px;
+}
+
+.griding {
+    padding: 100px 0px;
+}
+.griding .container > h2 {
+    text-align: center;
+    font-size: 54px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.griding .container > p {
+    text-align: center;
+    font-size: 17px;
+    margin: 10px 0px 60px;
+}
+.bookContainer {
+    margin-top: 10px;
+}
+.contentSection2 {
+    flex-wrap: wrap;
+}
+
+.contentSection2 p {
+    margin: 40px 0px 60px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+}
+footer {
+    position: relative;
+    padding: 100px 0px;
+}
+
+footer::after {content: "";display: block;width: 30%;height: 100%;background: #E6F4F1;position: absolute;top: 0;bottom: 0;right: 0;z-index: -1;}
+
+div#newsletter p {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+    max-width: 80%;
+    margin-bottom: 40px;
+}
+
+div#newsletter h2 {
+    font-size: 40px;
+    max-width: 70%;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+div#newsletter form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div#newsletter input {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #0292cf;
+    padding: 0px 10px;
+    font-size: 13px;
+}
+
+div#newsletter form {
+    max-width: 400px;
+}
+
+div#newsletter button {
+    background: #0292cf;
+    border: 2px solid #0292cf;
+    height: 40px;
+    margin-left: 10px;
+    color: #fff;
+    padding: 0px 31px;
+}
+
+div#newsletter button:hover {
+    background: none;
+    color: #0292cf;
+}
+div#followUs a {
+    display: block;
+}
+
+div#followUs i {
+    margin-right: 10px;
+}
+
+div#followUs ul {
+    display: flex;
+    color: #0292cf;
+    font-size: 21px;
+}
+
+div#followUs ul li {
+    margin-right: 10px;
+}
+
+div#followUs h5, div#followUs h4 {
+    margin: 40px 0px 10px;
+    font-weight: 600;
+}
+
+div#followUs h4 {
+    margin-top: 0px;
 }
