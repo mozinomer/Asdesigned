@@ -459,3 +459,11 @@ footer {
     color: #0292cf;
     margin-left: 50px;
 }
+span.Language {
+    border: 1px solid;
+    font-size: 13px;
+    padding: 6px 20px;
+}
+a.adate {
+    font-size: 13px;
+}
