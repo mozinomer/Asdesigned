@@ -17,14 +17,15 @@ ul,body,p,a {list-style: none;padding: 0px;color: inherit;margin: 0px;}
 .footercopyrights {
     margin-top: 100px;
     padding: 10px;
+    text-align: center;
     border-top: 1px solid #cccc;
 }
 
 footer a {
     font-size: 13px;
     color: #fff;
-    text-transform: uppercase;
     letter-spacing: 1px;
+    text-transform: uppercase;
     display: block;
     font-weight: 100;
     margin-bottom: 11px;
@@ -279,7 +280,8 @@ li.menu-item-has-children:hover .submenu {
 }
 
 div.slideshow {
-    min-height: 600px;
+    min-height: 430px;
+    min-width: 800px;
     background: #cccc
 }
 
@@ -383,7 +385,7 @@ button.slick-next.slick-arrow::after {
     padding: 0px 70px;
 }
 .contentinnerslider img {
-    width: 100%;
+    width: 270px;
     height: 200px;
     background: #2c5577;
     max-width: 90%;
@@ -943,100 +945,3 @@ h2 {}
 
 
 
-
-/*media*/
-@media only screen and (max-width: 767px) {
-.mainMenu {
-    display: none;
-}
-
-.bannermain .col-md-8 {
-    order: 1;
-    padding: 0px;
-}
-
-.bannermain .col-md-2 {
-    order: 2;
-}
-
-body {
-    overflow-x: hidden !important;
-}
-
-div.slideshow {
-    min-height: 350px;
-}
-
-.sliderhomepagelistings {
-    padding: 0px;
-}
-
-a#viewmore {
-    font-size: 11px;
-    padding: 8px 30px;
-}
-
-.bestSUnit h2 {
-    font-size: 27px;
-    margin-bottom: 30px;
-}
-
-.bestSUnit input {
-    margin-bottom: 20px;
-}
-
-.containerheaderTop {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.containerheaderTop ul {
-    margin-bottom: 10px;
-    flex: 0 42%;
-}
-
-.containerheaderTop ul li {
-    margin: 0px 4px;
-}
-
-footer {
-    padding: 40px 0px;
-}
-
-footer .col {
-    margin-bottom: 30px;
-}
-
-footer h3 {
-    font-size: 16px;
-}
-
-footer a {
-    font-size: 12px;
-}
-.authorcontainers .contentsliderImage {
-    flex: 0 100%;
-}
-
-.contentinnerslider {
-    width: 100%;
-}
-.containerdetailf {
-    padding: 20px;
-}
-
-.imageandtitlecontainer {margin: auto;}
-.contentdetailfinner h6 {
-    margin: 40px 0px 10px;
-}
-
-.contentdetailfinner p {
-    font-size: 13px;
-    line-height: 22px;
-}
-
-.likeandshare li {
-    padding: 10px;
-    font-size: 11px;
-}
-}
