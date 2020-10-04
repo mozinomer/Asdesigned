@@ -8,7 +8,7 @@ img {
     object-fit: cover;
 }
 footer {
-    background: #3f85c0;
+    background: #00adef;
     padding-top: 100px;
 }
 
@@ -58,13 +58,13 @@ footer input::placeholder {
 
 footer button {
     margin: 20px 0px 0px;
-    background: #2c5577;
+    background: #23a5e8;
     color: #fff;
     padding: 7px 40px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 300;
-    border: 2px solid #2c5577;
+    border: 2px solid #23a5e8;
 }
 .newsletterform h4 {
     font-weight: 700;
@@ -108,8 +108,8 @@ footer button {
 }
 
 .bestSUnit button {
-    background: #2c5577;
-    border: 2px solid #2c5577;
+    background: #23a5e8;
+    border: 2px solid #23a5e8;
     color: #fff;
     display: flex;
     align-items: center;
@@ -130,7 +130,7 @@ footer button {
 
 .bestSUnit button:hover {
     background: none;
-    color: #2c5577;
+    color: #23a5e8;
 }
 
 input:focus {
@@ -154,7 +154,7 @@ input {
 .containerheaderTop i {}
 
 div#headerTop {
-    background: #2c5577;
+    background: #23a5e8;
     padding: 10px;
 }
 
@@ -212,12 +212,12 @@ div#headercontainer {
 }
 
 .mainMenu > ul > li > ul > li a:hover {
-    background: #2c5577;
+    background: #23a5e8;
     color: #fff;
 }
 
 .mainMenu > ul > li > a:hover {
-    color: #2c5577;
+    color: #23a5e8;
 }
 
 .mainMenu > ul > li > a {
@@ -260,15 +260,15 @@ li.menu-item-has-children:hover .submenu {
 }
 
 .searchAndLoginContainer > a {
-    background: #2c5577;
+    background: #23a5e8;
     color: #ffff;
     font-size: 14px;
     font-weight: 600;
     padding: 10px 20px;
-    border: 2px solid #2c5577;
+    border: 2px solid #23a5e8;
 }
 .searchAndLoginContainer > a:hover {
-    color: #2c5577;
+    color: #23a5e8;
     background: none;
 }
 .row {
@@ -312,7 +312,7 @@ ul.slick-dots li:nth-child(even) {
 }
 
 ul.slick-dots li.slick-active {
-    background: #2c5577;
+    background: #23a5e8;
 }
 button.slick-prev.slick-arrow {
     position: absolute;
@@ -387,7 +387,7 @@ button.slick-next.slick-arrow::after {
 .contentinnerslider img {
     width: 270px;
     height: 200px;
-    background: #2c5577;
+    background: #23a5e8;
     max-width: 90%;
     border: none;
 }
@@ -406,7 +406,7 @@ button.slick-next.slick-arrow::after {
 
 .contentinnerslider h2 a {
     display: block;
-    background: #2c5577;
+    background: #23a5e8;
     color: #fff;
     font-size: 13px;
     padding: 10px 20px;
@@ -420,7 +420,7 @@ button.slick-next.slick-arrow::after {
 a#viewmore {
     max-width: max-content;
     padding: 20px 50px;
-    background: #2c5577;
+    background: #23a5e8;
     color: #fff;
     font-weight: 700;
     letter-spacing: 1px;
@@ -448,7 +448,7 @@ header {
 
 .tagscontainer a {
     flex: 0 31%;
-    background: #2c5577;
+    background: #23a5e8;
     margin-bottom: 20px;
     padding: 20px;
     text-align: center;
@@ -472,7 +472,7 @@ header {
 .blogcontainers a {
     font-weight: 600;
     text-transform: uppercase;
-    background: #2c5577;
+    background: #23a5e8;
     display: block;
     max-width: max-content;
     padding: 10px 40px;
@@ -532,14 +532,14 @@ a#viewmore {
     height: 55px;
     background: none;
     border: none;
-    border-bottom: 3px solid #2c5577;
+    border-bottom: 3px solid #23a5e8;
 }
 
 .searchbar button {
     width: 10%;
     height: 55px;
-    background: #2c5577;
-    border: 2px solid #2c5577;
+    background: #23a5e8;
+    border: 2px solid #23a5e8;
     color: #fff;
     border-radius: 60px;
 }
@@ -552,9 +552,9 @@ a#viewmore {
 }
 
 .likeandshare li {
-    border: 1px solid #2c5577;
+    border: 1px solid #23a5e8;
     padding: 12px 30px;
-    background: #2c5577;
+    background: #23a5e8;
     color: #fff;
     margin-right: 2px;
 }
@@ -564,7 +564,7 @@ a#viewmore {
 }
 
 .likeandshare li:hover {
-    color: #2c5577;
+    color: #23a5e8;
     background: none;
 }
 .commentsectiionssinglepage {
@@ -588,7 +588,7 @@ a#viewmore {
     height: 200px;
     resize: none;
     border: none;
-    border-bottom: 4px solid #2c5577;
+    border-bottom: 4px solid #23a5e8;
 }
 
 .commentsectiionssinglepage button {
@@ -596,8 +596,8 @@ a#viewmore {
     display: block;
     padding: 10px 70px;
     color: #fff;
-    border: 2px solid #2c5577;
-    background: #2c5577;
+    border: 2px solid #23a5e8;
+    background: #23a5e8;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
@@ -660,7 +660,7 @@ a#viewmore {
 }
 
 a#reviewss {
-    background: #2c5577;
+    background: #23a5e8;
     color: #fff;
     padding: 10px 40px;
     display: block;
@@ -677,7 +677,7 @@ a#reviewss {
 .containerlabels input, .containerlabels textarea {
     width: 100%;
     border: none;
-    border-bottom: 2px solid #2c5577;
+    border-bottom: 2px solid #23a5e8;
     resize: none;
     margin-bottom: 40px;
 }
@@ -696,13 +696,13 @@ form.reviewform {
 }
 
 .radios input ~ label {
-    background: #3f85c0;
+    background: #00adef;
     padding: 5px 24px;
     color: #fff;
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: 1px;
-    border: 2px solid #3f85c0;
+    border: 2px solid #00adef;
 }
 
 .radios input {
@@ -711,7 +711,7 @@ form.reviewform {
 
 .radios input:checked ~ label {
     background: none;
-    color: #3f85c0;
+    color: #00adef;
 }
 
 .radios {
@@ -719,13 +719,13 @@ form.reviewform {
 }
 
 form.reviewform button {
-    background: #3f85c0;
+    background: #00adef;
     color: #fff;
     padding: 5px 40px;
     border: 2px solid;
 }
 
-form.reviewform button:hover {background: none;color: #3f85c0;}
+form.reviewform button:hover {background: none;color: #00adef;}
 .reviewpages .imagecontainerreview {
     max-height: 300px;
 }
@@ -782,21 +782,21 @@ form.reviewform button:hover {background: none;color: #3f85c0;}
     margin-left: 20px;
 }
 .tagscontainer a {
-    border: 2px solid #2c5577;
+    border: 2px solid #23a5e8;
 }
 
 .tagscontainer a:hover {
     background: none;
-    color: #2c5577;
+    color: #23a5e8;
 }
 
 a#viewmore:hover {
     background: none;
-    color: #2c5577;
+    color: #23a5e8;
 }
 
 a#viewmore {
-    border: 2px solid #2c5577;
+    border: 2px solid #23a5e8;
 }
 .titleforum {
     display: flex;
@@ -819,7 +819,7 @@ h2 {}
     padding: 20px;
     font-size: 17px;
     font-weight: 700;
-    background: #2c5577;
+    background: #23a5e8;
     color: #fff;
 }
 
@@ -918,7 +918,7 @@ h2 {}
 .contactUs a {
     display: block;
     margin-bottom: 20px;
-    color: #2c5577;
+    color: #23a5e8;
 }
 
 .contactUs i {
@@ -936,6 +936,27 @@ h2 {}
 .contactUs .bestSUnit input {
     margin-bottom: 30px;
 }
+.add h3 {
+    max-width: max-content;
+    margin: auto;
+    background: #00adef;
+    padding: 10px 50px;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 51px;
+    border: 2px solid #00adef;
+}
+
+.add h3:hover {
+    background: none;
+    color: #00adef;
+}
+
+
+.logo img {
+    max-width: 140px;
+}
 
 
 
@@ -945,3 +966,101 @@ h2 {}
 
 
 
+
+
+/*media*/
+@media only screen and (max-width: 767px) {
+.mainMenu {
+    display: none;
+}
+
+.bannermain .col-md-8 {
+    order: 1;
+    padding: 0px;
+}
+
+.bannermain .col-md-2 {
+    order: 2;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+div.slideshow {
+    min-height: 350px;
+}
+
+.sliderhomepagelistings {
+    padding: 0px;
+}
+
+a#viewmore {
+    font-size: 11px;
+    padding: 8px 30px;
+}
+
+.bestSUnit h2 {
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+
+.bestSUnit input {
+    margin-bottom: 20px;
+}
+
+.containerheaderTop {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.containerheaderTop ul {
+    margin-bottom: 10px;
+    flex: 0 42%;
+}
+
+.containerheaderTop ul li {
+    margin: 0px 4px;
+}
+
+footer {
+    padding: 40px 0px;
+}
+
+footer .col {
+    margin-bottom: 30px;
+}
+
+footer h3 {
+    font-size: 16px;
+}
+
+footer a {
+    font-size: 12px;
+}
+.authorcontainers .contentsliderImage {
+    flex: 0 100%;
+}
+
+.contentinnerslider {
+    width: 100%;
+}
+.containerdetailf {
+    padding: 20px;
+}
+
+.imageandtitlecontainer {margin: auto;}
+.contentdetailfinner h6 {
+    margin: 40px 0px 10px;
+}
+
+.contentdetailfinner p {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.likeandshare li {
+    padding: 10px;
+    font-size: 11px;
+}
+}
