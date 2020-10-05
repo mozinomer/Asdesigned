@@ -2539,7 +2539,22 @@ div#casestudies > p {
     border-bottom: 1px solid #cccc;
     padding-bottom: 50px;
 }
+.titleblogdetail > .row:first-child {
+    flex-direction: row-reverse;
+    margin-bottom: 40px;
+}
+.tagsblog span {
+    display: inline-block;
+    background: #6861c3;
+    padding: 7px 29px;
+    color: #fff;
+    border-radius: 41px;
+    font-size: 11px;
+}
 
+.tagsblog {
+    margin-bottom: 40px;
+}
 
 
 
