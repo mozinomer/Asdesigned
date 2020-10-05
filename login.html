@@ -182,14 +182,6 @@
 		</div>
 	</div>
 
-    <div class="add" style="min-height: 100px; text-align: center;">
-
-		<H3>Add</H3>
-		
-	</div>
-
-
-
 	<footer>
 		  <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="-300 0 950 270" >
 			    <path d="M-314,267 C105,364 400,100 812,279" fill="none" stroke="white" stroke-width="120" stroke-linecap="round"/>
@@ -263,18 +255,45 @@
 
 </body>
 <script type="text/javascript">
-	$("#formSignUp").click( function(e) {
-		e.preventDefault();
-		$("#signInForm").hide();
-		$("#singUpForm").show();
+	$('.slidercontainerbanner').slick({
+	  infinite: true,
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
+	  dots: true,
+	  responsive: [
+	    {
+	      breakpoint: 1000,
+	      settings: {
+	        slidesToShow: 1,
+	        infinite: false,
+	        slidesToScroll: 1,
+	      }
+	    },
+	  ]
 	});
-	$("#formsignIn").click( function(e) {
-		e.preventDefault();
-		$("#singUpForm").hide();
-		$("#signInForm").show();
+	$('.sliderhomepagelistings').slick( {
+		infinite: false,
+		slidesToShow: 3.1,
+		slidesToScroll: 3,
+		  responsive: [
+		    {
+		      breakpoint: 1000,
+		      settings: {
+		        slidesToShow: 1,
+		        infinite: false,
+		        slidesToScroll: 1,
+		      }
+		    },
+		  ]
 	});
+	$(".hamburger").click( function (e) {
+		e.preventDefault();
+		$('.mainMenu > ul').toggleClass('active');
+		
+	})
 </script>
 </html>
+
 
 
 

@@ -2499,7 +2499,46 @@ div#casestudies > p {
     width: 100%;
     max-width: 100%;
 }
+.previouscommtet img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 20%;
+    float: left;
+    margin-right: 30px;
+}
 
+.previouscommtet p {
+    max-width: 80%;
+    float: left;
+    font-size: 15px;
+}
+
+.replycomments {
+    background: #cccccc38;
+    display: block;
+    padding-left: 100px;
+    width: 100%;
+    float: left;
+    padding: 30px 60px;
+    margin: 20px 0px;
+    font-size: 13px;
+}
+
+.replycomments p {
+    font-size: 13px;
+}
+
+.previouscommtet {
+    margin-bottom: 50px;
+    display: block;
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #cccc;
+    padding-bottom: 50px;
+}
 
 
 
@@ -3031,5 +3070,13 @@ a#reviewss {
 .commentsectiionssinglepage button {
     font-size: 12px;
     border-radius: 30px;
+}
+.replycomments {
+    padding: 20px;
+}
+
+.previouscommtet p {
+    max-width: 100%;
+    margin: 20px 0px 0px;
 }
 }
