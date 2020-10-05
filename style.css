@@ -2482,7 +2482,23 @@ div#headercontainer {
     margin-bottom: 20px;
 }
 
+div#casestudies h2 {
+    margin-left: 0px;
+    padding-left: 15px;
+}
 
+div#casestudies > p {
+    margin-left: 0px;
+    padding-left: 15px;
+}
+
+.rightlistcategory {
+    display: none;
+}
+.contentinnerslider img {
+    width: 100%;
+    max-width: 100%;
+}
 
 
 
@@ -2999,5 +3015,21 @@ a#reviewss {
     margin: 20px 0px;
     font-size: 11px;
     line-height: normal;
+}
+.mainMenu > ul {
+    display: none;
+}
+.authorcontainers .contentsliderImage {
+    max-width: 100%;
+}
+
+.contentinnerslider img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.commentsectiionssinglepage button {
+    font-size: 12px;
+    border-radius: 30px;
 }
 }
