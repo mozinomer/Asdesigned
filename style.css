@@ -2555,7 +2555,9 @@ div#casestudies > p {
 .tagsblog {
     margin-bottom: 40px;
 }
-
+footer li.menu-item-has-children .submenu {
+    display: none !important;
+}
 
 
 
