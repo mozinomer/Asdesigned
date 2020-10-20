@@ -975,7 +975,9 @@ header.scrolled #scrolledmenu {
 .hamburger {
 	display: none;
 }
-
+header.scrolled {
+    display: none;
+}
 
 
 
