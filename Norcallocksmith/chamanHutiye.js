@@ -56,6 +56,15 @@ $('.sliderCOntainertestimonials').slick({
   ]
 })
 
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();    
+    if (scroll > 80) {
+        $("header").addClass('scrolled');
+    } else {
+        $("header").removeClass('scrolled');
+    }
+});
+
 if( $(window).width() < 767 ) {
 	$('div.menucontainer h6').click( function(e) {
 		$(this).parent().find('ul').slideToggle();
@@ -68,6 +77,69 @@ if( $(window).width() < 767 ) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// handle links with @href started with '#' only
+$(document).on('click', 'a[href^="#"]', function(e) {
+    var id = $(this).attr('href');
+    var $id = $(id);
+    if ($id.length === 0) {
+        return;
+    }
+    var element = document.getElementsByClassName("wki-box");
+    element.classList.remove("active-box");
+    if($id===$element){
+        element.classList.add("active-box");
+    }
+    e.preventDefault();
+    var pos = $id.offset().top;
+    $('body, html').animate({scrollTop: pos});
+});
 
 
 
