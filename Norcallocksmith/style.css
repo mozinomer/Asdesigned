@@ -962,7 +962,7 @@ header.scrolled .menucontainerMain {
 	right: 0px;
 }
 header.scrolled #scrolledmenu {
-	transform: none;
+	transform: translate(0px, 0px);
 }
 #scrolledmenu {
 	position: absolute;
