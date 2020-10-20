@@ -72,6 +72,11 @@ if( $(window).width() < 767 ) {
 		$(this).parent().siblings().children().next().slideUp();
 		$(this).parent().siblings().find('h6').removeClass('active');
 		return false;
+	});
+	$('.hamburger').click( function(e) {
+		$(this).toggleClass('active');
+		$('body').toggleClass('active');
+		$('#scrolledmenu').toggleClass('active');
 	})
 }
 
@@ -96,50 +101,6 @@ if( $(window).width() < 767 ) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// handle links with @href started with '#' only
-$(document).on('click', 'a[href^="#"]', function(e) {
-    var id = $(this).attr('href');
-    var $id = $(id);
-    if ($id.length === 0) {
-        return;
-    }
-    var element = document.getElementsByClassName("wki-box");
-    element.classList.remove("active-box");
-    if($id===$element){
-        element.classList.add("active-box");
-    }
-    e.preventDefault();
-    var pos = $id.offset().top;
-    $('body, html').animate({scrollTop: pos});
-});
 
 
 

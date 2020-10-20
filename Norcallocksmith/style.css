@@ -9,6 +9,8 @@ body, .row, p, ul, ol, a, a:hover, *:focus {
 * {
 	font-family: 'Raleway', sans-serif;
 	scroll-behavior: smooth;
+}
+a {
 	transition: 0.6s all
 }
 .slidebanner {
@@ -960,7 +962,7 @@ header.scrolled .menucontainerMain {
 	right: 0px;
 }
 header.scrolled #scrolledmenu {
-	transform: translate(0px, 0px);
+	transform: none;
 }
 #scrolledmenu {
 	position: absolute;
@@ -970,7 +972,9 @@ header.scrolled #scrolledmenu {
 .bannerCOntainer {
     overflow: hidden;
 }
-
+.hamburger {
+	display: none;
+}
 
 
 
@@ -987,9 +991,10 @@ header.scrolled #scrolledmenu {
 @media only screen and (max-width: 767px) {
 .slidebanner {
     min-height: auto;
-    padding: 100px 0px;
+    padding: 190px 0px 100px;
     background-color: #00000082 !important;
     background-blend-mode: multiply !important;
+    background-size: cover !important;
 }
 
 .contentslider h2 {
@@ -1310,6 +1315,103 @@ footer .container {
 }
 .accessories img {
     height: auto;
+}
+.menucontainerMain {
+    display: none;
+}
+
+.headertopCOntainer .container {
+    max-width: 100%;
+}
+
+span.timingHeader {
+    display: none;
+}
+
+a.bluebutton {
+    font-size: 11px;
+}
+
+.imagelogo {
+    width: 50%;
+}
+
+header.scrolled .hamburger {
+    display: block;
+    width: 30px;
+    height: 18px;
+    /* border: 1px solid #fff; */
+    position: relative;
+}
+
+header.scrolled .hamburger span {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
+
+header.scrolled .hamburger span:nth-child(2) {
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+header.scrolled .hamburger span:nth-child(3) {
+    bottom: 0;
+}
+body.active {
+    overflow: hidden;
+}
+div#scrolledmenu {
+    right: -100%;
+    left: auto;
+}
+div#scrolledmenu {
+    display: block;
+    position: fixed;
+    top: 50px;
+    background: #000000ba;
+    height: 100%;
+    left: auto;
+    right: -100%;
+    max-width: 100%;
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    padding: 0px;
+    transition: 0.5s all;
+    margin-top: 40px;
+    height: calc(100vh - 40px);
+}
+div#scrolledmenu.active {
+    right: 0;
+    left: 0;
+    transition: 0.5s all;
+}
+div#scrolledmenu ul {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+div#scrolledmenu a {
+	display: block;
+	margin-bottom: 40px;
+	font-size: 30px;
+	text-align: right;
+	max-width: 100%;
+	width: 100%;
+	text-align: right;
+	margin-left: 0px;
+	padding-right: 20px;
+}
+
+div#scrolledmenu ul li {
+    display: block;
+
+    width: 100%;
+    overflow: hidden;
 }
 }
 
