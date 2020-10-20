@@ -16,5 +16,6 @@ $('.teamslider').slick({
 $('.sliderCOntainertestimonials').slick({
 	slidesToShow: 4,
 	arrows: true,
+	slidesToScroll: 3,
 	dots: false
 })
