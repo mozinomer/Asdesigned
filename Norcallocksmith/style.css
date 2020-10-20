@@ -8,12 +8,14 @@ body, .row, p, ul, ol, a, a:hover, *:focus {
 }
 * {
 	font-family: 'Raleway', sans-serif;
+	scroll-behavior: smooth;
+	transition: 0.6s all
 }
 .slidebanner {
     min-height: 800px;
     display: flex !important;
     align-items: center;
-    background-size: contain !important;
+    background-size: 100% 100% !important;
 }
 
 .contentslider {
@@ -466,7 +468,7 @@ span.designation {
 }
 
 .accessories .container {
-    max-width: 90%;
+    max-width: 1440px;
 }
 .testimonials h6, .testimonials h2 {
 	text-align: center;
@@ -856,3 +858,381 @@ a.letsTalks:hover::before {
     opacity: 0.5;
     font-size: 14px;
 }
+ul.socialLInksFooter {
+    display: flex;
+    margin: 100px 0px 0px;
+    max-width: 200px;
+    justify-content: space-between;
+}
+
+ul.socialLInksFooter a {
+    color: #fff;
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+
+ul.socialLInksFooter a:hover {
+    opacity: 1;
+}
+footer .container {
+    max-width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media */
+@media only screen and (max-width: 767px) {
+.slidebanner {
+    min-height: auto;
+    padding: 100px 0px;
+    background-color: #00000082 !important;
+    background-blend-mode: multiply !important;
+}
+
+.contentslider h2 {
+    font-size: 29px;
+}
+
+.contentslider h6 {
+    font-size: 15px;
+}
+
+.contentslider p {
+    font-size: 13px;
+    line-height: normal;
+}
+
+.containerbutton a {
+    font-size: 11px;
+    height: auto;
+    padding: 10px 0px;
+}
+
+.aboutSection {
+    padding: 20px 0px;
+}
+
+.aboutSection .container {
+    max-width: 100%;
+}
+
+.contentabout h2 {
+    font-size: 22px;
+}
+
+.contentabout h6 {
+    margin: 20px 0px 10px;
+    font-size: 15px;
+}
+
+.contentabout p {
+    font-size: 12px;
+    line-height: normal;
+}
+
+.contentabout a {
+    font-size: 12px;
+    height: auto;
+    padding: 10px 0px;
+}
+
+.whatwedo {
+    padding: 30px 0px 0px;
+}
+
+.whatwedo h6, .teamSection h6, .testimonials h6 {
+    font-size: 15px;
+}
+
+.whatwedo h2, .teamSection h2, .testimonials h2 {
+    font-size: 22px;
+}
+
+.whatwedo .container > p {
+    font-size: 15px;
+}
+
+.whatwedo a.bluebutton {
+    font-size: 12px;
+    height: auto;
+    padding: 15px 0px;
+}
+
+.bannerinnerCTA p {
+    font-size: 16px;
+    line-height: normal;
+}
+
+.bannerinnerCTA {
+    min-height: auto;
+    padding: 50px 0px;
+}
+
+.contentcontainerCTA a {
+    font-size: 13px;
+}
+
+.teamSection {
+    padding: 20px 0px;
+}
+
+.keyfeautres::before {
+    width: 100%;
+    height: 50%;
+}
+
+.keyfeautres::after {
+    width: 100%;
+    bottom: 0;
+    top: auto;
+    height: 50%;
+}
+
+.keyfeautres {
+    padding: 20px 0px;
+}
+
+.keyFeaturesleft h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.keyFeaturesleft li {
+    font-size: 13px;
+}
+
+.feelFreeToContact h2 {
+    font-size: 22px;
+    line-height: normal;
+}
+
+.feelFreeToContact a {
+    font-size: 32px;
+}
+
+.keyfeautres .container {
+    max-width: 100%;
+}
+
+.keyFeaturesleft li:last-child {
+    margin-bottom: 40px;
+}
+
+.feelFreeToContact {
+    padding-bottom: 90px;
+}
+
+.keyFeaturesleft {
+    padding: 50px 0px;
+}
+
+.accessories h2 {
+    font-size: 22px;
+}
+
+.accessories h6 {
+    font-size: 15px;
+}
+
+.accessories p {
+    font-size: 13px;
+    line-height: normal;
+}
+
+.accessories a {
+    height: auto;
+    padding: 15px 30px;
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+
+.contentlefttouch {
+    display: block;
+}
+
+.ctasu h2 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ctasu p {
+    margin-bottom: 50px;
+    font-size: 13px;
+    line-height: normal;
+    text-align: center;
+}
+
+.button {
+    max-width: 100%;
+    width: 100%;
+    font-size: 14px;
+    height: auto;
+    padding: 20px 0px;
+}
+
+.footertop h2 {
+    font-size: 22px;
+}
+
+.footertop h6 {
+    font-size: 15px;
+}
+
+.infoLInks {
+    display: block;
+    font-size: 10px;
+}
+
+.infoLInks a {
+    font-size: 16px;
+    display: block;
+}
+
+a.letsTalks {
+    margin-left: 0;
+}
+p.testimonialreview {
+    font-size: 12px;
+    line-height: normal;
+}
+
+.teammember h3 {
+    font-size: 22px;
+}
+
+span.designation {
+    font-size: 13px;
+}
+
+.contentWhatSlider p {
+    font-size: 13px;
+    line-height: normal;
+}
+
+.contentWhatSlider h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+p.designatedPerson {
+    margin-bottom: 12px;
+}
+
+.slideItemtestimonials h6 {
+    font-weight: 500;
+}
+
+p.designatedPerson {
+    font-size: 11px;
+    font-weight: 700;
+}
+.contaienrmenufooter {
+    display: block;
+}
+
+.teamslider {
+    overflow: hidden;
+}
+
+.sliderCOntainerwhatwedo {
+    overflow: hidden;
+}
+
+.bannerCOntainer {
+    overflow: hidden;
+}
+ul.socialLInksFooter {
+    margin: 20px auto 50px;
+    /* max-width: max-content; */
+}
+
+.menucontainer ul {
+    display: none;
+}
+
+.menucontainer h6 {
+    font-weight: 700;
+    font-size: 15px;
+    /* background: red; */
+    position: relative;
+}
+
+.menucontainer h6::after {
+	content: "";
+	display: block;
+	width: 7px;
+	height: 7px;
+	border: 2px solid #fff;
+	position: absolute;
+	right: 0;
+	top: -5px;
+	bottom: 0;
+	margin: auto;
+	border-left: 0;
+	border-top: 0;
+	transform: rotate(45deg);
+	transition: 0.5s all
+}
+
+footer .container {
+    max-width: 100%;
+
+}
+
+.copyrights p {
+    padding: 0px 15px;
+}
+.menucontainer ul {
+    transition: none;
+}
+.menucontainer h6.active {
+    margin-bottom: 10px;
+}
+
+.menucontainer h6.active + ul {
+    margin-bottom: 30px;
+}
+
+.menucontainer h6.active + ul a {
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.menucontainer h6.active:after {
+    transform: rotate(225deg);
+    transition: 0.5s all
+}
+.menucontainer h6.active:after {
+	transition: 0.5s all
+}
+.accessories img {
+    height: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
