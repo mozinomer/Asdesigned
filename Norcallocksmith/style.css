@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+body, .row, p, ul, ol, a, a:hover, *:focus {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	outline: none;
+}
+* {
+	font-family: 'Raleway', sans-serif;
+}
+.slidebanner {
+    min-height: 800px;
+    display: flex !important;
+    align-items: center;
+    background-size: contain !important;
+}
+
+.contentslider {
+    max-width: 410px;
+    margin-left: auto;
+    color: #fff;
+}
+.contentslider h6 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.contentslider h2 {
+    font-size: 47px;
+    font-weight: 700;
+}
+
+.slidebanner .container {
+    max-width: 90%;
+}
+
+.contentslider p {
+    font-size: 17px;
+    opacity: 0.8;
+    line-height: 25px;
+    margin-bottom: 23px;
+}
+
+.containerbutton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 350px;
+}
+
+.containerbutton a {
+    width: 100%;
+    border: 2px solid;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.bluebutton {
+    background: #1E6FB1;
+    color: #fff;
+    border-color: #1E6FB1;
+    /* border: 2px solid; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+a.bluebutton:hover {
+    background: none;
+    /* color: #1e6fb1; */
+}
+
+a.whitebutton {
+    color: #fff;
+    border-radius: 5px;
+}
+
+a.whitebutton:hover {
+    background: #1e6fb1;
+    border-color: #1e6fb1;
+}
+
+.aboutSection .container {
+    max-width: 90%;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.aboutSection .row {
+    align-items: center;
+}
+
+.aboutSection {
+    padding: 100px 0px;
+}
+
+.contentabout {
+    max-width: 696px;
+    margin-right: auto;
+}
+
+.contentabout h6 {
+    color: #1E6FB1;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.contentabout h2 {
+    font-size: 49px;
+    font-weight: 800;
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+body {
+    color: #000;
+}
+.aboutSection img {
+    max-width: 94%;
+}
+.contentabout p {
+    margin-top: 20px;
+    color: #1C1C1C;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.contentabout h2::after {content: "";display: block;width: 50px;height: 4px;background: #1e6fb1;position: absolute;bottom: 0px;border-radius: 5px;}
+.contentabout a {max-width: 170px;margin: 40px 0px 0px;}
+.contentabout a:hover {
+    background: none;
+    border: 2px solid #1e6fb1;
+    color: #1e6fb1;
+}
