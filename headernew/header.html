@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
@@ -10,7 +13,7 @@
 			<div class="socialTopBar">
 				<ul>
 					<li>
-						<a href="#"><i class="fa fa-facbook"></i></a>
+						<a href="#"><i class="fa fa-facebook"></i></a>
 					</li>
 					<li>
 						<a href="#"><i class="fa fa-instagram"></i></a>
@@ -22,8 +25,62 @@
 			</p>
 		</div>
 	</div>
-	div.container
-
+	<div class="mainheader">
+		<div class="container">
+			<div class="logocontainerheader">
+				<img src="https://cdn.shopify.com/s/files/1/0275/8377/4798/files/Captain-Smokes_logo_blk_e752584f-dede-4a72-b7d6-10d2d769cbb8_600x@2x.png?v=1587618565">
+			</div>
+			<div class="containermenuMainHeader">
+				<div class="leftmenu">
+					<div class="hamburgerMenu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<ul>
+						<li><a href="#">home</a></li>
+						<li><a href="#">about us</a></li>
+						<li><a href="#">contact us</a></li>
+					</ul>
+				</div>
+				<div class="rightMenu">
+					<ul>
+						<li><a href="#"><img src="./images/search.png"></a></li>
+						<li><a href="#"><img src="./images/user.png"></a></li>
+						<li><a href="#"><img src="./images/bag.png"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="mainmenunUnderheader">
+		<div class="container">
+			<ul>
+				<li>
+					<a href="#">All Boards</a>
+					<ul class="submenu">
+						<li><a href="#">Whatever</a></li>
+						<li><a href="#">Whatever</a></li>
+						<li><a href="#">Whatever</a></li>
+						<li><a href="#">Whatever</a></li>
+						<li><a href="#">Whatever</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Trucks</a></li>
+				<li><a href="#">Trucks</a></li>
+				<li><a href="#">Trucks</a></li>
+				<li><a href="#">Trucks</a></li>
+				<li><a href="#">Trucks</a></li>
+				<li><a href="#">Trucks</a></li>
+			</ul>
+		</div>
+	</div>
 </header>
 </body>
+<script type="text/javascript">
+	$('.hamburgerMenu').click( function(e) {
+		$(this).toggleClass('active');
+		$('.leftmenu ul').toggleClass('active');
+	})
+</script>
 </html>
