@@ -191,3 +191,92 @@ ul.mainMenu a.active {
 .CloseButton {
 	cursor: pointer;
 }
+.headerother {position: absolute;top: 0;left: 0;right: 0;width: 100%;display: flex;align-items: center;z-index: 9;padding: 20px 0px;}
+
+.innercontaineheaderother {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuContainernewHeader {
+    display: flex;
+    align-items: center;
+}
+
+.menuContainernewHeader ul.socialMenu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    right: auto;
+    bottom: auto;
+    left: auto;
+}
+
+.menuContainernewHeader ul.mainMenu {
+    display: flex;
+    align-items: center;
+}
+
+.aboutContaienrmian {
+    background: #272727;
+}
+
+.menuContainernewHeader ul.mainMenu li a {
+    font-size: 13px;
+    margin: 0px;
+    opacity: 0.7;
+}
+
+.menuContainernewHeader ul.mainMenu li:nth-child(even) {
+    margin: 0px 20px;
+}
+
+.mainRow {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.mainRow .col-md-6 {
+    padding: 0px;
+}
+
+.mainRow {
+    color: #fff;
+}
+
+.leftSideAboutContainer {
+    padding: 140px 80px 100px 70px;
+    display: flex;
+}
+
+.leftSideAboutContainer p {
+    font-size: 14px;
+    line-height: 22px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.headingContainer {
+    width: 200px;
+    margin-right: 50px;
+    flex: 0 30%;
+}
+
+.contentContaienr {
+    flex: 0 70%;
+}
+
+.headingContainer h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.headingContainer span {
+    color: #2A9CFD;
+    font-size: 15px;
+}
+.headerother .container {
+    max-width: 1480px;
+}
