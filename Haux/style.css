@@ -1,0 +1,193 @@
+body,p,ul,ol {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	list-style: none;
+}
+a:hover,a,*:focus {
+	outline: none !important;
+	text-decoration: none;
+	color: inherit;
+}
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.innercontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logocontainer {
+    margin-left: 60px;
+}
+
+.homepage {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    overflow: hidden;
+}
+
+.homepage h2 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 82px;
+    max-width: 640px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.menuContainerButton {
+    width: 162px;
+    height: 59px;
+    background: #2A9CFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hamburger {
+    width: 25px;
+    height: 15px;
+}
+.hamburger span {
+    position: absolute;
+    background: #fff;
+    height: 1px;
+    width: 100%;
+}
+
+.hamburger {
+    position: relative;
+    margin-right: 20px;
+}
+
+.hamburger span:nth-child(2) {
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.hamburger span:nth-child(3) {
+    bottom: 0;
+}
+.menuContainerButton {
+	cursor: pointer;
+}
+.menuMain {
+    position: fixed;
+    left: auto;
+    right: 0;
+    background: #2a9cfd;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+
+.CloseButton {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+
+.CloseButton {}
+
+.clseBUtton span {
+    position: absolute;
+    left: 0px;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    display: block;
+    background: #fff;
+}
+
+.clseBUtton {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    transform: rotate(45deg);
+    margin-right: 10px;
+}
+
+.clseBUtton span:nth-child(2) {
+    bottom: 0;
+    transform: rotate(90deg);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.clseBUtton span:nth-child(1) {
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+
+ul.socialMenu {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+ul.socialMenu li:nth-child(even) {
+    margin: 0px 20px;
+    font-size: 23px;
+}
+
+ul.mainMenu a {
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    opacity: 0.5;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+ul.mainMenu a:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+ul.mainMenu a.active {
+    color: #fff;
+    opacity: 1;
+}
+.menuMain {
+	display: none;
+}
+.innerMenuMain {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;		
+}
+.CloseButton {
+	cursor: pointer;
+}
