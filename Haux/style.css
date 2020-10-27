@@ -34,7 +34,7 @@ header {
     justify-content: center;
 }
 
-body {
+body, * {
     overflow: hidden;
 }
 
@@ -442,7 +442,7 @@ ul.mainMenu a.active {
 
 .inputCOntainer textarea {
     width: 100%;
-    height: 240px;
+    height: 130px;
     background: none;
     padding: 36px 20px;
 }
@@ -508,4 +508,54 @@ ul.mainMenu a.active {
 }
 div#map {
     margin-top: 90px;
+}
+
+
+
+
+
+/*medias*/
+@media only screen and (max-width: 1440px) {
+.leftSideAboutContainer p {
+    font-size: 13px;
+}
+.leftSideAboutContainer {
+    padding-right: 60px;
+    padding-left: 30px;
+}
+}
+@media only screen and (max-width: 1366px) {
+.inputCOntainer {
+    min-height: 40px;
+}
+
+.inputCOntainer input {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    top: auto;
+    right: auto;
+    width: 100%;
+    height: 35px;
+}
+
+.inputCOntainer label {
+    display: none;
+}
+
+.inputCOntainer textarea {
+    height: 160px;
+    padding: 14px 20px;
+}
+}
+@media only screen and (max-width: 1140px)  {
+    .boxContainerServices p {
+    font-size: 13px;
+    line-height: normal;
+}
+
+.boxContainerServices h2 {
+    margin-bottom: 20px;
+    font-size: 17px;
+}
 }
