@@ -63,9 +63,12 @@
 				<div class="inputcontainerlabels">
 					<label>quantity</label>
 					<div class="inputButtonContainerquanityty">
-						<button> - </button>
+						<!-- <button> - </button>
 						<input type="number" min="1" max="24" step="1">
-						<button> + </button>
+						<button> + </button> -->
+						<button class="minus">-</button>
+						<input type="number" value="1"/>
+						<button class="plus">+</button>
 					</div>
 				</div>
 			</div>
@@ -76,7 +79,7 @@
 					<label for="checboxButtons">subscribe and save</label>
 				</div>
 			</div>
-			<div class="col">
+			<div class="col" id="greyyed">
 				<div class="inputcontainerlabels greyedOut">
 					<label>deliver every</label>
 					<select>
@@ -86,7 +89,43 @@
 			</div>
 		</div>
 	</div>
+	<div class="crossButton"></div>
 </div>
-
+<script type="text/javascript">
+	$('.checkboxcontainerbutton input').on('change', function(e) {
+		if(this.checked) {
+        	$('#greyyed .inputcontainerlabels').removeClass('greyedOut');
+	    } else {
+	    	$('#greyyed .inputcontainerlabels').addClass('greyedOut');
+	    }
+	});
+	$(document).ready(function() {
+		$('.minus').click(function () {
+			var $input = $(this).parent().find('input');
+			var count = parseInt($input.val()) - 1;
+			count = count < 1 ? 1 : count;
+			$input.val(count);
+			$input.change();
+			return false;
+		});
+		$('.plus').click(function () {
+			var $input = $(this).parent().find('input');
+			$input.val(parseInt($input.val()) + 1);
+			$input.change();
+			return false;
+		});
+	});
+	$('a.selectandButton').click( function(e) {
+		$(this).hide();
+		$('.andCartButton').fadeIn();
+		$('.bottomnavigationforProduct').addClass('active');
+	})
+</script>
 </body>
 </html>
+
+
+
+
+
+

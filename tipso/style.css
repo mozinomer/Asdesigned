@@ -4,6 +4,9 @@
     bottom: 0px;
     background: #fff;
     box-shadow: 54px 0px 54px -16px #cccc;
+    padding-bottom: 40px;
+    height: 271px;
+    bottom: -133px;
 }
 
 .headerFixedSection {
@@ -91,7 +94,7 @@ a.selectandButton {
 
 .bottomnavigationforProduct select {
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 2px solid #999999;
+    border: 3px solid #999999;
     opacity: 1;
     width: 100%;
     height: 40px;
@@ -101,7 +104,7 @@ a.selectandButton {
 
 .inputButtonContainerquanityty button {
     background: none;
-    border: 2px solid #999999;
+    border: 3px solid #999999;
     color: #999999;
     height: 37px;
     width: 35px;
@@ -119,6 +122,7 @@ a.selectandButton {
     display: inline-block;
     margin: 0px;
     cursor: pointer;
+    font-weight: 700;
 }
 
 .checkboxcontainerbutton {
@@ -141,7 +145,7 @@ a.selectandButton {
     display: block;
     width: 86px;
     height: 37px;
-    border: 2px solid #999999;
+    border: 3px solid #999999;
     position: absolute;
     right: 0;
     top: 0;
@@ -183,12 +187,73 @@ a.selectandButton {
     pointer-events: none;
     touch-action: none;
 }
+.inputcontainerlabels.greyedOut {
+    opacity: 0.5;
+}
+*:focus {
+    outline: none !important;
+}
+.inputButtonContainerquanityty input {
+    text-align: center;
+    max-width: max-content;
+    width: 50px;
+    margin: 0px 7px;
+    text-align: center;
+    color: #999999;
+    font-size: 13px;
+    padding: 0px;
+    border-width: 3px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.checkboxcontainerbutton label:first-child {
+    text-align: right;
+}
+.checkboxcontainerbutton {
+    display: flex;
+    justify-content: space-between;
+    width: 223px;
+}
 
+.checkboxcontainerbutton label {
+    width: 60px;
+}
+.bottomnavigationforProduct {
+    transition: 0.8s all;
+}
 
+.bottomnavigationforProduct.active {
+    bottom: 0px;
+    transition: 0.8s all;
+}
+button.andCartButton {
+    background: #003E51;
+    border: 2px solid #003E51;
+    color: #fff;
+    padding: 9px 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-left: 30px;
+    min-height: 37px;
+    display: block;
+    transition: 0.6s all;
+    display: none;
+}
 
-
-
+button.andCartButton:hover {
+    background: none;
+    color: #003E51;
+}
 
 
 
