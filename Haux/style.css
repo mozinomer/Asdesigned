@@ -278,7 +278,8 @@ ul.mainMenu a.active {
     font-size: 15px;
 }
 .headerother .container {
-    max-width: 1480px;
+    max-width: 1660px;
+    padding: 0px 62px;
 }
 .servicesContainer {
     min-height: 100vh;
@@ -354,4 +355,157 @@ ul.mainMenu a.active {
 
 .boxContainerServices p {
     max-width: 300px;
+}
+.servicesContainer > .row {
+    max-width: 1760px;
+    margin: auto;
+}
+#map {
+  height: 100%;
+}
+.contactContainer {
+    background: #272727;
+    color: #fff;
+    height: 100vh;
+}
+
+.contentleftSideMain {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leftContainercontact {
+    flex: 0 27%;
+    overflow: hidden;
+}
+
+.formContainerRIghtSideMain {
+    flex: 0 67%;
+    margin-left: auto;
+}
+
+.inputCOntainer label {
+    position: absolute;
+    z-index: 9;
+    margin: 0px;
+    top: 9px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.inputCOntainer {
+    position: relative;
+    margin-bottom: 14px;
+    min-height: 65px;
+    border: 1px solid #ffffff42;
+    padding: 0px 20px;
+}
+
+.inputCOntainer input {
+    background: none;
+    border: none;
+    width: 100%;
+    height: 35px;
+    position: relative;
+    position: relative;
+    bottom: 0;
+    top: auto;
+    /* height: 70px; */
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    bottom: 7px;
+    font-weight: 100;
+    height: max-content;
+}
+
+.inputCOntainer input::placeholder {
+    color: #fff;
+    opacity: 0.6;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.inputCOntainer input {
+    color: #fff;
+}
+
+.inputCOntainer:last-child {
+    border: none;
+}
+
+.formContainer .inputCOntainer:nth-child(4) {
+    border: none;
+    height: auto;
+    padding: 0px;
+}
+
+.inputCOntainer textarea {
+    width: 100%;
+    height: 240px;
+    background: none;
+    padding: 36px 20px;
+}
+
+.formContainer .inputCOntainer:nth-child(4) label {
+    left: 21px;
+}
+.contentleftSideMain {
+    padding: 140px 40px;
+    padding-right: 0px;
+}
+.formContainerRIghtSideMain p {
+    font-size: 13px;
+    opacity: 0.7;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.formContainerRIghtSideMain h6 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.leftContainercontact h4 {
+    font-weight: 300;
+    font-size: 18px;
+    margin: 20px 0px 50px;
+    opacity: 0.7;
+}
+
+.leftContainercontact li span {
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 7px;
+}
+
+.leftContainercontact li {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.leftContainercontact li a {
+    color: #2A9CFD;
+    text-decoration: underline;
+    font-weight: 400;
+}
+.formContainer input[type="submit"] {
+    background: #2A9CFD;
+    margin-left: auto;
+    display: block;
+    border: 2px solid #2A9CFD;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 40px;
+}
+
+.formContainer input[type="submit"]:hover {
+    background: none;
+    color: #2A9CFD;
+}
+div#map {
+    margin-top: 90px;
 }

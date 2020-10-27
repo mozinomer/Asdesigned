@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- addding the cdn's -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="headerother">
+	<div class="container">
+		<div class="innercontaineheaderother">
+			<div class="logoContainers">
+				<img src="./images/2.png">
+			</div>
+			<div class="menuContainernewHeader">
+				<ul class="mainMenu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">services</a></li>
+					<li><a href="#">contact</a></li>
+				</ul>
+				<ul class="socialMenu">
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="contactContainer">
+	<div class="maxCOntainer">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="contentleftSideMain">
+					<div class="leftContainercontact">
+						<h2>GET IN <br> TOUCH</h2>
+						<h4>CONTACT US</h4>
+						<ul>
+							<li>
+								<span>Call Us</span>
+								<a href="#">(484)807-5289</a>
+							</li>
+							<li>
+								<span>Email Us</span>
+								<a href="#">carmen.hill@mail.com</a>
+							</li>
+						</ul>
+					</div>
+					<div class="formContainerRIghtSideMain">
+						<h6>Welcome to HAUS Strategic Communications.</h6>
+						<p>If you have any questions or are requiring service please fill out the form below.</p>
+						<div class="formContainer">
+							<div class="inputCOntainer">
+								<label>Name *</label>
+								<input type="text" name="" placeholder="Ronnie Fox"> 
+							</div>
+							<div class="inputCOntainer">
+								<label>Email Address *</label>
+								<input type="email" name="" placeholder="Ronnie Fox"> 
+							</div>
+							<div class="inputCOntainer">
+								<label>Phone *</label>
+								<input type="tel" name="" placeholder="Ronnie Fox"> 
+							</div>
+							<div class="inputCOntainer">
+								<label>Message</label>
+								<textarea placeholder="Write something here"></textarea>
+							</div>
+							<input type="submit" name="" value="Submit">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div id="map"></div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript">
+function initMap() {
+  // Styles a map in night mode.
+  const map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: 40.674, lng: -73.945 },
+    zoom: 12,
+    styles: [
+      { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
+      { elementType: "labels.text.stroke", stylers: [{ color: "#242f3e" }] },
+      { elementType: "labels.text.fill", stylers: [{ color: "#746855" }] },
+      {
+        featureType: "administrative.locality",
+        elementType: "labels.text.fill",
+        stylers: [{ color: "#d59563" }],
+      },
+    ],
+  });
+}
+</script>
+</html>
