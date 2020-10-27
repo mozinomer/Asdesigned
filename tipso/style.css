@@ -254,6 +254,21 @@ button.andCartButton:hover {
     background: none;
     color: #003E51;
 }
+.crossButton {
+    position: absolute;
+    top: 20px;
+    width: 60px;
+    display: none;
+    left: 20px;
+    cursor: pointer;
+}
+
+.bottomnavigationforProduct.active .crossButton  {
+    display: block;
+}
+.crossButton img {
+    width: 100%;
+}
 
 
 
@@ -266,6 +281,88 @@ button.andCartButton:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .headerFixedSection {
+    display: block;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+}
+
+.bottomnavigationforProduct {
+    bottom: -80px;
+}
+
+.headerLeftContentfixed {
+    justify-content: space-between;
+}
+
+a.selectandButton {
+    padding: 7px 50px;
+    border-width: 1px;
+    font-weight: 500;
+}
+
+.headerRightContent h2 {
+    line-height: normal;
+}
+
+span.reviewsNumberCounting {
+    font-size: 12px;
+}
+
+p.ratingReviews {
+    margin: 5px 0px 7px;
+}
+
+.crossButton {
+    left: 0px;
+    width: 40px;
+}
+
+.bottomnavigationforProduct.active .headerRightContent h2 {padding-left: 20px;transition: 0.5s all;}
+
+.bottomnavigationforProduct {
+    height: 578px;
+    bottom: -397px;
+}
+
+.bottomnavigationforProduct .col {
+    max-width: 100%;
+    flex: 0 100%;
+}
+
+.bottomnavigationforProduct .row {
+    padding: 0px 20px;
+}
+
+.bottomnavigationforProduct select, .bottomnavigationforProduct input, .bottomnavigationforProduct button, .checkboxcontainerbutton input ~ label::after {
+    border-width: 2px;
+}
+
+.inputcontainerlabels {
+    margin-bottom: 20px;
+}
+
+.checkboxcontainerbutton {
+    width: 250px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.bottomnavigationforProduct.active {
+    padding-bottom: 0px;
+    height: auto;
+}
+}
 
 
 

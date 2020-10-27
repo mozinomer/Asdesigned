@@ -89,7 +89,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="crossButton"></div>
+	<div class="crossButton"><img src="./1.png"></div>
 </div>
 <script type="text/javascript">
 	$('.checkboxcontainerbutton input').on('change', function(e) {
@@ -119,7 +119,12 @@
 		$(this).hide();
 		$('.andCartButton').fadeIn();
 		$('.bottomnavigationforProduct').addClass('active');
-	})
+	});
+	$('.crossButton').click( function(e) {
+		$('.andCartButton').hide();
+		$('.selectandButton').fadeIn();
+		$('.bottomnavigationforProduct').removeClass('active');
+	});
 </script>
 </body>
 </html>
