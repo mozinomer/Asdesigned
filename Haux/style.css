@@ -1,13 +1,13 @@
 body,p,ul,ol {
-	margin: 0px;
-	padding: 0px;
-	overflow: hidden;
-	list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    list-style: none;
 }
 a:hover,a,*:focus {
-	outline: none !important;
-	text-decoration: none;
-	color: inherit;
+    outline: none !important;
+    text-decoration: none;
+    color: inherit;
 }
 header {
     position: absolute;
@@ -85,7 +85,7 @@ body {
     bottom: 0;
 }
 .menuContainerButton {
-	cursor: pointer;
+    cursor: pointer;
 }
 .menuMain {
     position: fixed;
@@ -155,7 +155,7 @@ ul.socialMenu {
 }
 
 ul.socialMenu li:nth-child(even) {
-    margin: 0px 20px;
+    margin: 0px 40px;
     font-size: 23px;
 }
 
@@ -180,16 +180,16 @@ ul.mainMenu a.active {
     opacity: 1;
 }
 .menuMain {
-	display: none;
+    display: none;
 }
 .innerMenuMain {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100%;		
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;       
 }
 .CloseButton {
-	cursor: pointer;
+    cursor: pointer;
 }
 .headerother {position: absolute;top: 0;left: 0;right: 0;width: 100%;display: flex;align-items: center;z-index: 9;padding: 20px 0px;}
 
@@ -229,7 +229,7 @@ ul.mainMenu a.active {
 }
 
 .menuContainernewHeader ul.mainMenu li:nth-child(even) {
-    margin: 0px 20px;
+    margin: 0px 40px;
 }
 
 .mainRow {
@@ -279,4 +279,79 @@ ul.mainMenu a.active {
 }
 .headerother .container {
     max-width: 1480px;
+}
+.servicesContainer {
+    min-height: 100vh;
+    background: #272727;
+    color: #fff;
+    display: flex;
+    /* align-items: flex-end; */
+}
+
+.servicesContainer .col-md-4, .servicesContainer .col-md-3, .servicesContainer .col-md-9 {
+    padding: 0px;
+}
+
+.boxContainerServices {
+    background-blend-mode: multiply;
+    background-color: #00000091;
+    background-size: cover;
+    padding: 40px;
+}
+
+.boxContainerServices h2 {
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 300px;
+}
+
+.boxContainerServices p {
+    font-size: 15px;
+    line-height: 22px;
+    opacity: 0.7;
+    font-weight: 100;
+    color: #fff;
+}
+.servicesContainer > .row {
+    height: 100vh;
+}
+
+.servicesContainer .row .row {
+    height: 100vh;
+}
+
+.boxContainerServices {
+    height: 100%;
+}
+
+.servicesContainer {
+    padding-top: 130px;
+}
+
+.leftservicescontent {
+    padding: 0px 60px;
+}
+
+.leftservicescontent h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.leftservicescontent h4 {
+    font-weight: 300;
+    font-size: 16px;
+    opacity: 0.7;
+    letter-spacing: 1px;
+}
+
+.leftservicescontent p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 100;
+    margin: 10px 0px 0px;
+}
+
+.boxContainerServices p {
+    max-width: 300px;
 }
