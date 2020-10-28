@@ -32,7 +32,12 @@
 					<div class="logocontainerheader">
 						<img src="./images/1.png">
 					</div>
-					<div class="row">
+					<div class="hamburger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="row" id="menuMains">
 						<div class="col">
 							<ul class="menuLeft">
 								<li><a href="#">home</a> </li>
@@ -173,6 +178,17 @@
 		infinte: false,
 		dots:false,
 		arrows: false,
+		responsive: [
+		    {
+		      breakpoint: 767,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1,
+		        infinite: true,
+		        dots: true
+		      }
+		    },
+	  ]
 	})
 </script>
 </html>
