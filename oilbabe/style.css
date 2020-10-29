@@ -868,3 +868,403 @@ span.counterHeader {
     top: -10px;
     right: -10px;
 }
+.contentSection2 h2 img {
+    margin: 20px auto 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*media*/
+/*1240*/
+
+@media only screen and (max-width: 1300px) {
+.imagecontainerproducts {
+    height: 200px;
+}
+
+.contentSliderSection2 h4 {
+    font-size: 18px;
+    padding: 15px 0px 15px;
+}
+
+.contentSliderSection2 h3 {
+    font-size: 17px;
+}
+
+.contentSliderSection2 .price {
+    font-size: 14px;
+}
+
+.contentSliderSection2 a {
+    margin: 30px auto 0px;
+    font-size: 14px;
+}
+
+.contentSliderSection2 a::after, .contentSliderSection2 a::before {
+    display: none !important;
+}
+}
+/*ipad*/
+@media only screen and (min-width: 768px) and (max-width: 1110px) {
+.aboutSection .row {
+    display: block;
+}
+
+.aboutSection .col-md-6 img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: auto;
+    left: auto;
+    right: auto;
+    margin: 0px;
+}
+
+.aboutSection .col-md-6 li img {
+    width: auto;
+}
+
+.aboutSection .col-md-6 {
+    flex: 0 100%;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+.contentSlidertestimonial {
+    padding: 20px 10px;
+}
+
+.contentSlidertestimonial p {
+    font-size: 11px;
+    line-height: normal;
+}
+
+span.authorName {
+    font-size: 14px;
+}
+
+.AboutJenna p {
+    font-size: 11px;
+    line-height: normal;
+    margin: 20px 0px 0px;
+}
+
+.foloowUs {
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+.AboutJenna h2 {
+    font-size: 26px;
+}
+
+p.footerContent {
+    font-size: 11px;
+    line-height: normal;
+    max-width: 70%;
+    line-height: 22px;
+}
+}
+
+/*mobile*/
+@media only screen and (max-width: 767px) {
+	.menuItems {
+    display: none;
+}
+
+.contentSlider h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.contentSlider p {
+    font-size: 18px;
+}
+
+.innerslidercontainer {
+    min-height: auto;
+    padding: 100px 0px;
+}
+
+.contentSlider a {
+    font-size: 14px;
+    min-height: auto;
+    width: auto;
+    min-width: auto;
+    padding: 10px 40px;
+}
+
+.productSection2 {
+    padding: 20px 0px;
+}
+
+.contentSection2 h2 {
+    font-size: 20px;
+}
+
+.productSection2 .container {
+    padding: 0px 15px;
+}
+
+.contentSection2 p {
+    font-size: 16px;
+}
+
+.contentSection2 h6 {
+    font-size: 14px;
+    margin: 20px 0px 40px;
+}
+
+.sectionHomepage3 {
+    padding: 50px 0px;
+}
+
+.headingUnderLIne h2 {
+    font-size: 20px;
+}
+
+.contentSection3 h6 {
+    font-size: 16px;
+}
+
+.contentSection3 .price {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.addToCart {
+    font-size: 12px;
+    height: auto;
+    width: auto;
+    padding: 10px 20px;
+    max-width: initial;
+    min-width: auto;
+}
+
+.aboutSection {
+    padding: 0px 0px 0px;
+}
+
+img.minorImage {
+    position: relative;
+    margin: 20px 0px;
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    z-index: auto;
+}
+
+.contentAbout h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.contentAbout p {
+    text-align: center;
+    font-size: 11px;
+    line-height: normal;
+}
+
+.contentAbout li {
+    font-size: 11px;
+}
+
+.contentAbout li img {
+    width: 50px;
+}
+
+img.majorImage {
+    margin: 0px;
+    height: auto;
+    max-height: 200px;
+    margin-bottom: 40px;
+}
+
+.headingContainer h2 {
+    font-size: 20px;
+}
+
+.testimonials {
+    padding: 20px 0px;
+}
+
+.AboutJenna {
+    padding: 20px 0px;
+}
+
+.AboutJenna img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.AboutJenna h2 {
+    font-size: 20px;
+}
+
+.AboutJenna p {
+    font-size: 11px;
+    line-height: normal;
+    margin: 21px 0px 0px;
+}
+
+.foloowUs {
+    margin: 20px 0px 0px;
+    font-size: 11px;
+    height: auto;
+    width: auto;
+    padding: 10px 40px;
+}
+
+.contactForm {
+    padding: 20px 0px;
+}
+
+.contactForm h2 {
+    font-size: 20px;
+    margin: 20px 0px 10px;
+}
+
+.contactForm p {
+    font-size: 11px;
+    line-height: normal;
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.contactForm input::placeholder {
+    font-size: 12px;
+}
+
+.contactForm button {
+    width: auto;
+    height: auto;
+    padding: 10px 30px;
+    font-size: 13px;
+}
+
+p.footerContent {
+    font-size: 11px;
+    line-height: 22px;
+    max-width: 80%;
+}
+
+ul.socialHorya {
+    flex-wrap: wrap;
+}
+
+ul.socialHorya li {
+    margin-bottom: 20px;
+}
+
+ul.socialHorya li:nth-child(even) {
+    margin-bottom: 20px;
+}
+
+.contentFootermiain > img {
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
+.copyrights {
+    font-size: 11px;
+    font-weight: 100;
+}
+
+.topHeader {
+    height: auto;
+    min-height: auto;
+    padding: 7px 0px;
+    font-size: 11px;
+}
+
+.logoContainer {
+    left: 20px;
+    right: auto;
+    width: 60px;
+}
+
+.mainHeader {
+}
+
+.mainHeader .container {
+    min-height: 90px;
+}
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px;
+}
+
+.slick-dots li {
+    font-size: 0;
+    height: 13px;
+    width: 13px;
+    border: 2px solid #ac6b53;
+    border-radius: 50%;
+    position: relative;
+}
+
+.slick-dots li button {
+    display: none;
+}
+
+.slick-dots li:nth-child(even) {
+    margin: 0px 10px;
+}
+
+.slick-dots li.slick-active::after {content: "";width: 10px;height: 10px;background: #ac6b53;display: block;position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: auto;border-radius: 50%;}
+
+.imagecontainerproducts {
+    height: 300px;
+}
+
+.IimageContainer3 {
+    max-height: 400px;
+    height: 300px;
+}
+
+.contentSlidertestimonial {
+    padding: 30px 20px;
+}
+
+.contentSlidertestimonial p {
+    font-size: 11px;
+    line-height: normal;
+}
+
+.contentSlidertestimonial span {
+    font-size: 14px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
