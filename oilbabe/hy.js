@@ -36,7 +36,7 @@ $('.sliderSection3').slick({
 })
 $('.slidetestimonials').slick({
 	slidesToShow: 3,
-	slidesToScroll: 1,
+	slidesToScroll: 2,
 	dots: false,
 	arrows: true,
  	responsive: [
@@ -53,3 +53,11 @@ $('.slidetestimonials').slick({
   ]
 })
 $('#bestSellerSliders').slick('unslick');
+$('.hamburger').click( function(e) {
+  $('.menuItems').slideToggle();
+  $(this).toggleClass('active');
+});
+
+
+
+

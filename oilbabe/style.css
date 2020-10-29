@@ -1005,6 +1005,7 @@ p.footerContent {
 .innerslidercontainer {
     min-height: auto;
     padding: 100px 0px;
+    background-size: 140% 100%;
 }
 
 .contentSlider a {
@@ -1257,6 +1258,79 @@ ul.socialHorya li:nth-child(even) {
 
 .contentSlidertestimonial span {
     font-size: 14px;
+}
+.slick-slide {
+    margin: 0px !important;
+}
+
+.IimageContainer3 {
+    max-width: 95%;
+    margin: auto;
+}
+
+.contentSection3 {
+    max-width: 95%;
+    margin: auto;
+}
+.hamburger {
+    width: 30px;
+    height: 14px;
+    /* border: 1px solid #ccc; */
+    margin-left: 30px;
+    position: relative;
+}
+
+.hamburger span {
+    position: absolute;
+    border-top: 2px solid #000;
+    width: 100%;
+}
+
+.hamburger span:nth-child(2) {
+    bottom: 0;
+}
+
+.hamburger span:nth-child(3) {
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    height: max-content;
+}
+.menuItems ul {
+    display: block;
+    text-align: center;
+}
+
+.menuItems ul li a {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.menuItems ul li:last-child a {
+    margin-bottom: 0px;
+}
+.hamburger.active span:nth-child(3) {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.hamburger.active span:nth-child(2) {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: max-content;
+    transform: rotate(45deg);
+}
+
+.hamburger.active span:nth-child(1) {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: max-content;
+    transform: rotate(-45deg);
+}
+.hamburger span {
+	transition: 0.6s all;
 }
 }
 
