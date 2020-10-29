@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
-	font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 footer {
     background: #0B2737;
@@ -175,6 +175,8 @@ ul.menuRight a {
     align-items: center;
     color: #fff;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
 }
 
 .bannerContaienr h2 {
@@ -417,18 +419,18 @@ img.bgImageAboutSection {
     opacity: 0.3;
 }
 .listContaienrAbutSection li {
-	position: relative;
-}	
+    position: relative;
+}   
 .listContaienrAbutSection li::before {
-	content: "";
-	display: block;
-	width: 15px;
-	height: 14px;
-	border: 3px solid #0B2737;
-	border-radius: 50%;
-	position: absolute;
-	left: -20px;
-	top: -20px;
+    content: "";
+    display: block;
+    width: 15px;
+    height: 14px;
+    border: 3px solid #0B2737;
+    border-radius: 50%;
+    position: absolute;
+    left: -20px;
+    top: -20px;
 }
 
 .listContaienrAbutSection li:first-child::after {
@@ -454,8 +456,134 @@ img.bgImageAboutSection {
     top: 10px;
 }
 .formContainerNewsLetter button:hover {
-    background: none;
+    background: #37627c;
     color: #fff;
+}
+
+
+
+
+.bannerContaienr h2,
+.bannerContaienr p,
+.bannerContaienr a
+{
+    opacity: 0;
+}
+
+
+.bannerContaienr h2,
+.bannerContaienr p,
+.bannerContaienr a
+{
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+    transform: translateY(-50px);
+    opacity: 0;
+    animation-name: titleAnimation;
+    animation-timing-function: ease;
+    animation-duration: 3s;    
+    animation-delay: 0.9s;
+    -webkit-animation-fill-mode: forwards;
+}
+
+
+@keyframes titleAnimation {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 100%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 100%);
+  }
+  20% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%);
+  }
+  80% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%);
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0%);
+  }
+}
+.bannerContaienr {
+    max-height: calc(100vh - 163px);
+    min-height: auto;
+    height: 682px;
+}
+
+
+.animated {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+/*.one { animation-delay: 7s; }*/
+/*.two { animation-delay: 7s; }*/
+/*.three { animation-delay: 8s; }*/
+/*.four { animation-delay: 1.4s; }*/
+
+/* Animations start here  */
+
+/* FADE IN  */
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; } 
+}
+.fadeIn { animation-name: fadeIn; }
+
+
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translate3d(0, 20px, 0); }
+  to { opacity: 1; transform: none; } }
+.fadeInUp { animation-name: fadeInUp; }
+
+
+
+.test.in-view {
+    animation: fadeInUp 2s;
+}
+.test.test1.in-view {
+    animation: fadeInUp 4s;   
+}
+.test.test2.in-view {
+    animation: fadeInUp 5s;   
+}
+.test.test3.in-view {
+    animation: fadeInUp 6s;   
+}
+
+.test.test4.in-view {
+    animation: fadeInUp 6s;   
+}
+
+
+.test.footerA.in-view {
+    animation: fadeInUp 1.4s;   
+}
+.test.footerA1.in-view {
+    animation: fadeInUp 2s;   
+}
+.test.footerA2.in-view {
+    animation: fadeInUp 2.7s;   
+}
+.test.footerA3.in-view {
+    animation: fadeInUp 3s;   
+}
+.test.footerA4.in-view {
+    animation: fadeInUp 3.8s;   
+}
+.formContainerNewsLetter button {
+    transition: 0.7s all
 }
 
 
@@ -473,10 +601,18 @@ img.bgImageAboutSection {
 
 
 
+
+
+
+
+
+
+
+/*media query*/
 @media only screen and (min-width: 1650px) {
-	/* .aboutSectionHomepage .container {
-	    max-width: 1720px;
-	    padding: 0px 30px;
+    /* .aboutSectionHomepage .container {
+        max-width: 1720px;
+        padding: 0px 30px;
     } */
     .container{
         max-width: 1540px;
@@ -611,7 +747,7 @@ img.bgImageAboutSection {
 }
 
 @media only screen and (max-width: 767px) {
-	div#menuMains {
+    div#menuMains {
         position: absolute;
         left: 0;
         right: 0;

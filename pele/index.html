@@ -40,15 +40,15 @@
 					<div class="row" id="menuMains">
 						<div class="col">
 							<ul class="menuLeft">
-								<li><a href="#">home</a> </li>
-								<li><a href="#">shop</a> </li>
-								<li><a href="#">our story</a> </li>
+								<li class="test footerA animation-element "><a href="#">home</a> </li>
+								<li class="test footerA1 animation-element "><a href="#">shop</a> </li>
+								<li class="test footerA2 animation-element "><a href="#">our story</a> </li>
 							</ul>
 						</div>
 						<div class="col">
 							<ul class="menuRight">
-								<li><a href="#">log in </a> </li>
-								<li class="cartContainer"><a href="#"><i class="fa fa-cart"></i><span>cart</span></a> </li>
+								<li class="test footerA3 animation-element "><a href="#">log in </a> </li>
+								<li class="cartContainer test footerA4 animation-element "><a href="#"><i class="fa fa-cart"></i><span>cart</span></a> </li>
 							</ul>
 						</div>
 					</div>
@@ -66,10 +66,10 @@
 	<div class="aboutSectionHomepage">
 		<div class="container">
 			<div class="customRow">
-				<div class="contentLeftAboutSection">
-					<h2>Are you breaking out because of your mask?</h2>
-					<p>Yeah we get it. Typical masks irritate the skin and create hot, moist pockets where bacteria thrives. </p>
-					<a href="#">SHOP NOW</a>
+				<div class="contentLeftAboutSection  animation-element">
+					<h2 class="test animation-element">Are you breaking out because of your mask?</h2>
+					<p class="test test1 animation-element block animatable moveUp moveUp2">Yeah we get it. Typical masks irritate the skin and create hot, moist pockets where bacteria thrives. </p>
+					<a class="test test2 animation-element block animatable moveUp moveUp3" href="#">SHOP NOW</a>
 				</div>
 				<div class="rightContentAboutSection" style="">
 					<img src="./images/3.png" class="bgImageAboutSection">
@@ -78,11 +78,10 @@
 					</div>
 					<div class="listContaienrAbutSection">
 						<ul>
-							<li>
-								<p>Soft & breathable fabric says no to a hot, moist, and sticky face ot, moist, and sticky face ot, moist, and </p>
+							<li class="test animation-element"><p>Soft & breathable fabric says no to a hot, moist, and sticky face ot, moist, and sticky face ot, moist, and </p>
 							</li>
-							<li><p>Soft & breathable fabric says no to a hot, moist, and </p></li>
-							<li><p>Soft & breathable fabric says no to a hot, moist, and </p></li>
+							<li class="test test1 animation-element"><p>Soft & breathable fabric says no to a hot, moist, and </p></li>
+							<li class="test test3 animation-element"><p>Soft & breathable fabric says no to a hot, moist, and </p></li>
 						</ul>
 					</div>
 					<div class="subHeadingBgAboutSection" style="background-image: url('./images/5.png');">
@@ -95,7 +94,7 @@
 	<div class="peopleSection">
 		<div class="container">
 			<div class="sliderContainerthreeBoxes">
-				<div class="slideInnercontainer">
+				<div class="test test animation-element slideInnercontainer">
 					<div class="contentInnerSlide">
 						<div class="imageContainerBOx">
 							<img src="">
@@ -104,7 +103,7 @@
 						<p>Our unique blend of anti-microbial cotton has been treated to keep bacteria from flourishing.</p>
 					</div>
 				</div>
-				<div class="slideInnercontainer">
+				<div class="test test1 animation-element slideInnercontainer">
 					<div class="contentInnerSlide">
 						<div class="imageContainerBOx">
 							<img src="">
@@ -113,7 +112,7 @@
 						<p>Soft & breathable fabric says no to a hot, moist, and sticky face </p>
 					</div>
 				</div>
-				<div class="slideInnercontainer">
+				<div class="test test2 animation-element slideInnercontainer">
 					<div class="contentInnerSlide">
 						<div class="imageContainerBOx">
 							<img src="">
@@ -140,18 +139,18 @@
 			</div>
 		</div>
 	</div>
-	<footer>
+	<footer class="">
 		<div class="container">
 			<div class="logoCOntainerFooter">
 				<img src="./images/9.png">
 			</div>
 			<div class="contanierLIstFooter">
 				<ul>
-					<li><a href="">FAQs  |</a></li>
-					<li><a href="">  Shipping Returns  |</a></li>
-					<li><a href="">  Terms of Service   |</a></li>
-					<li><a href="">  Contact Us  |</a></li>
-					<li><a href="">  Privacy Policy</a></li>
+					<li class="test footerA animation-element "><a href="">FAQs  |</a></li>
+					<li class="test footerA1 animation-element "><a href="">  Shipping Returns  |</a></li>
+					<li class="test footerA2 animation-element "><a href="">  Terms of Service   |</a></li>
+					<li class="test footerA3 animation-element "><a href="">  Contact Us  |</a></li>
+					<li class="test footerA4 animation-element "><a href="">  Privacy Policy</a></li>
 				</ul>
 			</div>
 			<div class="formContainerNewsLetter">
@@ -189,6 +188,46 @@
 		      }
 		    },
 	  ]
-	})
+	});
+  	$(window).on('scroll', function () {
+	    var scrolled = $(this).scrollTop();
+	    $('.bannerContaienr .container').css({
+	      'transform': 'translate3d(0, ' + -(scrolled * 0.40) + 'px, 0)',
+	      'opacity': 1 - scrolled / 400
+	    });
+	});
+    var $animationElements = $('.animation-element');
+    var $window = $(window);
+    var isMobile = window.matchMedia("only screen and (max-width: 768px)");
+    if (isMobile.matches) {
+        $animationElements.removeClass('animation-element');
+    }
+    function checkIfInView() {
+        var windowHeight = $window.height();
+        var windowTopPosition = $window.scrollTop();
+        var windowBottomPosition = (windowTopPosition + windowHeight);
+        $.each($animationElements, function () {
+            var $element = $(this);
+            var elementHeight = $element.outerHeight();
+            var elementTopPosition = $element.offset().top;
+            var elementBottomPosition = (elementTopPosition + elementHeight);
+            if ((elementBottomPosition >= windowTopPosition) &&
+                (elementTopPosition <= windowBottomPosition)) {
+                $element.addClass('in-view');
+            } else {
+                $element.removeClass('in-view');
+            }
+        });
+    }
+    $window.on('scroll resize', checkIfInView);
+    $window.trigger('scroll');
 </script>
 </html>
+
+
+
+
+
+
+
+
