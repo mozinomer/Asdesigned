@@ -1332,6 +1332,16 @@ ul.socialHorya li:nth-child(even) {
 .hamburger span {
 	transition: 0.6s all;
 }
+div#bestSellerSliders .sldieInner {
+    flex: 0 50%;
+}
+
+.IimageContainer3 {
+    height: 200px;
+}
+.skinbare br {
+    display: none;
+}
 }
 
 
