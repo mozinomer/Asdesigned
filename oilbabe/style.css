@@ -871,7 +871,20 @@ span.counterHeader {
 .contentSection2 h2 img {
     margin: 20px auto 30px;
 }
+div#bestSellerSliders .sldieInner {
+    flex: 0 32%;
+    margin-bottom: 40px;
+}
 
+div#bestSellerSliders {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.IimageContainer3 {
+    height: 300px;
+}
 
 
 

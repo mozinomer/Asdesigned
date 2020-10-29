@@ -52,3 +52,4 @@ $('.slidetestimonials').slick({
     },
   ]
 })
+$('#bestSellerSliders').slick('unslick');
