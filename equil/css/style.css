@@ -1800,7 +1800,27 @@ select#sel1 {
         color: #D74527;
     }
 
+.containerBannerInenrPage {
+    min-height: 586px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.containerBannerInenrPage h2 {
+    text-align: center;
+    font-size: 46px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contentDetailPage {
+    padding: 100px 0px;
+}
+
+.contentDetailPage p {margin-bottom: 40px;font-size: 18px;font-weight: 100;line-height: 30px;}
 
 
 
@@ -2438,6 +2458,24 @@ section.sell-mian.padding-main {
     /* responsive navbar end */
 }
 @media (max-width:600px){
+    .containerBannerInenrPage {
+    min-height: auto;
+    padding: 180px 0px 80px;
+}
+
+.containerBannerInenrPage h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contentDetailPage {
+    padding: 20px 0px;
+}
+
+.contentDetailPage p {
+    font-size: 13px;
+    line-height: 22px;
+}
     .navbar-brand {
         position: static !important;
         left: 0;
