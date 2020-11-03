@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		img  {
+			max-width: 100%;
+		}
+		li.grid-item p {
+		    position: absolute;
+		    left: 0;
+		    right: 0;
+		    top: 0;
+		    bottom: 0;
+		    background: rebeccapurple;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    word-break: break-all;
+		    padding: 50px;
+		    color: #fff;
+		}
+		body {
+  background: #131418;
+}
+
+
+/* Step 1: start with resetting some defaults */
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+}
+
+
+/* Step 2: center things inside the grid and clear some space around it by setting a device based max-width and margin*/
+
+.grid {
+  text-align: center;
+  max-width: 95vw;
+  margin: 2.5vw auto;
+}
+
+
+/* Step 3: how big should the gap be between grid items? remember that the total gap between two items would be double what you set here since both would have that amount set as their individual padding. Also add box-sizing:border-box to make sure the padding doesn't affect the total widh of the item */
+
+.grid-item {
+  padding: 5px;
+  box-sizing: border-box;
+	display:inline;
+}
+
+
+/* Step 4: Add media queries (subjective) to make the whole grid resposive. */
+
+@media (min-width: 500px) {
+  .grid-item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid-item {
+    width: 33.333%;
+  }
+}
+
+@media (min-width: 1700px) {
+  .grid-item {
+    width: 25%;
+  }
+}
+
+@media (min-width: 2100px) {
+  .grid-item {
+    width: 20%;
+  }
+}
+.grid-item {
+  margin-bottom: 10px;
+}
+li.grid-item:hover p {
+    transform: none;
+    transition: 0.6s all;
+}
+li.grid-item p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+    padding: 50px;
+    color: #fff;
+    transform: rotateY(90deg);
+    transition: 0.6s all;
+}
+	</style>	
+</head>
+<body>
+	<h1>Responsive Masonry Grid</h1>
+<p>A pure CSS-only responsive masonry.</p>
+<div class="masonry">
+ 
+	<ul class="grid">
+	  	<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/Night Safari.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/Night Safari.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/KingSidestep.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/KingSidestep.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/FearNoFuture.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/FearNoFuture.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/CosmicThistle.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/CosmicThistle.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/BonSang.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/BonSang.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/DeathIsADoor.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/DeathIsADoor.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/SvperWolf.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/SvperWolf.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/TheKnot.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/TheKnot.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/CutTheSky.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/CutTheSky.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/DeepDiver.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/DeepDiver.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/Zero.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/Zero.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/Animalversary.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/Animalversary.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/Thunderbird.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/Thunderbird.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/BlackMoonSpell.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/BlackMoonSpell.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/Troublewood.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/Troublewood.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/KingdomOfShades.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/KingdomOfShades.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/ElectricSleep.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/ElectricSleep.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/Hex.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/Hex.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/Zero.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/Zero.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/DeepDiver.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/DeepDiver.jpg"/>
+		</li>
+		<li class="grid-item">
+			<p>http://markup.jaidenshannon.com/masonary-layout/images/CutTheSky.jpg</p>
+			<img src="http://markup.jaidenshannon.com/masonary-layout/images/CutTheSky.jpg"/>
+		</li>
+	</ul>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<!-- Step 2: Then load imagesloaded. imagesloaded makes sure the images are not displayed until they are fully loaded -->
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+<!-- Step 3: we load masonry -->
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+<script type="text/javascript">
+	$(".grid").imagesLoaded(function() {
+    $(".grid").masonry({
+    	columnWidth: 20,
+    	gutter: 10,
+      itemSelector: ".grid-item"
+    });
+  });
+</script>
+
+</body>
+</html>
