@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
-	font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 body,ul, p, .row,ol {
-	margin: 0px;
-	padding: 0;
-	list-style: none;
-	text-decoration: none;
-	outline: none !important;
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none !important;
 }
 a:hover,a,*:focus {
-	outline: none !important;
-	text-decoration: none;
-	color: inherit;
+    outline: none !important;
+    text-decoration: none;
+    color: inherit;
 }
 .topHeader {
     min-height: 45px;
@@ -412,20 +412,20 @@ img.authorImage {
 }
 
 .testimonials .slick-prev::after {
-	content: "";
-	display: block;
-	width: 20px;
-	height: 20px;
-	border: 1px solid #000;
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	margin: auto;
-	border-right: 0;
-	border-bottom: 0;
-	transform: rotate(-45deg);
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-right: 0;
+    border-bottom: 0;
+    transform: rotate(-45deg);
 }
 .testimonials .slick-next {
     right: 0;
@@ -433,27 +433,27 @@ img.authorImage {
 }
 
 .testimonials .slick-next::after {
-	content: "";
-	display: block;
-	width: 20px;
-	height: 20px;
-	border: 1px solid #000;
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	margin: auto;
-	border-right: 0;
-	border-bottom: 0;
-	transform: rotate(-225deg);
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-right: 0;
+    border-bottom: 0;
+    transform: rotate(-225deg);
 }
 .testimonials .slick-next:hover::after, 
 .testimonials .slick-prev:hover::after {
-	border-color: #AC6B53
+    border-color: #AC6B53
 }
 .slidetestimonials {
-	padding: 0px 40px;
+    padding: 0px 40px;
 }
 span.authorName {
     font-weight: 600;
@@ -834,7 +834,7 @@ a.hovers.temp:before, a.temp:after {
   visibility: visible;
 }
 a.hovers:hover {
-	color: #ac6b53 !important;	
+    color: #ac6b53 !important;  
 }
 .contentSlider a:hover {
     background: #ac6b53;
@@ -1043,6 +1043,175 @@ div#myTabContent p {
     margin: 0px;
 }
 
+.sliderINgrdients {
+    text-align: center;
+}
+.testimonials .slick-slide {
+    height: auto;
+}
+.aboutus > h2 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.aboutus > h2 img {
+    margin: auto;
+}
+
+.aboutus {
+    padding: 50px 0px;
+}
+
+.section1aboutus img {
+    max-width: 500px;
+    margin-left: auto;
+}
+
+.section1aboutus .container {
+    max-width: 100%;
+    padding-right: 90px;
+}
+
+.contentMiddle {
+    max-width: 610px;
+    margin: auto;
+}
+div#leftImageABoutSection1 {
+    padding: 0px;
+}
+
+img#ImageLeftAboutSection1 {
+    left: 0px;
+    position: absolute;
+    top: -180px;
+    left: -30px;
+}
+
+.section1aboutus {
+    padding: 160px 0px;
+}
+
+.contentMiddle {
+    padding: 0px 60px;
+    padding-left: 0px;
+}
+
+.contentMiddle p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.contentMiddle h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.contentMiddle .foloowUs {
+    max-width: 210px;
+    /* height: 50px; */
+    font-weight: 700;
+}
+
+.contentRightSection2AboutSection h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.contentRightSection2AboutSection p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+.section2AboutUs .row {
+    align-items: center;
+}
+
+.section2AboutUs .container {
+    max-width: 1530px;
+}
+
+.section2AboutUs img {
+    max-width: 700px;
+    width: 100%;
+}
+
+.contentRightSection2AboutSection {
+    max-width: 600px;
+    margin: auto;
+}
+
+.section2AboutUs {
+    margin-bottom: 100px;
+}
+
+.simpleIngredients {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.simpleIngredients h2 img {
+    margin: auto;
+    margin-top: 15px;
+}
+
+.simpleIngredients h2 {
+    margin-bottom: 60px;
+    font-weight: 700;
+}
+
+.slick-slide {
+    height: auto;
+}
+
+.slideIngr:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.slideIngr {
+    margin: 20px 0px;
+    padding: 30px;
+}
+
+.slideIngr img {
+    margin: auto;
+}
+
+.slideIngr h6 {
+    margin: 30px 0px 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.slideIngr:hover h6 {
+    color: #AC6B53;
+    cursor: pointer;
+}
+.instaStroeis {
+    padding: 50px 0px;
+}
+
+.instaStroeis h2 {
+    text-align: center;
+}
+
+.instaStroeis h2 img {
+    margin: 20px auto;
+}
+
+.instaStroeis h2 {
+    margin-bottom: 60px;
+    font-weight: 700
+}
+
 
 
 
@@ -1145,7 +1314,7 @@ p.footerContent {
 
 /*mobile*/
 @media only screen and (max-width: 767px) {
-	.menuItems {
+    .menuItems {
     display: none;
 }
 
@@ -1486,7 +1655,7 @@ ul.socialHorya li:nth-child(even) {
     transform: rotate(-45deg);
 }
 .hamburger span {
-	transition: 0.6s all;
+    transition: 0.6s all;
 }
 div#bestSellerSliders .sldieInner {
     flex: 0 50%;
@@ -1497,6 +1666,144 @@ div#bestSellerSliders .sldieInner {
 }
 .skinbare br {
     display: none;
+}
+img#ImageLeftAboutSection1 {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    left: auto;
+}
+
+.section1aboutus {
+    padding: 0px 0px;
+}
+
+.contentMiddle {
+    padding: 0px;
+    margin-bottom: 40px;
+}
+
+.contentMiddle p {
+    font-size: 11px;
+    line-height: normal;
+}
+
+.section1aboutus img {
+    max-width: 100%;
+}
+
+.section1aboutus .container {
+    padding: 0px 15px;
+    max-width: 100%;
+}
+
+img#ImageLeftAboutSection1 {
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.contentMiddle h2 {
+    font-size: 18px;
+}
+
+.section2AboutUs img {
+    display: none;
+}
+
+.section2AboutUs {
+    padding: 20px 0px;
+    margin: 0px;
+}
+
+.contentRightSection2AboutSection h2 {
+    font-size: 18px;
+}
+
+.contentRightSection2AboutSection p {
+    font-size: 11px;
+    line-height: normal;
+    margin: 0px 0px 20px;
+}
+
+.simpleIngredients h2 {
+    font-size: 18px;
+}
+
+.simpleIngredients h2 img {
+    width: 30%;
+}
+
+.instaStroeis h2 {
+    font-size: 22px;
+}
+
+.instaStroeis h2 img {
+    width: 30%;
+}
+.contentRightSideSinglePag {
+    padding: 10px 0px;
+}
+
+.priceSingle {
+    font-size: 18px;
+}
+
+.nameProducts {
+    font-size: 22px;
+    margin: 0px;
+}
+
+.starRating i {
+    font-size: 10px;
+    margin: 0px;
+}
+
+ul.pontsLIst li {
+    font-size: 11px;
+    line-height: normal;
+    margin: 0px 0px 7px;
+}
+
+.quatntity label {
+    font-size: 14px;
+}
+
+.number span {
+    height: 30px;
+}
+
+.number input {
+    height: 30px;
+}
+
+.cartButtons button {
+    font-size: 14px;
+    height: 50px;
+}
+
+.shoppagecontainer .container {
+    max-width: 100%;
+    padding: 0px 15px;
+}
+
+.tabsContainers .nav-tabs {flex-wrap: nowrap;overflow: auto;}
+
+.tabsContainers .nav-tabs li.nav-item {
+    /* width: 200px; */
+    flex: none;
+}
+
+div#myTabContent p {
+    font-size: 11px;
+    line-height: normal;
+}
+
+.shoppagecontainer {
+    padding: 30px 0px 0px;
+}
+
+.shoppagecontainer > h2 {
+    margin-bottom: 20px;
 }
 }
 

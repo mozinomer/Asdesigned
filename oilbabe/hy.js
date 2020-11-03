@@ -90,6 +90,40 @@ $('.forThumbnails').slick({
     focusOnSelect: true
 });
 
+$('.sliderINgrdients').slick({
+    slidesToShow: 4,
+    dots: false,
+    arrows: false,
+    responsive: [
+         {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true,
+            arrows: false,
+          }
+        },
+    ]
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
