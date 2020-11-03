@@ -1211,7 +1211,51 @@ img#ImageLeftAboutSection1 {
     margin-bottom: 60px;
     font-weight: 700
 }
+.blogPage {
+    text-align: center;
+}
 
+.blogPage h2 img {
+    margin: 20px auto;
+}
+
+.blogPage {
+    padding: 50px 0px;
+}
+.calendarandUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.calendarandUser div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.calendarandUser img {
+    margin-right: 10px;
+}
+
+.blogname {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 50px 0px 0px;
+}
+.contentBlogPOst p {
+    margin: 30px 0px;
+    line-height: 38px;
+    font-weight: 300;
+}
+
+.contentBlogPOst a {
+    display: block;
+    color: #AC6B53;
+    font-weight: 700;
+    font-size: 18px;
+}
 
 
 
@@ -1804,6 +1848,24 @@ div#myTabContent p {
 
 .shoppagecontainer > h2 {
     margin-bottom: 20px;
+}
+.contentBlogPOst p {
+    font-size: 11px;
+    line-height: normal;
+    padding: 0px 30px;
+}
+
+.blogPage > h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.blogPage > h2 img {
+    max-width: 36%;
+}
+
+.blogPage .container {
+    padding: 0px;
 }
 }
 

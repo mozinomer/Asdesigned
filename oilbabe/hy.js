@@ -112,6 +112,17 @@ $('.sliderINgrdients').slick({
 
 
 
+if( $(window).width() < 767 ) {
+    $('.sliderMobileonly').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        rows: 2,
+        dots: true,
+        arrows: false
+
+    })
+}
+
 
 
 
