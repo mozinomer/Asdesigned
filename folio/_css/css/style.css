@@ -1,0 +1,1311 @@
+
+
+/*font-family: 'Poppins', sans-serif;*/
+@font-face {
+    font-family: "proxima-bold";
+    src: url("../fonts/Proxima-Nova-Bold.woff") format("woff");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "proxima-regular";
+    src: url("../fonts/ProximaNova-Regular.woff") format("woff");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/*Global Styling*/
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "proxima-regular";
+
+    position: relative;
+    background-color: #FFF;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: "proxima-bold";
+
+}
+
+.background-position {
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+}
+
+/* Global font size */
+.up {
+    text-transform: uppercase;
+}
+
+h1,
+.h1 {
+    font-size: 62px;
+}
+
+h2,
+.h2 {
+    font-size: 42px;
+}
+
+h3,
+.h3 {
+    font-size: 24px;
+}
+
+h4,
+.h4 {
+    font-size: 22px;
+}
+
+h5,
+.h5 {
+    font-size: 20px;
+}
+
+h6,
+.h6 {
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.3;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #6D7984;
+}
+
+
+/*social icons*/
+textarea {
+    resize: none;
+}
+header {
+    position: absolute;
+    top: 0;
+    z-index: 9;
+}
+header .container-fluid {
+    padding-right: 25%;
+    padding-left: 25%;
+}
+header .navbar {
+    padding-top: 15%;
+}
+.banner {
+    position: relative;
+    height: 100vh;
+}
+.banner:before,
+.banner-bg:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(13, 63, 103, .6);
+}
+.banner-container {
+    max-width: 1450px;
+    margin: 0 auto;
+}
+.banner .banner-text {
+    position: absolute;
+    z-index: 9;
+    transform: translateY(-50%);
+    top: 50%;
+
+}
+.banner .banner-text h1 {
+    color: #fff;
+}
+.banner .banner-slider .banner-bg {
+    height: 100vh;
+    width: 100%;
+
+}
+.banner .banner-text .banner-btn a{
+    background-color: #0D3F67;
+    font-family: "proxima-bold";
+    font-size: 22px;
+    padding: 17px 40px;
+    display: inline-block;
+    border-radius: 7px;
+    margin-top: 45px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    transition: all .3s ease-in-out;
+}
+.banner .banner-text .banner-btn a:hover {
+    color: #0D3F67;
+    background-color: #fff;
+}
+.banner .banner-text .banner-btn a:hover img {
+    opacity: 0;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-animation-name: hover-img;
+    animation-name: hover-img;
+    -webkit-animation-duration: 0.25s;
+    animation-duration: 0.25s;
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    /* -webkit-animation-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    animation-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); */
+    filter: none;
+}
+@keyframes hover-img{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+    51%, 100% {
+        opacity: 1;
+    }
+}
+.banner .banner-text .banner-btn img {
+    margin-left: 10px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    filter: brightness(0) invert(1);
+}
+
+/* accelerating */
+.accelerating {
+    padding: 165px 0 200px 0;
+  position: relative;
+}
+.accelerating:before {
+    content: "";
+    background-image: url(../images/accelerating-bg.png);
+    background-size: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 71%;
+    height: 1020px;
+    left: -24.5%;
+    top: -31%;
+    position: absolute;
+}
+.accelerating .accelerating-flex {
+    display: flex;
+    position: relative;
+}
+.accelerating .accelerating-text {
+    width: 60%;
+}
+.accelerating .accelerating-img {
+    width: 40%;
+}
+.accelerating .accelerating-img img {
+    width: 100%;
+}
+.accelerating .accelerating-text h2 {
+    color: #0D3F67;
+}
+.accelerating .accelerating-text p{
+    margin-top: 40px;
+    max-width: 700px;
+}
+.accelerating-btn a {
+    font-size: 22px;
+    display: inline-block;
+    border-radius:7px ;
+    padding: 10px 30px;
+    margin-top: 60px;
+    margin-right: 10px;
+    transition: all .3s ease-in-out;
+
+}
+.accelerating-btn #btn1{
+    background-color: #0D3F67;
+    color: #fff;  
+    border: 1px solid #0D3F67;  
+}
+.accelerating-btn #btn2{
+    background-color: #fff;
+    color:  #0D3F67;  
+    border: 1px solid #0D3F67; 
+}
+.accelerating-btn #btn1:hover{
+    background-color:#fff;
+    color:  #0D3F67;  
+    border: 1px solid #0D3F67;  
+}
+.accelerating-btn #btn2:hover{
+    background-color: #0D3F67;
+    color:  #fff;  
+    border: 1px solid #0D3F67; 
+}
+
+/* vaccine section */
+.vaccine{
+    position: relative;
+    padding: 40px 0 150px 0;
+}
+.vaccine::before{
+    content: "";
+    position: absolute;
+    right: -210px;
+    width: 520px;
+    height: 450px;
+    background-image: url(../images/vaccine-right.png);
+    background-repeat: no-repeat;
+
+}
+.vaccine::after{
+    content: "";
+    position: absolute;
+    left: -133px;
+    width: 228px;
+    height: 228px;
+    background-image: url(../images/vaccine-left.png);
+    background-repeat: no-repeat;
+    top: 22%;
+}
+.vaccine .container {
+    padding-right: 10%;
+}
+.vaccine .vaccine-heading h2 {
+    color: #0D3F67;
+}
+.vaccine .vaccine-flex {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.vaccine .vaccine-flex .vaccine-text h3 {
+    color: #0D3F67;
+}
+.vaccine .vaccine-flex .vaccine-text p {
+    margin-top: 20px;
+}
+.vaccine .vaccine-img {
+    min-height: 180px;
+}
+.vaccine-width {
+    width: 26%;
+}
+
+/* application section */
+.application {
+    background-color: #0D3F67;
+    padding: 120px 0 160px 0;
+    position: relative;
+}
+.application::before {
+    content: "";
+    position: absolute;
+    background-image: url(../images/application-bg.png);
+    background-position: right;
+    right: -300px;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    top: 0;
+}
+.application .application-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.application .application-text {
+    width: 40%;
+    max-width: 600px;
+    margin: auto;
+}
+.application .application-text .upper-text {
+    color: #fff;
+}
+.application .application-text .upper-text p {
+    opacity: .69;
+    font-size: 24px;
+    margin-top: 30px;
+    color: #fff;
+}
+.application .application-text .upper-text a {
+    background-color:#fff;
+    color:  #0D3F67;
+    font-family: "proxima-bold";
+    font-size: 22px;
+    padding: 12px 25px;
+    display: inline-block;
+    border-radius: 7px;
+    margin-top: 45px;
+    border:1px solid #0D3F67;
+    transition: all .3s ease-in-out;
+}
+.application .application-text .upper-text a:hover {
+    background-color: #0D3F67;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.application-list{
+    margin-top: 65px;
+    max-width: 470px;
+}
+.application-list .application-icon {
+    width: 79px;
+    height: 79px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.application .application-images {
+    width: 52%;
+    margin-right: -70px;
+}
+.application .application-images ul {
+    display: flex;
+    justify-content: space-between;
+}
+.application-list .list-data {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+.application-list .list-data h4 {
+    color: #FFF;
+}
+.application-list .list-data p {
+    font-size: 16px;
+    color: #fff;
+    opacity: .69;
+    margin-top: 5px;
+}
+.application-list .list-data .list-text {
+    width: 78%;
+    padding-left: 20px;
+}
+.application .application-images ul>li {
+    width: 23%;
+}
+.application .application-images ul>li:nth-child(even){
+    margin-top: 70px;
+}
+.application .application-images ul>li img {
+    width: 100%;
+}
+
+/* Merchant Onboarding */
+.onboarding {
+    padding: 80px 0 50px 0;
+    position: relative;
+}
+.onboarding::before {
+    content: "";
+    position: absolute;
+    right: -110px;
+    width: 228px;
+    height: 228px;
+    background-image: url(../images/vaccine-left.png);
+    background-repeat: no-repeat;
+    top: 6%;
+}
+.onboarding-flex {
+    display:flex;
+    position: relative;
+    margin-top: 80px;
+    padding: 0 2%;
+}
+.onboarding .onboarding-heading {
+    text-align: center;
+    max-width: 680px;
+    margin: auto;
+}
+.onboarding .onboarding-heading h3 {
+    font-family: 'proxima-regular';
+    margin-top: 15px;
+}
+.onboarding .onboarding-circle {
+    width: 273px;
+    height: 273px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.onboarding .onboarding-width:nth-child(1) .onboarding-circle{
+    border: 1px solid #E0E2E4;
+}
+.onboarding .onboarding-width:nth-child(1) .onboarding-text {
+    background-color: #E0E2E4;
+}
+.onboarding .onboarding-width:nth-child(2) .onboarding-circle{
+    border: 1px solid #D1D8DF;
+}
+.onboarding .onboarding-width:nth-child(2) .onboarding-text {
+    background-color: #D1D8DF;
+}
+.onboarding .onboarding-width:nth-child(3) .onboarding-circle{
+    border: 1px solid #6D7984;
+}
+.onboarding .onboarding-width:nth-child(3) .onboarding-text {
+    background-color: #6D7984;
+}
+.onboarding .onboarding-width:nth-child(3) .onboarding-text p {
+    color: #FFF;
+}
+.onboarding .onboarding-width:nth-child(4) .onboarding-circle{
+    border: 1px solid #0D3F67;
+}
+.onboarding .onboarding-width:nth-child(4) .onboarding-text {
+    background-color: #0D3F67;
+}
+.onboarding .onboarding-width:nth-child(4) .onboarding-text p {
+    color: #FFF;
+}
+.onboarding .onboarding-width {
+    width: 25%;
+    position: relative;
+}
+.onboarding .onboarding-width:before {
+    content: "";
+    position: absolute;
+    transform: translatey(-50% );
+    right: 12%;
+    top: 50%;
+    background-image: url(../images/feather-arrow-right.png);
+    width: 21px;
+    height: 21px;
+    background-size: cover;
+}
+.onboarding .onboarding-width:last-child:before {
+    position: static;
+    content: none;
+}
+.onboarding .onboarding-text {
+    width: 253px;
+    height: 253px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    margin-top: -18px;
+    margin-left: -18px;
+}
+.onboarding .onboarding-circle p {
+    font-size: 16px;
+    text-align: center;
+}
+/* Merchant Technology */
+.technology {
+    padding: 50px 0 0px 0;
+    position: relative;
+}
+.technology::before {
+    content: "";
+    position: absolute;
+    left: -35px;
+    width: 228px;
+    height: 228px;
+    background-image: url(../images/vaccine-left.png);
+    background-repeat: no-repeat;
+    top: 12%;
+}
+.technology .technology-flex{
+    display: flex;
+    align-items: center;
+    padding: 0 2% 0 14%;;
+}
+.technology .technology-text{
+    width: 40%;
+}
+.technology .technology-text h3 {
+    font-family: 'proxima-regular';
+    margin-top: 20px;
+}
+.technology .technology-text a {
+    background-color:#fff;
+    color:  #0D3F67;
+    font-family: "proxima-bold";
+    font-size: 22px;
+    padding: 12px 25px;
+    display: inline-block;
+    border-radius: 7px;
+    margin-top: 45px;
+    border:1px solid #0D3F67;
+    transition: all .3s ease-in-out;
+}
+.technology .technology-text a:hover {
+    background-color: #0D3F67;
+    color: #fff;
+}
+.technology .technology-img {
+    width: 60%;
+}
+.technology .technology-img img {
+    width: 100%;
+}
+
+/* ipad slider section */
+section.ipad-slider-area {
+    padding: 0 0 70px 0;
+}
+.ipad {
+    background-position: center;
+    background-size: 43.3%;
+    background-repeat: no-repeat;
+    padding-bottom: 120px;
+    padding-top: 114px;
+}
+
+.ipad .owl-theme .owl-nav [class*=owl-]{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+}
+.ipad .owl-theme .owl-nav .owl-prev {
+    left: 25%;
+}
+.ipad .owl-theme .owl-nav .owl-next {
+    right: 25%;
+}
+.verify-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.verify-list  {
+    display: flex;
+    align-items: center;
+}
+.verify-list {
+    width: 32%;
+}
+.verify-list .verify-icon {
+    width: 79px;
+    height: 79px;
+    border-radius: 15px;
+    background-color: rgba(112, 112, 112, .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.verify-list .verify-text{
+    width: 78%;
+    padding-left: 20px;
+}
+.verify-list h4 {
+    color: #0D3F67;
+}
+.verify-list p{
+    font-size: 16px;
+
+    margin-top: 5px;
+}
+
+/* contact us section */
+.contact-us{
+    position: relative;
+}
+.contact-us::before {
+    content: "";
+    position: absolute;
+    right: -90px;
+    width: 228px;
+    height: 228px;
+    background-image: url(../images/contact-right.png);
+    background-repeat: no-repeat;
+    bottom: 10%;
+}
+.contact-us::after {
+    content: "";
+    position: absolute;
+    left: -65px;
+    width: 158px;
+    height: 139px;
+    background-image: url(../images/vaccine-right.png);
+    background-repeat: no-repeat;
+    top: 6%;
+    background-size: contain;
+}
+.contact-us .contact-flex{
+    display: flex;
+}
+.contact-us .contact-flex form {
+    margin-top: 50px;
+}
+.contact-us .contact-flex .venue,
+.contact-us .contact-flex .access {
+    width: 50%;
+    padding: 4% 8%;
+}
+.contact-us .contact-flex .form-control{
+    height: 58px;
+    border: none;
+    background: rgba(0, 0, 0, .06);
+}
+.contact-us .contact-flex .venue textarea {
+    height: 190px;
+}
+.contact-us .contact-flex .venue{
+    background-color: #6D7984;
+}
+.contact-us .contact-flex .venue .venue-heading {
+    color: #fff;
+}
+.contact-us .contact-flex .access .access-heading h3,
+.contact-us .contact-flex .venue .venue-heading h3 {
+    font-family: "proxima-regular";
+    margin-top: 10px;
+}
+.contact-us .contact-flex .form-group {
+    margin-bottom: 10px;
+}
+.contact-us .contact-flex .access {
+    background-color: #E0E2E4;
+}
+.contact-us .contact-flex .venue label {
+    color: #fff;
+    font-size: 16px;
+}
+.contact-us .contact-flex .access label {
+    color: #000;
+    font-size: 16px;
+}
+.contact-us .contact-flex .subscribe input,
+.contact-us .contact-flex .submit input {
+    font-family: "proxima-bold";
+    font-size: 22px;
+    padding: 12px 25px;
+    border-radius: 7px;
+    margin-top: 20px;
+    transition: all .3s ease-in-out;
+    outline: none;
+    border: none;
+}
+.contact-us .contact-flex .subscribe input:hover,
+.contact-us .contact-flex .submit input{
+    background-color: #0D3F67;
+    color: #fff;
+}
+.contact-us .contact-flex .subscribe input{
+    background-color:rgba(112, 112, 112, .1);
+}
+.contact-us .contact-flex .submit input:hover{
+    color: #0D3F67;
+    background-color: #fff;
+}
+/* footer */
+footer{
+    padding: 10px 0;
+  text-align: center;
+}
+footer p{
+    font-size: 16px;
+    color: #707070;
+    opacity: .67;
+}
+/* media query */
+@media (min-width:1600px){
+    .container{
+        max-width: 1450px;
+    }
+}
+@media (min-width:1681px){
+    .container{
+        max-width: 1550px;
+    }
+}
+
+@media (max-width:1680px){
+    .onboarding .onboarding-width:before {
+        right: 7%;
+    }
+    
+}
+@media (max-width:1600px){
+    .ipad {
+        background-size: 42.3%;
+
+    }
+    .vaccine-width {
+        width: 30%;
+    }
+    .vaccine .vaccine-flex .vaccine-text p {
+        margin-top: 15px;
+    }
+    .vaccine .container {
+        padding-right: 14%;
+        padding-left: 8%;
+    }
+    .vaccine::before {
+        background-size: contain;
+        right: -190px;
+        width: 470px;
+        height: 400px;
+    }
+    .banner-container {
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1500px){
+    h1, .h1 {
+        font-size: 55px;
+    }
+    h2, .h2 {
+        font-size: 30px;
+    }
+    h3, .h3 {
+        font-size: 20px;
+    }
+    h4, .h4 {
+        font-size: 19px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .banner .banner-text .banner-btn a{
+        font-size: 20px;
+        padding: 14px 35px;
+        margin-top: 40px;
+    }
+    .banner-container {
+        max-width: 1050px;
+        margin: 0 auto;
+    }
+    .accelerating .accelerating-text p {
+        margin-top: 30px;
+        max-width: 600px;
+    }
+    .accelerating-btn a {
+        font-size: 20px;
+        border-radius: 7px;
+        padding: 8px 25px;
+        margin-top: 50px;
+    }  
+    .vaccine .container {
+        padding-right: 10%;
+        padding-left: 0%;
+    } 
+    .vaccine::before {
+        background-size: contain;
+        right: -172px;
+        width: 425px;
+        height: 370px;
+    }
+    .application .application-text .upper-text p {
+        font-size: 20px;
+        margin-top: 20px;
+    }     
+    
+    .application .application-text .upper-text a {
+        font-size: 20px;
+        padding: 10px 25px;
+        margin-top: 40px;
+    }
+    .application-list .list-data p {
+        font-size: 14px;
+    }
+    .application .application-text {
+        max-width: 490px;
+    }
+    .application .application-images {
+        margin-right: -55px;
+    }
+    .application {
+        padding: 100px 0 120px 0;
+    }
+    .application::before {
+        height: 89%;
+        background-size: contain;
+        top: 5%;
+    }
+    .onboarding {
+        padding: 65px 0 40px 0;
+    }
+    .onboarding-flex {
+        margin-top: 60px;
+        padding: 0 0%;
+    }
+    .ipad {
+        background-size: 42.2%;
+        padding-bottom: 117px;
+    }
+    .onboarding .onboarding-circle {
+        width: 210px;
+        height: 210px;
+    }
+   .onboarding .onboarding-text {
+       width: 203px;
+       height: 203px;
+       margin-top: -14px;
+       margin-left: -14px;
+    }
+    .onboarding .onboarding-circle p {
+        font-size: 13px;
+    }
+}
+@media (max-width:1400px){
+    h1, .h1 {
+        font-size: 50px;
+    }
+    .banner .banner-text .banner-btn a {
+        font-size: 19px;
+        padding: 13px 30px;
+        margin-top: 38px;
+    }
+    .banner-container {
+        max-width: 950px;
+    }
+    .accelerating {
+        padding: 125px 0 140px 0;
+    }
+    .accelerating:before {
+        background-size: cover;
+        width: 75%;
+        height: 750px;
+        left: -26.5%;
+        top: -25%;
+    }
+    .vaccine::before {
+        right: -150px;
+        width: 375px;
+        height: 322px;
+    }
+    .vaccine .container {
+        padding-right: 8%;
+        padding-left: 2%;
+    }
+    .vaccine {
+        padding: 60px 0 110px 0;
+    }
+    .vaccine::after {
+        top: 25%;
+    }
+    .application-list .list-data {
+        margin-top: 30px;
+    }
+    .application-list {
+        margin-top: 50px;
+    }
+    .application .application-text .upper-text a {
+        font-size: 18px;
+        padding: 9px 22px;
+    }
+    .onboarding .onboarding-width:before {
+        right: 8%;
+    }
+    .technology .technology-text a{
+        font-size: 20px;
+        padding: 10px 22px;
+    }
+    .ipad {
+        background-size: 43.1%;
+    }
+    .ipad .owl-theme .owl-nav [class*=owl-] img {
+        max-width: 60px;
+    }
+    .ipad .owl-theme .owl-nav .owl-prev {
+        left: 24%;
+    }
+    .ipad .owl-theme .owl-nav .owl-next{
+        right: 24%;
+    }
+    .verify-list p {
+        font-size: 13px;
+    }
+    .contact-us .contact-flex .form-control {
+        height: 50px;
+    }
+    .contact-us .contact-flex .venue textarea {
+        height: 180px;
+    }
+    .contact-us .contact-flex .subscribe input, .contact-us .contact-flex .submit input {
+        font-size: 18px;
+        padding: 10px 22px;
+    }
+    .contact-us .contact-flex form {
+        margin-top: 40px;
+    }
+    footer p {
+        font-size: 14px;
+    }
+}
+@media (max-width:1300px){
+    h4, .h4 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .vaccine .vaccine-flex .vaccine-text p {
+        margin-top: 10px;
+    }
+    .banner-container {
+        max-width: 850px;
+    }
+    .vaccine::before {
+        right: -144px;
+        width: 360px;
+        height: 330px;
+        bottom: 23%;
+    }
+    .vaccine {
+        padding: 45px 0 110px 0;
+    }
+    .vaccine .container {
+        padding-right: 12%;
+        padding-left: 5%;
+    }
+    .ipad {
+        background-size: 43.2%;
+    }
+    .contact-us .contact-flex .access .access-heading h3, .contact-us .contact-flex .venue .venue-heading h3 {
+        margin-top: 5px;
+    }
+    .contact-us::before {
+        bottom: 7%;
+    }
+}
+@media (max-width:1100px){
+    h2, .h2 {
+        font-size: 25px;
+    }
+    h4, .h4 {
+        font-size: 16px;
+    }
+    h3, .h3 {
+        font-size: 18px;
+    }
+    .ipad {
+        padding-bottom: 112px;
+    }
+    .vaccine::before {
+        right: -144px;
+        width: 310px;
+        height: 235px;
+        bottom: 30%;
+    }
+    .vaccine::after {
+        left: -165px;
+        width: 232px;
+        height: 185px;
+    }
+    .application .application-text .upper-text p {
+        font-size: 18px;
+    }
+    .application .application-text .upper-text a {
+        font-size: 16px;
+        margin-top: 35px;
+    }
+    .application .application-images ul>li:nth-child(even) {
+        margin-top: 48px;
+    }
+    .application .application-images ul>li {
+        width: 24%;
+    }
+    .application .application-images {
+        margin-right: -40px;
+    }
+    .onboarding::before {
+
+        width: 200px;
+        height: 185px;
+    } 
+    .onboarding .onboarding-text {
+        width: 165px;
+        height: 165px;
+        margin-top: -7px;
+        margin-left: -7px;
+    }
+    .onboarding .onboarding-circle p {
+        font-size: 12px;
+    }
+    .technology::before {
+        width: 168px;
+        height: 202px;
+    }       
+    .technology .technology-text a {
+        font-size: 18px;
+    }
+    .accelerating {
+        padding: 90px 0 100px 0;
+    }
+    .accelerating:before {
+        width: 68%;
+        height: 710px;
+        left: -26.5%;
+        top: -45%;
+    }
+    .accelerating .accelerating-text p {
+        margin-top: 20px;
+    }
+    .accelerating-btn a {
+        font-size: 18px;
+        margin-top: 35px;
+    }
+}
+@media (max-width:992px){
+    .banner-container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    .accelerating:before {
+        width: 92%;
+        height: 710px;
+        left: -35%;
+        top: -45%;
+    }
+    .accelerating {
+        padding: 70px 0 70px 0;
+    }
+    .vaccine .container {
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+    .vaccine::before {
+        right: -114px;
+        width: 210px;
+        height: 135px;
+        bottom: 57%;
+    }
+    .vaccine::after {
+        left: -204px;
+    }    
+    .application .application-flex {
+        display: block;
+        padding: 0 20px;
+    }  
+    .application-list,      
+    .application .application-text {
+        max-width: 100%;
+        width: 100%;
+    }
+    .application .application-images {
+        margin-right: 0;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .onboarding-flex {
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+    .onboarding .onboarding-width {
+        width: 50%;
+        margin-top: 20px;
+    }
+    .onboarding .onboarding-text {
+        width: 200px;
+        height: 200px;
+    }
+    .onboarding .onboarding-circle {
+        margin: 0 auto;
+    }
+    .onboarding .onboarding-width:before {
+        right: -4%;
+    }
+    .onboarding .onboarding-width:nth-child(2):before{
+        content: none;
+        position: static;
+    }
+    .technology::before {
+        width: 116px;
+        height: 156px;
+    }
+    .technology .technology-flex {
+        padding: 0 0% 0 9%;
+    }
+    .ipad {
+        padding-bottom: 50px;
+        padding-top: 54px;
+    }
+    .verify-flex {
+        display: block;
+    }
+    .verify-list {
+        width: 100%;
+        margin-top: 20px;
+    }   
+    .ipad .owl-theme .owl-nav [class*=owl-] img {
+        max-width: 35px;
+    }
+    .contact-us .contact-flex .venue, .contact-us .contact-flex .access {
+        width: 100%;
+        padding: 4% 8%;
+    }
+    .contact-us .contact-flex {
+        display: block;
+    }
+     
+}
+@media (max-width:767px){
+    h1, .h1 {
+        font-size: 37px;
+    }
+    br {
+        display: none;
+    }
+    .banner .banner-text .banner-btn a {
+        font-size: 18px;
+        margin-top: 28px;
+    }
+    .technology .technology-flex,
+    .vaccine .vaccine-flex,
+    .accelerating .accelerating-flex{
+        display: block;
+    }
+    .technology .technology-text,
+    .technology .technology-img,
+    .vaccine-width,
+    .accelerating .accelerating-text,
+    .accelerating .accelerating-img{
+        width: 100%;
+    }
+.accelerating:before {
+    width: 100%;
+    height: 100%;
+    left: -35%;
+    top: -39%;
+    background-size: contain;
+}
+.accelerating {
+    padding: 40px 0 0px 0;
+}
+.vaccine .container {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.vaccine {
+    padding: 45px 0 70px 0;
+}
+.vaccine-width {
+    margin-top: 20px;
+}
+.vaccine::before {
+
+    bottom: auto;
+    top: 100px;
+}
+
+.vaccine .vaccine-flex {
+    margin-top: 20px;
+    padding-left: 10%;
+
+}
+.vaccine::after {
+    left: -185px;
+    top: 13%;
+}
+.application .application-images ul {
+    flex-wrap: wrap;
+}
+.application .application-images ul>li {
+    width: 48%;
+}
+.application {
+    padding: 60px 0 80px 0;
+}
+.onboarding .onboarding-heading {
+    position: relative;
+    max-width: 100%;
+}
+.onboarding .onboarding-width {
+    width: 100%;
+    margin-top: 50px;
+}
+.onboarding .onboarding-width:before {
+    right: 0;
+    left: 45%;
+    bottom: -34px;
+    top: auto;
+    transform: rotate(90deg);
+}
+.onboarding .onboarding-width:nth-child(2):before {
+    content: "";
+    position: absolute;
+}
+.onboarding-flex {
+    margin-top: 0;
+}
+.onboarding {
+    padding: 45px 0 35px 0;
+}
+.technology::before {
+    left: -65px;
+}
+
+.technology .technology-text a {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.ipad {
+    background-size: 100%;
+}
+.ipad .owl-carousel.owl-drag .owl-item .ipad-screen{
+    max-width: 261px;
+    margin: 0 auto;
+}
+.ipad {
+    padding-top: 52px;
+}
+.ipad .owl-theme .owl-nav [class*=owl-]{
+    top: 45%;
+}
+.ipad .owl-theme .owl-nav .owl-prev{
+    left: -10px;
+}
+.ipad .owl-theme .owl-nav .owl-next {
+    right: -10px;
+}
+.contact-us .contact-flex .venue, .contact-us .contact-flex .access {
+    padding: 10% 5%;
+}
+.technology {
+    padding: 10px 0 0px 0;
+}
+}
