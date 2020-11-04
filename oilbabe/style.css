@@ -464,7 +464,7 @@ span.authorName {
 }
 
 .AboutJenna .container {
-    max-width: 1640px;
+    /*max-width: 1640px;*/
     width: 100%;
     padding: 0px 20px;
 }
