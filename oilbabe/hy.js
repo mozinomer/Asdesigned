@@ -112,7 +112,7 @@ $(document).ready(function() {
   setTimeout(function(){
     $('.loaderMain').fadeOut();
      $("html, body").animate({ scrollTop: 0 }, "slow");
-  }, 5000);
+  }, 3000);
   setTimeout(function(){
     $('.contentMainSite').fadeIn();
   }, 2000);

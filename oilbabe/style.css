@@ -1427,6 +1427,70 @@ ul.infoCompnay {
 .shoppagecontainer .container > img {
     padding: 0px 25px;
 }
+.sharethispOst h6 {
+    font-size: 18px;
+    color: #AC6B53;
+    font-weight: 700;
+}
+
+.sharethispOst ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: max-content;
+    margin: 20px auto;
+}
+
+.sharethispOst li:nth-child(even) {
+    margin: 0px 20px;
+}
+
+.sharethispOst i {
+    color: #CFCFCF;
+}
+
+.sharethispOst a:hover i {
+    color: #AC6B53;
+}
+
+.nextPrev {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px 0px;
+}
+
+.nextPrev button {
+    height: 50px;
+    padding: 0px 40px;
+    background: none;
+    min-width: 210px;
+}
+
+.previousPost {
+    border: 2px solid #AC6B53;
+    color: #AC6B53;
+    font-weight: 600;
+}
+
+.nextPost {
+    border: 2px solid #AC6B53;
+    color: #fff;
+    background: #AC6B53 !important;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2039,6 +2103,24 @@ div#myTabContent p {
 
 .blogPage .container {
     padding: 0px;
+}
+.followUs ul {
+    margin: 20px 0px 30px;
+}
+.nextPrev {
+    display: block;
+}
+
+.nextPrev button {}
+
+.nextPrev button {
+    display: flex;
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
 }
 }
 
