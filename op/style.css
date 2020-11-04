@@ -1,0 +1,476 @@
+body,.row,p,ul,ol {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+img {
+	max-width: 100%
+}
+.redHead {
+    font-weight: 700;
+    color: #ED2625;
+    max-width: 900px;
+    margin-bottom: 50px;
+}
+
+.section1 p {
+    font-size: 14px;
+    opacity: 0.7;
+    max-width: 90%;
+    margin-left: 0px;
+    font-weight: 300;
+}
+
+body {
+    color: #000;
+}
+
+.section1 .col-md-6 {
+    padding: 0px;
+}
+
+.ImageContaienr {
+    margin: 50px 0px;
+}
+
+.featuesContainer h2 {
+    font-size: 32px;
+    color: #101010;
+    font-weight: 700;
+}
+
+.featuesContainer .container > p {
+    font-size: 14px;
+    line-height: 22px;
+    opacity: 0.6;
+    max-width: 600px;
+}
+
+.FeatureBox {
+    background: #F7F7F7;
+    padding: 40px 20px;
+    margin-bottom: 13px;
+    height: 100%;
+    min-height: 620px;
+}
+
+.containerFeatures {
+    -moz-column-count: 4;
+    -moz-column-gap: 5px;
+    -moz-column-rule: ;
+/*Saf3, Chrome*/
+    -webkit-column-count: 4;
+    -webkit-column-gap: 5px;
+    -webkit-column-rule: ;
+    column-count: 4;
+    column-gap: 9px;
+    column-rule: ;
+    margin: 40px 0px;
+}
+
+.FeatureBox p {
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 300;
+    opacity: 0.6;
+}
+
+.FeatureBox h3 {
+    font-size: 21px;
+    font-weight: 700;
+    margin: 30px 0px;
+}
+
+.numberContaienr {
+    width: 76px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    position: relative;
+    color: #fff;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.FeatureBox:hover {
+    background: #fff;
+    cursor: pointer;
+}
+
+.FeatureBox:hover span {
+    background: #ED2625;
+}
+
+.whatsNew {
+    padding: 100px 0px;
+    /* text-align: center; */
+}
+
+.whatsNew h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.whatsNew .container > p {
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+    opacity: 0.6;
+}
+
+.whatsNew .row {
+    margin: 50px 0px;
+}
+
+.whatsNew {
+    background-size: 100% 100%;
+    background-position: -90px;
+    background-repeat: no-repeat;
+    background-color: #f7f7f7;
+}
+
+.contetnboxnew {
+    background: #fff;
+    padding: 40px;
+}
+
+.priceContainer {
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contetnboxnew h6 {
+    font-weight: 500;
+}
+
+.contetnboxnew li {
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contetnboxnew ul {
+    margin: 20px 0px;
+}
+
+.contetnboxnew img {
+    margin-right: 15px;
+}
+
+.buyPlans {
+    background: #000;
+    display: block;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    color: #fff;
+    font-weight: 700;
+    margin: 80px 0px 0px;
+}
+
+.contetnboxnew:hover p.priceContainer {
+    color: #ED2625;
+}
+
+.contetnboxnew:hover a.buyPlans {
+    background: #ED2625;
+}
+
+.contetnboxnew a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.whatsNew .container > p.blacKed {
+    opacity: 1;
+}
+
+.whyUS {
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.whyUS h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.whyUS p {
+    font-size: 14px;
+    line-height: 26px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+.redHeadSmall {
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 40px;
+    color: #ED2625;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.contactUS {
+    background: #ED2625;
+    color: #fff;
+    padding: 10px 40px;
+    display: block;
+    max-width: max-content;
+    margin: auto;
+    border: 2px solid #ED2625;
+}
+
+.contactUS:hover {
+    background: none;
+    color: #ED2625;
+}
+
+a:hover {
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.FeatureBox {}
+
+.containerFeatures {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.FeatureBox {
+    flex: 0 24%;
+}
+.readHeadHeading {
+    color: #ED2625;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0px 15px;
+}
+
+.contentboxCOntainertext {
+    padding: 30px;
+    border: 1px solid #E3E3E3;
+    margin: 0px 15px;
+    margin-top: 30px;
+}
+
+.contentboxCOntainertext p {
+    max-height: 563px;
+    overflow: auto;
+    padding-right: 50px;
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+.checkbox {
+    margin: 20px 0px;
+}
+
+.contentSinglePost label {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0.6;
+}
+
+.contentSinglePost input, .contentSinglePost textarea {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: #F5F5F5;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #000;
+    padding: 10px 10px;
+}
+
+.contentSinglePost textarea {
+    height: 228px;
+    resize: none;
+}
+
+*:focus {
+    outline: none !important;
+}
+
+.contentSinglePost button {
+    background: #ED2625;
+    color: #fff;
+    border: 2px solid #ED2625;
+    padding: 10px 50px;
+    display: block;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+
+.contentSinglePost button:hover {
+    background: none;
+    color: #ED2625;
+}
+
+.contentSinglePost .checkbox input {
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+.contentSinglePost .checkbox input ~ label {
+    display: contents;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.contentSinglePost .checkbox label, .contentSinglePost .checkbox input {
+    margin: 0px;
+}
+
+.checkbox {
+    padding: 0px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*media*/
+
+
+@media only screen and (max-width: 767px) {
+	h2.redHead {
+    font-size: 22px;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.section1 p {
+    font-size: 11px;
+    opacity: 1;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.featuesContainer .container > p {
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 400;
+    /* opacity: 1; */
+}
+
+.featuesContainer h2 {
+    font-size: 22px;
+}
+
+.containerFeatures {
+    column-count: 1;
+    column-gap: 9px;
+}
+
+.FeatureBox {
+    min-height: max-content;
+    flex: 0 100%;
+}
+
+.FeatureBox p {
+    font-size: 12px;
+    line-height: normal;
+    opacity: 0.6;
+}
+
+.whatsNew {
+    padding: 20px 0px;
+}
+
+.whatsNew h2 {
+    font-size: 22px;
+}
+
+.whatsNew .container > p {
+    font-size: 12px;
+    line-height: normal;
+}
+
+.contetnboxnew {
+    margin-bottom: 20px;
+}
+
+.whyUS {
+    padding: 20px 0px;
+}
+
+.whyUS h2 {
+    font-size: 22px;
+}
+
+.whyUS p {
+    font-size: 13px;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+h6.redHeadSmall {
+    margin: 20px 0px 20px;
+    font-size: 22px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
