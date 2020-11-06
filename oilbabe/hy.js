@@ -119,7 +119,12 @@ $(document).ready(function() {
   
 });
 
-
+$('.slderBanner').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: true
+})
 
 
 if( $(window).width() < 767 ) {
@@ -132,6 +137,7 @@ if( $(window).width() < 767 ) {
 
     })
 }
+
 
 
 

@@ -40,7 +40,7 @@ a:hover,a,*:focus {
 
 .logoContainer {
     position: absolute;
-    left: 0;
+    left: -23px;
     right: 0;
     margin: auto;
     width: max-content;
@@ -1479,7 +1479,16 @@ ul.infoCompnay {
     font-weight: 600;
 }
 
+div.innerslidercontainer {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
 
+.containerinnerslider {
+    width: 100%;
+}
 
 
 
@@ -1842,7 +1851,20 @@ ul.socialHorya li:nth-child(even) {
     margin: 0px 10px;
 }
 
-.slick-dots li.slick-active::after {content: "";width: 10px;height: 10px;background: #ac6b53;display: block;position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: auto;border-radius: 50%;}
+.slick-dots li.slick-active::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #ac6b53;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+}
 
 .imagecontainerproducts {
     height: 300px;
@@ -2123,25 +2145,4 @@ div#myTabContent p {
     justify-content: center;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
