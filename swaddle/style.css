@@ -1,0 +1,228 @@
+.containerInnerNewForm {
+    background: #f7f7f7;
+}
+
+.dispalyFlex {
+    display: flex;
+    align-items: center;
+}
+
+.headerContainerNewForm h2 {
+    color: #171717;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.elementHeader ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elementHeader li {
+    flex: 0 25%;
+    color: #3D3D3D;
+    font-weight: 600;
+    font-size: 16px;
+    opacity: 0.6;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.tableRowsNewForm li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.tableRowsNewForm li > div {
+    flex: 0 25%;
+}
+
+.imageContainer {
+    min-width: 82px;
+    min-height: 82px;
+    display: block;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.profileCOntainerNewTableRo {
+    display: flex;
+    align-items: center;
+}
+
+.nameAdninfoContainer h2 {
+    display: flex;
+    align-items: flex-end;
+    color: #33B1F9;
+    font-size: 18px;
+}
+
+span.dobBirthDate {
+    color: #000000;
+    font-size: 11px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+span.actuallDateDOB {
+    background: #F5A31B;
+    background: #FEF9F0;
+    color: #F5A31B;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 3px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.parentInfoCOntainer {
+    display: flex;
+    align-items: center;
+}
+
+.imageContainerparentProfiler {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.imageContainerparentProfiler img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nameContainerParentTableRow h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+p.statusParetal {
+    background: #FEF9F0;
+    color: #F5A31B;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 5px 8px;
+    display: inline-block;
+    margin-left: 10px;
+    margin: 0px;
+    margin-top: 7px;
+}
+
+.dotsContainerdropdown {}
+
+.dotsContainerdropdown {
+    position: relative;
+}
+
+.dotsContainerdropdown .toggle-dots {
+    margin-left: auto;
+    width: max-content;
+}
+
+.classrommsTableRow .select2 {
+    max-width: 204px;
+    margin-left: auto;
+    font-size: 14px;
+    color: #757575;
+    opacity: 0.5;
+    font-weight: 500;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+}
+
+.classrommsTableRow .select2 * {
+    font-size: 14px;
+}
+
+.elementHeader li:nth-child(1) {
+    flex: 0 40%;
+}
+
+.elementHeader li:nth-child(2) {
+    flex: 0 25%;
+}
+
+.elementHeader li:nth-child(3), .elementHeader li:nth-child(4) {
+    flex: 0 10%;
+}
+
+.tableRowsNewForm li > div.containerinnertabblerow {
+    flex: 0 40%;
+}
+
+.tableRowsNewForm li > div.parentInfoCOntainer {
+    flex: 0 30%;
+}
+
+.tableRowsNewForm li > div.classrommsTableRow {
+    flex: 0 10%;
+}
+
+.tableRowsNewForm li > div.dotsContainerdropdown {
+    flex: 0 13%;
+}
+
+.elementHeader li:nth-child(4) {
+    flex: 0 13%;
+}
+
+.elementHeader li:nth-child(3) {
+    flex: 0 10%;
+}
+.containerInnerNewForm .container {
+    max-width: 1536px;
+    width: 100%;
+    padding: 0px 30px;
+}
+div#containerinforAgterName ma {}
+
+div#containerinforAgterName .row {
+    margin: 0px;
+}
+
+div#containerinforAgterName label {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    opacity: 0.5;
+    display: block;
+    width: 100%;
+}
+
+div#containerinforAgterName span {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+div#containerinforAgterName {
+    align-items: flex-start;
+    margin: 20px 0px 0px;
+    justify-content: space-between;
+}
+
+div#containerinforAgterName .col {
+    padding: 0px;
+}
+
+.nameAdninfoContainer {
+    margin-left: 14px;
+}
+.headerContainerNewForm {
+    margin-bottom: 30px;
+}
