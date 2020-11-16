@@ -1,0 +1,277 @@
+.container {max-width: 1140px;margin: auto;}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #000;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+    outline: none !important;
+}
+
+*:focus {
+    outline: none !important;
+}
+
+body {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+.topBar {
+    background: #ED8666;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+header {
+    background: #FFF3C3;
+    padding: 10px 0px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menuContainer {
+    display: flex;
+    align-items: center;
+}
+
+.menuContainer img {
+    width: auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.menuContainer li {
+    position: relative;
+    margin: 0px 15px;
+}
+
+.menuContainer a {
+    color: #1E5A78;
+    display: block;
+    margin: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    /* padding: 50px 0px; */
+}
+
+span.cartQuantity {
+    position: absolute;
+    top: -8px;
+    right: -6px;
+    background: #1f5a78;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 11px;
+}
+
+.menuContainer li a.active::after {
+    content: "";
+    width: 2px;
+    height: 12px;
+    background: #1f5a78;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    bottom: -12px;
+}
+img.imageSliderBackground {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slidContainer {
+    min-height: 80vh;
+    display: flex !important;
+    align-items: center !important;
+    position: relative;
+}
+
+.slidContainer .container {
+    max-width: 1140px;
+    width: 100%;
+}
+
+.contentSlider h2 {
+    color: #1E5A78;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.contentSlider p {
+    font-size: 20px;
+    max-width: 500px;
+    line-height: 32px;
+}
+
+.contentSlider a {
+    background: #ED8666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    padding: 10px 20px;
+    margin: 40px 0px 0px;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 16px;
+    border: 2px solid #ED8666;
+}
+
+.contentSlider a img {
+    margin-right: 10px;
+}
+
+.contentSlider a:hover {
+    background: none;
+    color: #ED8666;
+}
+
+.contentSlider a:hover img {
+    filter: invert(15%) sepia(13%) saturate(5337%) hue-rotate(309deg) brightness(88%) contrast(112%);
+}
+.sliderContainer {
+    position: relative;
+}
+
+
+.productContainer {
+    padding: 50px 0px;
+}
+.SectionTitle {
+    text-align: center;
+    margin: auto;
+    width: max-content;
+}
+.SectionTitle img {
+    margin: auto;
+}
+.SectionTitle h2 {
+    color: #1E5A78;
+    font-weight: 500;
+}
+.colectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.singleCollectionCOntainer {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+}
+.singleCollectionCOntainer:nth-child(even) {
+    flex-direction: column-reverse;
+}
+.imageCOntainercollection {
+    width: 100%;
+    min-height: 200px;
+}
+.imageCOntainercollection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contentcollection {
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #E9FAFF;
+}
+.contentcollection a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    padding: 10px 40px;
+    margin: 40px 0px 0px;
+    color: #ED8666;
+    border-radius: 50px;
+    font-size: 16px;
+    border: 2px solid #ED8666;
+}
+.contentcollection a img{
+    margin-right: 10px;
+}
+
+
+
+.testimonialsSection {
+    padding: 50px 0px;
+}
+.sectionTitle {
+    text-align: center;
+}
+.sectionTitle img {
+    margin: auto;
+}
+.authorImage img {
+    margin: 10px auto;
+}
+
+
+  /* the slides */
+.productContainer .slick-slide {
+    margin: 0 27px;
+}
+/* the parent */
+.productContainer  .slick-list {
+    margin: 0 -27px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

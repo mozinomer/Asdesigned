@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.959" height="25.799" viewBox="0 0 24.959 25.799">
+  <g id="shopping-cart_1_" data-name="shopping-cart (1)" transform="translate(0)">
+    <g id="Group_2" data-name="Group 2" transform="translate(0 0)">
+      <g id="Group_1" data-name="Group 1">
+        <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="3.05" cy="3.05" rx="3.05" ry="3.05" transform="translate(6.878 19.7)" fill="#1e5a78"/>
+        <path id="Path_1" data-name="Path 1" d="M269.547,324.1h0a3.05,3.05,0,1,0,3.05,3.05A3.05,3.05,0,0,0,269.547,324.1Z" transform="translate(-250.719 -304.398)" fill="#1e5a78"/>
+        <path id="Path_2" data-name="Path 2" d="M30.938,16.587h-15.9l-.311-1.805H27.8a.934.934,0,0,0,.871-.591l3.112-7.843a.934.934,0,0,0-.871-1.276h-17.8L12.359.778A.934.934,0,0,0,11.426,0H7.847a.934.934,0,0,0,0,1.867h2.8l2.676,15.809a.934.934,0,0,0,.934.778H30.938a.934.934,0,0,0,0-1.867Z" transform="translate(-6.913 0.001)" fill="#1e5a78"/>
+      </g>
+    </g>
+  </g>
+</svg>
