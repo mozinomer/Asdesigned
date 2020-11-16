@@ -564,6 +564,23 @@ p.titleProductSection2 {
 .container3columns img {
     margin: auto;
 }
+div#aboutsmellyCat .coulmn1 {
+    margin-left: -100px;
+    /* margin-right: -50px; */
+    z-index: -1;
+}
+
+div#aboutsmellyCat .column1 {
+    margin-left: -50px;
+    z-index: -1;
+}
+
+div#aboutsmellyCat .flexed {
+    justify-content: center;
+}
+.reason {
+    padding: 100px 0px;
+}
 
 
 
