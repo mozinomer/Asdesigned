@@ -636,6 +636,275 @@ div#aboutsmellyCat .flexed {
 
 
 
+@media only screen and (max-width: 767px)
+{
+    .menuContainer {
+        display: none;
+    }
+
+    .container {
+        padding: 0px 15px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .bannerabout {
+        min-height: 160px;
+        padding: 0px;
+    }
+
+    .bannerabout h2 {
+        margin: 0px 0px 10px;
+    }
+
+    .flexed {
+        display: block;
+    }
+
+    .columns1, .columns2, .column1, .column2 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .container3columns {
+        column-count: 1;
+    }
+
+    .columns {
+        margin-bottom: 20px;
+    }
+
+    .columns p {
+        max-width: 70%;
+        margin: auto;
+    }
+
+    .sectionTitle h2 {
+        font-size: 22px;
+        line-height: normal;
+        margin: 20px 0px 0px;
+    }
+
+    .coulmn2, .coulmn1 {
+        width: 100%;
+        margin: auto;
+        padding: 0px;
+    }
+
+    .coulmn2 {
+        margin-bottom: 40px;
+    }
+
+    div#aboutsmellyCat .column1 {
+        margin: 0px;
+    }
+
+    .videoSection {
+        min-height: 300px;
+    }
+
+    .videoSection img {
+        width: 31px;
+    }
+
+    .testimonialsSection {
+        margin: 0px;
+    }
+
+    .testimonialsSection {
+        overflow: hidden !important;
+    }
+
+    .slideCOntainerTetsimonials p {
+        max-width: 70%;
+        line-height: normal;
+        font-size: 13px;
+    }
+
+    button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
+        width: 30px;
+        height: 30px;
+    }
+
+    .nesLeter {
+        padding: 20px;
+    }
+
+    button.submitBUtton {
+        font-size: 13px;
+        max-width: max-content;
+        padding: 0px 40px;
+    }
+
+    .nesLeter p {
+        font-size: 13px;
+        margin: 10px 0px 0px;
+    }
+
+    ul.menuCOntainerfooter {
+        display: block;
+        text-align: center;
+    }
+
+    ul.menuCOntainerfooter li {
+        margin-bottom: 12px;
+        border: none;
+    }
+
+    footer > .container {
+        padding: 0;
+    }
+
+    .bootomFooter .container {
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        padding: 0px;
+    }
+
+    .bootomFooter .container p {
+        width: 100%;
+        text-align: center;
+        order: 2;
+    }
+
+    .bootomFooter .container ul {width: 100%;order: 1;margin-bottom: 20px;}
+
+    div#aboutsmellyCat .container {
+        padding: 0px;
+    }
+
+    .aboutSection .container {
+        padding: 0px;
+    }
+
+    header .container {
+        padding: 0px;
+    }
+
+    .testimonialsSection .container {
+        padding: 0px;
+    }
+    .container {
+        padding: 0px;
+     }
+     .bannerabout {
+        padding: 0px 10px;
+    }
+
+    .aboutSection {
+        padding: 0px 20px;
+    }
+
+    .testimonialsSection {
+        padding: 50px 20px;
+    }
+
+    .topFooter {
+        padding: 50px 20px;
+    }
+
+    .bootomFooter .container ul li {
+        margin: 0;
+    }
+
+    .bootomFooter .container ul {
+        justify-content: space-between;
+    }
+
+    .bootomFooter {
+        padding: 10px 20px;
+    }
+    header {
+    padding: 10px 20px;
+}
+
+header img {}
+
+.logoContainer img {
+    width: 40px;
+}
+
+.topBar p {
+    font-size: 13px;
+}
+.slidContainer {min-height: auto;padding: 70px 20px;}
+
+.contentSlider p {
+    font-size: 14px;
+    line-height: normal;
+    max-width: 60%;
+}
+
+.contentSlider h2 {
+    max-width: 60%;
+    font-size: 20px;
+}
+
+.productContainer {
+    padding: 0px 20px;
+    word-break: break-all;
+}
+
+.imageCOntainercollection {
+    height: 100%;
+    min-height: auto;
+}
+
+.singleCollectionCOntainer {
+    width: 100%;
+}
+
+.colectionContainer {display: flex;flex-wrap: wrap;}
+
+.contentcollection {
+    min-height: auto;
+    text-align: center;
+}
+
+.singleCollectionCOntainer:nth-child(even) {
+    flex-direction: column;
+}
+.SectionTitle {
+    width: 100%;
+}
+
+.SectionTitle h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.SectionTitle p {
+    font-size: 13px;
+}
+ul.slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+ul.slick-dots li button {
+    display: none;
+}
+
+ul.slick-dots li {
+    width: 13px;
+    height: 13px;
+    display: block;
+    border: 1px solid #ed8666;
+    border-radius: 50%;
+}
+
+ul.slick-dots li:nth-child(even) {
+    margin: 0px 5px;
+}
+
+ul.slick-dots li.slick-active {
+    background: #ed8666;
+}
+}
+
+
 
 
 
