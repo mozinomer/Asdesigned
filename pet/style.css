@@ -581,6 +581,51 @@ div#aboutsmellyCat .flexed {
 .reason {
     padding: 100px 0px;
 }
+.columns1 {
+    width: 45%;
+    height: 100%;
+    flex: 0 45%;
+}
+
+.columns2 {
+    width: 45%;
+    flex: 0 45%;
+}
+
+.aboutSection .flexed {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.columns2 h2 {
+    font-size: 33px;
+    color: #1E5A78;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.columns2 p {
+    line-height: 33px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.bannerabout {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    background-image: url('./images/a8.svg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bannerabout h2 {
+    color: #1E5A78;
+    text-transform: uppercase;
+    font-size: 30px;
+}
 
 
 
