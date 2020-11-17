@@ -21,5 +21,10 @@ $('.plus').click(function () {
 $('.hamburger').click( function(e) {
 	$(this).toggleClass('active');
 	$('#mobilemenu').toggleClass('active');
+});
+$('.has-children a').click( function(e) {
+	e.preventDefault();
+	$(this).toggleClass('active');
+	$('.subMenuContainer').toggleClass('active');
 })
 });	

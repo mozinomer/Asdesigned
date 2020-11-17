@@ -654,15 +654,86 @@ footer {
 #mobilemenu .rightContainerHeader {
     display: none;
 }
+header {
+    position: relative;
+}
 
+.subMenuContainer {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.11) 0px 19px 15px 0px;
+}
 
+.displayFlex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.displayFlex p {
+    flex: 0 30%;
+    font-size: 13px;
+    line-height: 22px;
+    opacity: 0.7;
+    padding: 20px 0px;
+}
+
+.displayFlex ul {
+    flex: 0 30%;
+}
+
+.displayFlex > div {
+    flex: 0 30%;
+}
+
+.displayFlex ul li {
+    margin: 0px;
+}
+
+.displayFlex ul li a {
+    color: #000;
+    display: block;
+    margin-bottom: 10px;
+    opacity: 0.6;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.displayFlex {
+    padding: 20px 0px;
+}
+.subMenuContainer {
+    display: none
+}
+.subMenuContainer.active {
+    display: block;
+}
+
+li.has-children a.active {
+    border-bottom: 3px solid #828F59;
+}
+.subMenuContainer.active {
+    display: block;
+}
+
+li.has-children a.active {
+    border-bottom: 3px solid #828F59;
+}
+
+ul.mainmenu li a {
+    border-bottom: 3px solid transparent;
+}
 
 /*media*/
 @media only screen and (max-width: 767px) {
-    #mobilemenu1 {
+.subMenuContainer {
+    display: none !important
+}
+#mobilemenu1 {
         display: none;
-    }
-    .bannerContainer {
+}
+.bannerContainer {
     height: auto;
     padding: 50px 0px;
     background-attachment: scroll;
