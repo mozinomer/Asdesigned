@@ -221,7 +221,7 @@ a:hover, *:focus {
 
 .section4 .col-md-4 {
     padding: 0;
-    border: 1px solid rgb(112 112 112 / 0.2);
+    border: 1px solid rgb(112 112 112 / 0.1);
 }
 
 .section4 .col-md-4:nth-child(2), .section4 .col-md-4:nth-child(5) {
@@ -640,7 +640,7 @@ footer {
     padding-top: 50px;
 }
 .copyrights {
-    background: #000;
+    background: #1B1F23;
     padding: 15px;
     margin: 40px 0px 0px;
     color: #fff;
@@ -725,7 +725,181 @@ ul.mainmenu li a {
     border-bottom: 3px solid transparent;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*media*/
+
+
+
+@media only screen and (max-width: 1300px) {
+    ul.mainmenu a {
+    font-size: 11px;
+}
+
+.innerContainrBanner h2 {
+    font-size: 36px;
+}
+
+.innerContainrBanner p {
+    font-size: 16px;
+    max-width: 300px;
+}
+
+.innerContainrBanner a {
+    padding: 8px 30px;
+    font-size: 13px;
+}
+
+.heading h2 {
+    font-size: 28px;
+}
+
+.heading p {
+    font-size: 13px;
+}
+
+.rightColumn h2 {
+    font-size: 28px;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.rightColumn p {
+    font-size: 13px;
+    max-width: 80%;
+    line-height: 26px;
+}
+
+.rightColumn a {
+    padding: 8px 30px;
+    font-size: 13px;
+}
+
+.containerinnerBoxes h5 {
+    font-size: 18px;
+}
+
+.getCaughtContainer h2 {
+    font-size: 28px;
+}
+
+.getCaughtContainer p {
+    font-size: 14px;
+    max-width: 80%;
+    line-height: 29px;
+}
+
+.getCaughtContainer a {
+    padding: 8px 30px;
+    font-size: 13px;
+}
+
+.testimonials p {
+    font-size: 15px;
+}
+
+.testimonials h2 {
+    font-size: 28px;
+}
+
+.contentslider h6 {
+    font-size: 18px;
+}
+
+.contentslider h6 span {
+    font-size: 12px;
+    margin: 7px 0px 0px;
+}
+
+.imageSectionAbout h3 {
+    font-size: 28px;
+}
+
+.contentProductContainer h2 {
+    font-size: 28px;
+}
+
+p.price {
+    font-size: 22px;
+}
+
+p.description {
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.buttonCart {
+    height: 45px;
+    font-size: 13px;
+}
+
+.number input {
+    height: 45px;
+}
+
+.number {
+    height: 45px;
+}
+
+footer h6 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.menuFooter li a {
+    font-size: 13px;
+}
+
+.newsLetter p {
+    font-size: 12px;
+    max-width: 90%;
+}
+
+.copyrights {
+    margin-top: 20px;
+}
+
+.copyrights .container {
+    font-size: 12px;
+}
+
+form.newsletterForm input {
+    font-size: 12px;
+}
+
+form.newsletterForm {
+    max-width: 90%;
+}
+}
+
+@media  only screen and (min-width: 768px) and (max-width: 1100px) {
+
+    .logoContainer img {
+        max-width: 60%;
+        margin-left: auto;
+    }
+}
 @media only screen and (max-width: 767px) {
 .subMenuContainer {
     display: none !important
