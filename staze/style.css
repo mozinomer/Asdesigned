@@ -639,3 +639,276 @@ footer {
     border-top: 1px solid #cccccc59;
     padding-top: 50px;
 }
+.copyrights {
+    background: #000;
+    padding: 15px;
+    margin: 40px 0px 0px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.copyrights .container {display: flex;align-items: center;justify-content: space-between;}
+
+
+#mobilemenu .rightContainerHeader {
+    display: none;
+}
+
+
+
+/*media*/
+@media only screen and (max-width: 767px) {
+    #mobilemenu1 {
+        display: none;
+    }
+    .bannerContainer {
+    height: auto;
+    padding: 50px 0px;
+    background-attachment: scroll;
+    background-blend-mode: multiply;
+    background-color: #0000002e;
+}
+
+h2 {
+    font-size: 22px !important;
+    margin-bottom: 10px !important;
+}
+
+p {
+    font-size: 13px !important;
+    line-height: normal !important;
+    color: #000 !important;
+}
+
+.topHeader p {
+    color: #fff !important;
+}
+
+.imageContainer {
+    flex: 0 100%;
+    width: 100%;
+    max-width: 100%;
+    background-size: contain;
+    min-height: 394px;
+    background-attachment: scroll;
+}
+
+.section2 {
+    padding: 20px 0px 0px;
+}
+
+.rightColumn {
+    flex: 0 100%;
+    max-width: 100%;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.section4 {
+    padding: 0px;
+}
+
+.imageCOntainers img {
+    width: 50%;
+}
+
+.containerinnerBoxes {
+    border-bottom: 1px solid #ccc;
+}
+
+.section4 .col-md-4 {
+    border: none !important;
+}
+
+.getcaught {
+    min-height: 300px;
+    background-blend-mode: multiply;
+    background-color: #0003;
+}
+
+.getcaught p {
+    color: #fff !important;
+}
+
+.testimonials {
+    padding: 50px 0px;
+}
+
+.headingTestimonials {
+    margin-bottom: 11px;
+}
+
+.imageSectionAbout h3 {
+    font-size: 22px !important;
+}
+
+.imageSectionAbout {
+    /* background-blend-mode: multiply; */
+}
+
+.productContainers .col {
+    max-width: 100%;
+    flex: 0 100%;
+}
+
+.productContainers {
+    padding: 20px 0px;
+}
+
+.contentProductContainer {
+    padding: 20px 0px;
+}
+
+p.description {
+    margin-bottom: 20px;
+}
+
+p.price {
+    margin-bottom: 20px;
+}
+
+footer .row {
+    flex-direction: column-reverse;
+}
+
+footer {
+    padding: 23px 0px 0px;
+}
+
+.flexed {
+    display: block;
+    margin: 20px 0px 20px;
+}
+
+.menuFooter {
+    margin-bottom: 20px;
+}
+
+.copyrights .container {
+    display: block;
+    color: #ff !important;
+}
+
+.copyrights .container p {
+    color: #fff !important;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bannerContainer {}
+
+.bannerContainer h2,.bannerContainer p {
+    color: #fff !important;
+}
+header {
+    height: 80px;
+    position: relative;
+}
+
+header .col:nth-child(2) {
+    top: 0;
+    bottom: 00;
+    margin: auto;
+    height: max-content;
+}
+.hamburger {
+    width: 30px;
+    height: 17px;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 20px;
+}
+
+.hamburger span {
+    width: 100%;
+    height: 2px;
+    background: #828f59;
+    position: absolute;
+    border-radius: 13px;
+}
+
+.hamburger span:nth-child(2) {
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+.hamburger span:nth-child(3) {
+    bottom: 0;
+}
+div#mobilemenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #cccc;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+div#mobilemenu.active {
+    display: block;
+    transition: 0.6s all;
+}
+div#mobilemenu.active .rightContainerHeader {
+    display: block;
+    transition: 0.6s all;
+}
+div#mobilemenu ul {
+    display: block;
+}
+
+div#mobilemenu li {
+    margin: 0px;
+}
+
+div#mobilemenu ul:nth-child(2) {
+    display: flex;
+}
+
+div#mobilemenu .rightContainerHeader ul {
+    display: flex;
+    justify-content: center;
+    max-width: max-content;
+    margin: 20px auto;
+}
+
+div#mobilemenu .rightContainerHeader ul li:nth-child(even) {
+    margin: 0px 20px !important;
+}
+
+ul.mainmenu a {
+    padding: 0px;
+    text-align: center;
+    display: block;
+    margin-bottom: 9px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cccc;
+}
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.hamburger.active span:nth-child(1) {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(45deg);
+}
+
+.hamburger.active span:nth-child(3) {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(-45deg);
+}
+.hamburger span {
+    transition: 0.6s all;
+}
+}

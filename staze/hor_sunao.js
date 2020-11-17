@@ -18,4 +18,8 @@ $('.plus').click(function () {
 	$input.change();
 	return false;
 });
+$('.hamburger').click( function(e) {
+	$(this).toggleClass('active');
+	$('#mobilemenu').toggleClass('active');
+})
 });	
