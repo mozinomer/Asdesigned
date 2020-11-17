@@ -1,0 +1,180 @@
+.topHeader {
+    background: #8E9BA4;
+}
+
+body,p,ul,li,ol,.row {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.topHeader {justify-content: center;text-align: center;color: #fff;font-size: 13px;padding: 10px;}
+
+.rightContainerHeader li:nth-child(even) {
+    margin: 0px 20px;
+}
+
+.rightContainerHeader ul {
+    display: flex;
+    align-items: center;
+}
+
+header li:nth-child(even) {
+    margin: 0px 20px;
+    display: block;
+}
+
+header .row {
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-between;
+}
+
+ul.mainmenu {
+    display: flex;
+    align-items: center;
+}
+
+ul.mainmenu a {
+    color: #000;
+    font-size: 14px;
+}
+
+header .col:nth-child(2) {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: max-content;
+    margin: auto;
+}
+.rightContainerHeader ul {
+    max-width: max-content;
+    margin-left: auto;
+}
+.bannerContainer {
+    background-size: cover;
+    height: calc(100vh - 120px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.innerContainrBanner h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.innerContainrBanner p {
+    font-size: 20px;
+    max-width: 360px;
+    margin: auto;
+}
+
+.innerContainrBanner a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    transition: 0.6s all;
+    background: #828F59;
+    max-width: max-content;
+    padding: 10px 40px;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #828F59;
+}
+
+a:hover, *:focus {
+    outline: none !important;
+    text-decoration: none;
+}
+
+.innerContainrBanner a:hover {
+    color: #828F59;
+    background: none;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading p {
+    max-width: 540px;
+    margin: 20px auto;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.section2 {
+    padding: 90px 0px 70px;
+}
+
+.section3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.imageContainer {
+    max-width: 50%;
+    flex: 0 50%;
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.rightColumn {
+    flex: 0 45%;
+    max-width: 40%;
+    margin-left: auto;
+}
+
+.imageContainer img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.rightColumn h2 {
+    font-size: 36px;
+    max-width: 387px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.rightColumn p {
+    color: #2F2F2F;
+    max-width: 500px;
+    margin-bottom: 40px;
+    line-height: 32px;
+}
+
+.rightColumn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    transition: 0.6s all;
+    background: #828F59;
+    max-width: max-content;
+    padding: 10px 40px;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #828F59;
+    margin-left: 0px;
+}
+
+.rightColumn a:hover {
+    background: none;
+    color: #828F59;
+}
