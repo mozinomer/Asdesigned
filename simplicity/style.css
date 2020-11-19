@@ -180,3 +180,87 @@ p.umderPara {
 .containerBlogTYpe {
     margin-bottom: 100px;
 }
+.contactPageInfoSection ul {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.contactPageInfoSection li:nth-child(3n -1) {
+    border: 1px solid #ccc;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.contactPageInfoSection li {
+    flex: 0 33%;
+}
+
+.iconSvg {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+ul.infoItems {
+    margin: 100px 0px;
+}
+
+ul.infoItems h6 {
+    font-size: 21px;
+    margin: 20px 0px;
+    color: #333333;
+}
+
+ul.infoItems li a, ul.infoItems li {
+    color: #666666;
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.sectionBackgroundgrey {
+    background: #F8F8F8;
+    padding: 100px 0px;
+}
+
+.locaTeamMemberInnerContainer {
+    max-width: 70%;
+    margin: auto;
+}
+
+.designation {
+    color: #000;
+    opacity: 0.5;
+    text-transform: uppercase;
+}
+
+.nameLocalTeam {
+    margin: 10px 0px;
+    color: #1A1A1A;
+    opacity: 0.8;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.mailtoTeam {
+    color: #1F1F1F;
+    opacity: 0.5;
+    display: block;
+    text-decoration: none;
+}
+
+.telTeamLocal {
+    color: #1F1F1F;
+    opacity: 0.5;
+    display: block;
+    text-decoration: none;
+    margin: 5px 0px 0px;
+}
+
+ul.localTeamMebers li {
+    margin-bottom: 50px;
+}
