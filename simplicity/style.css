@@ -425,3 +425,486 @@ ul.localTeamMebers li {
   font-size: 14px;
   font-weight: 300;
 }
+
+.bannerLocation {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.bannerLocation h2 {
+    font-size: 48px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.column2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.column1Map {
+    flex: 0 48%;
+    width: 48%;
+}
+
+.column2Map {
+    flex: 0 48%;
+    width: 48%;
+    margin-left: auto;
+}
+
+.column1Map iframe {
+    width: 100% !important;
+}
+
+.column2Map h2 {
+    color: #1A1A1A;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.column2Map p {
+    color: #666666;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.column2Map p span {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.sldergoosebump h2 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.sldergoosebump {
+    margin: 80px 0px;
+}
+ul.sliderImagess {
+    padding: 0px;
+    margin: 0px;
+}
+.slideback {
+    max-width: 90%;
+    margin: auto;
+    background: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 150px;
+}
+.foodCorner {
+    background: #F8F8F8;
+    padding: 50px 0px;
+}
+
+.foodCorner .container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.foodCorner h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+ul.foodCornerList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    margin-bottom: 40px;
+}
+
+ul.foodCornerList li {
+    flex: 0 33%;
+    min-height: 121px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+ul.foodCornerList li p {
+    max-width: 80%;
+    margin: auto;
+}
+
+ul.foodCornerList li:nth-child(3n-1) {
+    border: 1px solid #70707036;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+ul.foodCornerList li p span {
+    display: block;
+}
+
+ul.foodCornerList li p {
+    font-size: 22px;
+}
+
+ul.foodCornerList li p span {
+    font-size: 14px;
+    margin: 20px 0px 0px;
+    color: #1f1f1f96;
+    max-width: 80%;
+}
+
+ul.foodCornerList li:nth-child(3n -2 ) p {
+    margin-left: 0px;
+}
+.locationPage > .container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.locationPage img {
+    max-width: 100%;
+    margin: 40px 0px;
+}
+
+ul.locationContainers {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+ul.locationContainers li {
+    flex: 0 32%;
+    margin-bottom: 20px;
+}
+
+.innerLocations {
+    /* max-width: 71%; */
+    background: #F9F9F9;
+    padding: 40px;
+    min-height: 126px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    padding-top: 80px;
+    position: relative;
+}
+.locations {
+    margin: 40px 0px;
+}
+
+ul.locationContainers {
+    padding: 0px;
+}
+
+span.tagManagers {
+    position: absolute;
+    top: 20px;
+    left: -10px;
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 9px 20px;
+}
+
+.innerLocations h2 {
+    color: #1A1A1A;
+    opacity: 0.8;
+}
+
+.innerLocations a {
+    display: block;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+    opacity: 0.6;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.innerLocations i {
+    margin-right: 15px;
+}
+.locations .container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/*media*/
+@media only screen and (max-width: 767px) {
+    .containerblogType h2.heading {
+    font-size: 22px;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+p.umderPara {
+    font-size: 13px;
+    line-height: normal;
+}
+
+.containerblogType {
+    padding: 0px 20px;
+}
+
+.containerBlogTYpe ul {
+    display: block;
+}
+
+.containerBlogTYpe ul li {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.contentBlogtypePost h4 {
+    margin: 10px 0px;
+    font-size: 15px;
+    max-width: 100%;
+}
+
+.contentBlogtypePost a {
+    font-size: 14px;
+}
+
+h2.heading {
+    font-size: 22px;
+}
+
+ul.containerBOxedHOmepage {
+    display: block;
+    padding: 0px;
+}
+
+.boxContainersHomepage {
+    padding: 0px 20px;
+}
+
+.headingInner h4 br {
+    display: none;
+}
+
+.headingInner h4 {
+    font-size: 20px;
+}
+
+p.boxContainerContent {
+    font-size: 13px;
+    line-height: normal;
+}
+
+.contactLessDelivery {
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+
+ul.contactLessList {
+    display: block;
+}
+
+ul.contactLessList li {
+    margin-bottom: 30px;
+}
+
+ul.contactLessList img {
+    width: 60px;
+}
+
+.contactLessDelivery h4 {
+    font-size: 18px;
+}
+
+.contactLessDelivery p {
+    font-size: 13px;
+    line-height: normal;
+    color: #000;
+    opacity: 1;
+}
+
+ul.infoItems {
+    display: block;
+    margin: 20px 0px;
+}
+
+ul.infoItems li:nth-child(even) {
+    border: 1px solid #ccc;
+    padding: 20px 0px;
+    border-left: 0;
+    border-right: 0;
+    margin: 30px 0px;
+}
+
+ul.infoItems br {
+    display: none;
+}
+
+.sectionBackgroundgrey {
+    padding: 20px 0px 0px;
+}
+
+.nameLocalTeam {
+    font-size: 18px;
+    max-width: 100%;
+    width: 100%;
+}
+
+.nameLocalTeam br {
+    display: none;
+}
+
+ul.localTeamMebers li {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+ul.localTeamMebers {
+    display: block;
+}
+
+.contactPageInfoSection li:nth-child(3n -1) {
+    border: 1px solid #ccc;
+    border-left: 0;
+    border-right: 0;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+
+.locaTeamMemberInnerContainer {
+    max-width: 100%;
+    text-align: center;
+}
+
+ul.localTeamMebers li:last-child {
+    margin-bottom: 0px;
+}
+
+h2.pageHeading {font-size: 22px;margin: 0px 0px;}
+
+.aboutPage .container {
+    padding: 20px 20px;
+}
+
+.contentContainrPage p {
+    font-size: 13px;
+    line-height: normal;
+    color: #000;
+    opacity: 0.8;
+}
+
+.accordion button .accordion-title {
+    font-size: 12px;
+}
+
+.accordion .accordion-content p {
+    font-size: 12px;
+    line-height: normal;
+    color: #000;
+}
+.bannerLocation {min-height: 200px;background-size: cover;margin-bottom: 10px;}
+
+.column2 {
+    display: block;
+}
+
+.column1Map {
+    width: 100%;
+}
+
+.column2Map {
+    width: 100%;
+}
+
+.mapContainer {
+    padding: 0px 20px;
+}
+
+.column2Map h2 {
+    font-size: 22px;
+    margin: 10px 0px;
+}
+
+.column2Map p {
+    margin: 10px 0px;
+    font-size: 13px;
+    line-height: normal;
+    color: #000;
+}
+
+.sldergoosebump h2 {
+    font-size: 22px;
+    line-height: normal;
+    margin: 0px 0px 20px;
+}
+
+.sldergoosebump {
+    margin: 20px 0px;
+}
+
+ul.foodCornerList li {
+    flex: 0 47%;
+}
+
+ul.foodCornerList {
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.foodCorner h2 {
+    font-size: 22px;
+    line-height: normal;
+}
+
+ul.foodCornerList li p {
+    font-size: 16px;
+    line-height: normal;
+}
+
+ul.foodCornerList li p span {
+    max-width: 100%;
+    font-size: 11px;
+    line-height: normal;
+    margin: 10px 0px;
+}
+
+.locationPage > .container {
+    padding: 0px 20px;
+}
+
+ul.locationContainers li {
+    flex: 0 100%;
+    width: 100%;
+}
+
+ul.locationContainers {}
+
+ul.locationContainers {
+    padding: 0px 30px;
+}
+
+.faqQuestions {
+    padding: 0px 20px;
+}
+}
