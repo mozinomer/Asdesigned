@@ -124,3 +124,59 @@ ul.containerBOxedHOmepage li {
     flex: 0 32.7%;
     margin-bottom: 10px;
 }
+.containerblogType h2.heading {
+    max-width: 1000px;
+}
+
+p.umderPara {
+    max-width: 1000px;
+    margin: 0px auto 50px;
+    text-align: center;
+    color: #212121;
+    opacity: 0.8;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.containerBlogTYpe ul {
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1382px;
+    margin: auto;
+    align-items: flex-start;
+}
+
+.containerBlogTYpe li {
+    flex: 0 33%;
+    max-width: 33%;
+}
+
+.containerBlogTYpe img {
+    max-height: 260px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.contentBlogtypePost h4 {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 80%;
+    line-height: 30px;
+}
+
+.contentBlogtypePost a {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #212121;
+    opacity: 0.6;
+}
+
+.containerBlogTYpe {
+    margin-bottom: 100px;
+}
