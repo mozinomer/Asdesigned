@@ -1,0 +1,126 @@
+h2.heading {
+    text-align: center;
+    font-size: 30px;
+    max-width: 580px;
+    margin: 0px auto 60px;
+    color: #434343;
+    font-weight: 400;
+}
+
+ul.containerBOxedHOmepage {
+    list-style: none;
+    -moz-column-count: 3;
+    -moz-column-gap: 16px;
+    -moz-column-rule: ;
+/*Saf3, Chrome*/
+    /* -webkit-column-count: 3; */
+    /* -webkit-column-gap: 16px; */
+    -webkit-column-rule: ;
+    /* column-count: 3; */
+    /* column-gap: 16px; */
+    column-rule: ;
+    max-width: 1382px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul.containerBOxedHOmepage li:first-child {
+    background: #FEFFED;
+}
+
+.innerBoxContaienr {
+    padding: 40px;
+}
+
+.numberIcon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul.containerBOxedHOmepage li:first-child span.number {
+    background: #EADB25;
+    display: block;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.headingInner h4 {
+    color: #434343;
+    font-size: 23px;
+}
+
+p.boxContainerContent {
+    color: #434343;
+    opacity: 0.8;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0px 0px 20px;
+}
+
+span.number {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+ul.containerBOxedHOmepage li:nth-child(2) span.number {
+    background: #FF8F8F;
+}
+
+ul.containerBOxedHOmepage li:nth-child(2) {
+    background: #FFF5F5;
+    display: block;
+}
+
+ul.containerBOxedHOmepage li:nth-child(3) {
+    background: #F4FFF0;
+}
+
+ul.containerBOxedHOmepage li:nth-child(3) .number {
+    background: #48C11C;
+}
+
+ul.containerBOxedHOmepage li:nth-child(4) {
+    background: #FFF5EF;
+}
+
+ul.containerBOxedHOmepage li:nth-child(4) .number {
+    background: #FFBE55;
+}
+
+ul.containerBOxedHOmepage li:nth-child(5) {
+    background: #F4F4F4;
+}
+
+ul.containerBOxedHOmepage li:nth-child(5) .number {
+    background: #464646;
+}
+
+ul.containerBOxedHOmepage li:nth-child(6) {
+    background: #F5F7FF;
+}
+
+ul.containerBOxedHOmepage li:nth-child(6) .number {
+    background: #3049AD;
+}
+
+ul.containerBOxedHOmepage li {
+    flex: 0 32.7%;
+    margin-bottom: 10px;
+}
