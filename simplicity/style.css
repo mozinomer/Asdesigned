@@ -264,3 +264,67 @@ ul.infoItems li a, ul.infoItems li {
 ul.localTeamMebers li {
     margin-bottom: 50px;
 }
+.aboutPage {
+    text-align: center;
+}
+
+.aboutPage .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 0px;
+}
+
+.pageHeading {
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.contentContainrPage p {
+    color: #666666;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+.aboutPage img {
+    max-width: 100%;
+}
+.contactLessDelivery {
+    background: #F2F2F2;
+    padding: 50px 0px;
+}
+
+.contactLessDelivery ul {
+    padding: 0px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactLessDelivery li {
+    flex: 0 33%;
+}
+
+.contactLessDelivery {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.contactLessDelivery h2 {
+    font-size: 40px;
+    margin-bottom: 70px;
+    color: #1A1A1A;
+}
+
+.contactLessDelivery h4 {
+    font-size: 24px;
+    margin: 20px 0px 0px;
+    color: #1A1A1A;
+}
+
+.contactLessDelivery p {
+    color: #434343;
+    opacity: 0.7;
+    font-size: 15px;
+}
