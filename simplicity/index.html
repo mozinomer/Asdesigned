@@ -263,5 +263,88 @@
 			</div>
 		</div>
 	</div>
+	<div class="aboutPage" id="frequentlyAksedQuestionPage">
+		<div class="container">
+			<h2 class="pageHeading">
+				Frequently Asked Questions
+			</h2>
+			<div class="contentContainrPage">
+				<p>
+					Health and Beauty start at the cellular level, & that's exactly what Simplicity Cold Pressed Juices offer you. They feed your core. Each Simplicity Cold Pressed Juice is made with the nutrients and dense nutrition that fills you up, without weighing you down. They are the nutrition boost our bodies need: Packed with live, whole ingredients, filled with vitamins, minerals, enzymes, and phytonutrients. You can't taste the health- you can feel it. Your skin, hair and nails will thank you too!
+				</p>
+				<p>
+					It’s an instant health-hit to the bloodstream while resting the digestive system… and it’s delicious. Simplicity makes all of our cold pressed juices like a bartender crafts a cocktail. And while our drinks are alcohol-free they may leave you intoxicated with incredible flavor, powerful enzymes, and amino acids… helping you rebuild & recharge. So don’t be shy, order another round!
+				</p>
+				<img src="./images/11.svg">
+				<p>
+					SIMPLICITY cold pressed juices is the good stuff. Add SIMPLICITY cold pressed juice & raw food in to your lifestyle and we will fast track you in the right direction and give your system the boost you crave. So drink to your health & beauty.
+				</p>
+			</div>
+			<div class="faqQuestions">
+				<div class="container">
+					  <div class="accordion">
+						    <div class="accordion-item">
+						      <button id="accordion-button-1" aria-expanded="false">
+						      	<span class="accordion-title">
+						      		Is SIMPLICITY IS 100% COLD PRESSED?
+						      	</span>
+						      		<span class="icon" aria-hidden="true"></span></button>
+						      <div class="accordion-content">
+						        <p>Each SIMPLICITY bottle has been Cold Pressure Protected for consumer safety, extended shelf life & fresh taste. Cold Pressure Protection is submerging SIMPLICITY bottles into cold water and then applying pressure to them. The pressure inactivates microbes while retaining the fresh attributes and the nutrients. High Pressure Protection is recognized by the FDA, USDA, Health Canada, the EU and other authoritative bodies for preserving freshness and increasing shelf life without  artificial preservatives or high heat. The process leads to the elimination of harmful bacteria while maintaining a higher yield of vitamins, minerals and enzymes, and preserving a fresher taste.</p>
+						      </div>
+						    </div>
+						    <div class="accordion-item">
+						      <button id="accordion-button-2" aria-expanded="false">
+						      	<span class="accordion-title">
+						      		Is SIMPLICITY COLD PRESSURE PROTECTED?
+						      	</span>
+						      		<span class="icon" aria-hidden="true"></span></button>
+						      <div class="accordion-content">
+						        <p>Each SIMPLICITY bottle has been Cold Pressure Protected for consumer safety, extended shelf life & fresh taste. Cold Pressure Protection is submerging SIMPLICITY bottles into cold water and then applying pressure to them. The pressure inactivates microbes while retaining the fresh attributes and the nutrients. High Pressure Protection is recognized by the FDA, USDA, Health Canada, the EU and other authoritative bodies for preserving freshness and increasing shelf life without  artificial preservatives or high heat. The process leads to the elimination of harmful bacteria while maintaining a higher yield of vitamins, minerals and enzymes, and preserving a fresher taste.</p>
+						      </div>
+						    </div>
+						    <div class="accordion-item">
+						      <button id="accordion-button-3" aria-expanded="false">
+						      	<span class="accordion-title">
+						      		How does SIMPLICITY CLEANSE their products?
+						      	</span>
+						      		<span class="icon" aria-hidden="true"></span></button>
+						      <div class="accordion-content">
+						        <p>Each SIMPLICITY bottle has been Cold Pressure Protected for consumer safety, extended shelf life & fresh taste. Cold Pressure Protection is submerging SIMPLICITY bottles into cold water and then applying pressure to them. The pressure inactivates microbes while retaining the fresh attributes and the nutrients. High Pressure Protection is recognized by the FDA, USDA, Health Canada, the EU and other authoritative bodies for preserving freshness and increasing shelf life without  artificial preservatives or high heat. The process leads to the elimination of harmful bacteria while maintaining a higher yield of vitamins, minerals and enzymes, and preserving a fresher taste.</p>
+						      </div>
+						    </div>
+						    <div class="accordion-item">
+						      <button id="accordion-button-3" aria-expanded="false">
+						      	<span class="accordion-title">
+						      		WHEN to drink or eat?
+						      	</span>
+						      		<span class="icon" aria-hidden="true"></span></button>
+						      <div class="accordion-content">
+						        <p>Each SIMPLICITY bottle has been Cold Pressure Protected for consumer safety, extended shelf life & fresh taste. Cold Pressure Protection is submerging SIMPLICITY bottles into cold water and then applying pressure to them. The pressure inactivates microbes while retaining the fresh attributes and the nutrients. High Pressure Protection is recognized by the FDA, USDA, Health Canada, the EU and other authoritative bodies for preserving freshness and increasing shelf life without  artificial preservatives or high heat. The process leads to the elimination of harmful bacteria while maintaining a higher yield of vitamins, minerals and enzymes, and preserving a fresher taste.</p>
+						      </div>
+						    </div>
+					  </div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
+
+<script type="text/javascript">
+const items = document.querySelectorAll(".accordion button");
+
+function toggleAccordion() {
+  const itemToggle = this.getAttribute('aria-expanded');
+  
+  for (i = 0; i < items.length; i++) {
+    items[i].setAttribute('aria-expanded', 'false');
+  }
+  
+  if (itemToggle == 'false') {
+    this.setAttribute('aria-expanded', 'true');
+  }
+}
+
+items.forEach(item => item.addEventListener('click', toggleAccordion));
+</script>
 </html>
