@@ -92,3 +92,139 @@ header {
 .menuContainer a {
     font-family: 'Montserrat', sans-serif;
 }
+.menuContainer {
+    display: flex;
+    align-items: center;
+}
+
+.menuContainer li:nth-child(even) {
+    margin: 0px 20px;
+}
+
+.menuContainer li:last-child {
+    margin-right: 0px;
+}
+
+.menuContainer a {
+    color: #fff;
+    display: block;
+    line-height: normal;
+    font-weight: 400;
+}
+header {
+	padding: 15px 0px;
+}
+.contentAbuout h2 {
+    font-weight: 800;
+    color: #953D33;
+    font-size: 34px;
+}
+
+.contentAbuout p {
+    color: #383838;
+    opacity: 0.8;
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.contentAbuout a {
+    background: #953D33;
+    color: #fff;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    margin: 40px 0px 0px;
+    position: relative;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 15px;
+    border: 2px solid #953d33;
+    /* transition: 0.7s all; */
+}
+
+.contentAbuout a:before {content: "";display: block;width: 100%;height: 100%;position: absolute;right: -7px;bottom: -7px;border: 2px solid #953d33;border-radius: 3px;z-index: -1;}
+
+.contentAbuout a:hover {
+    background: none;
+    color: #953D33;
+    transition: 0.7s all;
+}
+
+.contentAbuout a:hover:before {
+    /* left: 0; */
+    /* right: 0; */
+    /* top: 0; */
+    /* bottom: 0; */
+    /* transition: 0.7s all; */
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.imageCOntainerAbout {
+    max-width: 85%;
+}
+
+.aboutSection {
+    padding: 100px 0px;
+}
+.whatMakesYouDiffrent {
+    padding: 100px 0px;
+    background: rgb(219 127 70 / 0.1);
+    text-align: center;
+}
+
+.miniCOntainerWhat h2 {
+    color: #DB7F46;
+    font-weight: 800;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.miniCOntainerWhat p {
+    margin-top: 30px;
+    color: #000;
+    opacity: 0.7;
+    font-weight: 300;
+    font-size: 14px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn1 {
+    background: #3EC6B9;
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    border-radius: 7px;
+    position: relative;
+    z-index: 2;
+    border: 2px solid #3EC6B9;
+}
+
+.miniCOntainerWhat a {
+    margin: 40px auto;
+}
+
+.btn1:before {content: "";display: block;width: 100%;height: 100%;position: absolute;right: -7px;/* background: rebeccapurple; */z-index: 1;border: 2px solid #3ec6b9;bottom: -7px;border-radius: 5px;}
+
+.btn1:hover {
+    color: #3EC6B9;
+    background: none;
+}
+
+.btn1:hover:before {
+    display: none;
+}
