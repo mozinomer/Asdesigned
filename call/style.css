@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
 body, ul, ol ,p, .row {
 	margin: 0px;
 	padding: 0px;
@@ -8,6 +9,9 @@ a, *:focus {
 	outline: none !important;
 	text-decoration: none !important;
 }
+a:hover {
+	color: inherit;
+}
 .alignCenter {
 	align-items: center;
 }
@@ -16,4 +20,75 @@ a, *:focus {
 }
 .justifyB {
 	justify-content: space-between;
+}
+
+footer {
+    color: #fff;
+    background: #242424;
+    text-align: center;
+}
+footer a {
+	color: #fff;
+}
+.logoFooter {
+    margin: 20px;
+    display: block;
+    margin: auto;
+    max-width: max-content;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+p.footerContent {
+    max-width: 900px;
+    margin: auto;
+    font-weight: 100;
+    line-height: 33px;
+    margin-bottom: 50px;
+}
+
+ul.socialHorya {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-bottom: 50px;
+    opacity: 0.7;
+}
+
+ul.socialHorya li:nth-child(even) {
+    margin: 0px 10px;
+    padding: 0px 20px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #cccc;
+}
+
+.contentFootermiain > img {
+    margin: auto;
+    margin-bottom: 90px;
+}
+
+.copyrights {
+    font-size: 14px;
+    text-align: left;
+    font-weight: 300;
+    border-top: 1px solid #ffffff30;
+    padding: 20px 0px;
+}
+
+header {
+    background: #383838;
+}
+
+.headerRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuContainer ul {
+    display: flex;
+    color: #fff;
+}
+
+.menuContainer a {
+    font-family: 'Montserrat', sans-serif;
 }
