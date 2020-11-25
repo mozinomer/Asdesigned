@@ -577,13 +577,62 @@ img.playButton {
     font-weight: 300;
     max-width: 1100px;
 }
-.shelf .col-md-6:first-child p {
+.shelf .col-md-6:first-child p, 
+.shelf .col-md-12 p 
+{
     font-size: 14px;
     font-weight: 300;
     margin-bottom: 18px;
     max-width: 85%;
 }
+.shelf .col-md-12 p  {
+	margin-left:auto;
+	margin-right:auto;
+}
+.shelf .col-md-12 p span {
+    color: #db7f46;
+}
+.diffrentSection {
+    padding: 70px 0px;
+    background: rgb(149 61 51 / 0.1);
+    text-align: center;
+}
 
+.diffrentSection h2 {
+    color: #953D33;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.diffrentSection p {
+    margin: 30px auto 0px;
+    max-width: 85%;
+    font-weight: 300;
+    line-height: 33px;
+}
+.contentAboutOfferign h2 {
+    font-weight: 800;
+    color: #DB7F46;
+    margin: 0px 0px 30px;
+}
+div#supportShelf h3 {
+    font-size: 38px;
+    text-align: center;
+}
+
+span.thanksss {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #DB7F46;
+    font-weight: 800;
+}
+
+div#supportShelf.shelf .col-md-12 p {
+    line-height: 33px;
+    font-size: 16px;
+    text-align: center;
+}
 
 
 
