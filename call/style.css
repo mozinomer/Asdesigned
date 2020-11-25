@@ -293,3 +293,112 @@ img {
     border-radius: 7px;
     z-index: -1;
 }
+.sliderImagesForContent button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border: none;
+    bottom: 20px;
+}
+
+.sliderImagesForContent .slick-next {
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    background: #3EC6B9;
+}
+
+.sliderImagesForContent button:hover {
+    /* background: #3EC6B9; */
+}
+
+.sliderImagesForContent button:after {content: "";display: block;width: 13px;height: 13px;border: 2px solid #3ec6b9;position: absolute;left: 0;right: 0;bottom: 0;top: 0;margin: auto;transform: rotate(45deg);border-left: 0;border-bottom: 0;/* bottom: 20px; */}
+
+.sliderImagesForContent .slick-prev:after {
+    transform: rotate(-135deg);
+    left: 9px;
+}
+
+.sliderImagesForContent .slick-prev {
+    right: 60px;
+}
+
+.sliderImagesForContent .slick-next:after {
+    border-color: #fff;
+}
+.testimonials {
+    background: #F8F8F8;
+    padding: 50px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    color: #383838;
+    font-weight: 800;
+    font-size: 38px;
+}
+
+.testimonials img {
+    margin: 20px auto;
+    width: 50px;
+}
+
+.testimonials p {
+    color: #383838;
+    font-size: 14px;
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 0px 40px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+p.authorUri span {
+    display: block;
+}
+
+p.authorUri span:first-child {
+    color: #383838;
+    font-weight: 600;
+    opacity: 1;
+}
+
+p.authorUri span:last-child {
+    font-style: italic;
+    color: #383838;
+    opacity: 0.7;
+}
+
+.testimonials button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: max-content;
+    margin: auto;
+    z-index: 99;
+    background: none;
+    border: none;
+    font-size: 0;
+}
+
+.testimonials .slick-next {
+    right: 0;
+    /* background: red; */
+    width: 40px;
+    height: 40px;
+}
+
+.testimonials button:after {content: "";display: block;width: 15px;height: 15px;border: 2px solid;position: absolute;left: 0;right: 0;top: 0;bottom: 0;margin: auto;border-left: 0;border-bottom: 0;transform: rotate(45deg);}
+
+.testimonials .slick-prev:after {
+    transform: rotate(-135deg);
+}
+
+.testimonials .slick-prev {
+    left: 0;
+}
