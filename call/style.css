@@ -651,3 +651,63 @@ div#supportShelf.shelf .col-md-12 p {
 
 
 
+/*media*/
+@media only screen and (max-width: 767px ) {
+    .section1 {
+    display: none;
+}
+
+.col {
+    max-width: 100%;
+    flex: 0 100%;
+}
+
+.imageCOntainerAbout {max-width: 100%;}
+
+h2 {
+    font-size: 22px !important;
+    margin: 20px 0px;
+}
+
+p {
+    font-size: 12px !important;
+    line-height: 22px !important;
+    opacity: 01 !important;
+}
+
+.aboutSection {
+    padding: 20px 0px;
+}
+
+.whatMakesYouDiffrent {
+    padding: 20px 0px;
+}
+
+a.btn {
+    font-size: 13px !important;
+}
+
+.quantumTHeory {
+    padding: 20px 0px;
+}
+
+.miniContainer .row {
+    display: block;
+}
+
+.longDescription p {
+    margin: 0px 0px 10px;
+}
+
+.testimonials {
+    padding: 20px 0px;
+}
+.miniContainer .col {
+    max-width: 100%;
+}
+.testimonials p {
+    max-width: 100%;
+    margin: 10px 0px;
+    color: #000;
+}
+}
