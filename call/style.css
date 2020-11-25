@@ -8,3 +8,12 @@ a, *:focus {
 	outline: none !important;
 	text-decoration: none !important;
 }
+.alignCenter {
+	align-items: center;
+}
+.displayFlex {
+	display: flex;
+}
+.justifyB {
+	justify-content: space-between;
+}
