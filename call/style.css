@@ -199,7 +199,7 @@ img {
     margin-right: auto;
 }
 
-.btn1 {
+.btn1, .contentCOntainerRIghtQuantum a  {
     background: #3EC6B9;
     color: #fff;
     font-size: 14px;
@@ -214,17 +214,82 @@ img {
     border: 2px solid #3EC6B9;
 }
 
-.miniCOntainerWhat a {
+.miniCOntainerWhat a, .contentCOntainerRIghtQuantum a  {
     margin: 40px auto;
 }
 
-.btn1:before {content: "";display: block;width: 100%;height: 100%;position: absolute;right: -7px;/* background: rebeccapurple; */z-index: 1;border: 2px solid #3ec6b9;bottom: -7px;border-radius: 5px;}
+.btn1:before,.contentCOntainerRIghtQuantum a:before {content: "";display: block;width: 100%;height: 100%;position: absolute;right: -7px;/* background: rebeccapurple; */z-index: 1;border: 2px solid #3ec6b9;bottom: -7px;border-radius: 5px;}
 
-.btn1:hover {
+.btn1:hover, .contentCOntainerRIghtQuantum a:hover {
     color: #3EC6B9;
     background: none;
 }
 
-.btn1:hover:before {
+.btn1:hover:before, .contentCOntainerRIghtQuantum a:hover:before {
     display: none;
+}
+.quantumTHeory {
+    padding: 100px 0px;
+}
+
+.quantumTHeory h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 800;
+    color: #3EC6B9;
+    letter-spacing: 1px;
+}
+
+.miniContainer .col {
+    max-width: 48%;
+}
+
+.miniContainer .row {
+    justify-content: space-between;
+}
+
+.imagesSlider {
+    padding: 20px;
+
+}
+
+.contentCOntainerRIghtQuantum h3 {
+    font-weight: 700;
+    color: #383838;
+    font-size: 23px;
+}
+
+.contentCOntainerRIghtQuantum p {
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #383838;
+}
+
+.contentCOntainerRIghtQuantum strong {font-weight: 600;display: inline-block;margin-right: 10px;}
+
+.longDescription p {
+    margin-bottom: 20px;
+}
+
+.contentCOntainerRIghtQuantum a {
+    background: #203638;
+    color: #fff;
+    border-color: #203638;
+    margin-left: 0px;
+}
+.contentCOntainerRIghtQuantum a:before {
+	border-color: #203638	
+}
+.imagesSlider::after {
+    content: "";
+    display: block;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 0;
+    border: 2px solid #3ec6b9;
+    top: 0;
+    border-radius: 7px;
+    z-index: -1;
 }
