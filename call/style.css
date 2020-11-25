@@ -1,0 +1,10 @@
+body, ul, ol ,p, .row {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+a, *:focus {
+	outline: none !important;
+	text-decoration: none !important;
+}
