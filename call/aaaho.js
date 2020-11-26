@@ -1,6 +1,8 @@
 $('.sliderContainerMainBanenr').slick({
 	slidesToShow: 1,
 	slidesToScroll: 1,
+	arrows: true,
+	dots: true
 });
 $('.sliderTestimonials').slick({
 	slidesToShow: 1,
