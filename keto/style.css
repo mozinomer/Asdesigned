@@ -29,10 +29,10 @@
     margin-bottom: 30px;
 }
 
-.calculatorInput input[type="email"]::placeholder, 
-.calculatorInput select::placeholder, 
-.calculatorInput input[type="text"]::placeholder, 
-.calculatorInput input[type="number"]::placeholder {
+input[type="email"]::placeholder, 
+select::placeholder, 
+input[type="text"]::placeholder, 
+input[type="number"]::placeholder {
     color: #000;
     opacity: 0.4;
     text-transform: capitalize;
@@ -218,6 +218,41 @@ div#checkboxContainer input:checked label.exerciseyes::before {
     font-weight: 600;
     font-size: 18px;
 }
+.boxContainer {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.boxContainer h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.boxContainer input {
+    min-height: 50px;
+    width: 100%;
+    border: 0;
+    padding: 0px 10px;
+    font-size: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 30px;
+}
+.content {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
 
 
 
