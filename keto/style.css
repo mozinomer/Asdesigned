@@ -2,3 +2,134 @@
 * {
 	font-family: 'Asap', sans-serif;
 }
+.boxUpper {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.calculatorInput h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.calculatorInput label, .calculatorInput input, .calculatorInput select {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.calculatorInput input[type="email"], .calculatorInput select, .calculatorInput input[type="text"], .calculatorInput input[type="number"] {
+    min-height: 50px;
+    width: 100%;
+    border: 0;
+    padding: 0px 10px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.calculatorInput input[type="email"]::placeholder, 
+.calculatorInput select::placeholder, 
+.calculatorInput input[type="text"]::placeholder, 
+.calculatorInput input[type="number"]::placeholder {
+    color: #000;
+    opacity: 0.4;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.margini {
+    margin-bottom: 30px;
+}
+.boxUpper input[type="checkbox"], .boxUpper input[type="radio"] {
+    display: none;
+}
+.inputRadio label {
+    width: 100%;
+    min-height: 200px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.inputRadio label img {
+    margin-left: auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.calculatorInput label {
+    cursor: pointer;
+    min-height: 40px;
+    border-radius: 9px;
+    padding: 20px 20px;
+}
+
+.calculateBUtton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background: #3D98C9;
+    border: 2px solid #3D98C9;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    border-radius: 6px;
+    transition: 0.6s all;
+}
+
+.calculateBUtton:hover {
+    background: none;
+    color: #3D98C9;
+}
+
+.calculatorInput label {
+    width: 100%;
+}
+div#unittype label {
+    text-align: center;
+}
+
+div#unittype input ~ label span {
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #3D98C9;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+}
+
+label {position: relative;}
+
+div#unittype input ~ label span:after {content: "";display: block;width: 4px;height: 7px;border: 2px solid #fff;position: absolute;right: 0;left: 0;bottom: 0;top: -2px;margin: auto;border-left: 0;border-top: 0;transform: rotate(45deg);}
+
+div#unittype input:checked ~ label span {
+    display: block;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+*:focus {
+	outline: none !important;
+}
