@@ -150,3 +150,80 @@ input[type=number] {
 div#unittype input:checked ~ label {
     border: 1px solid #87C6A8;
 }
+div#checkboxContainer label {
+    box-shadow: none;
+    max-width: max-content;
+    position: relative;
+}
+
+.inputexcersize {
+    display: flex;
+    align-items: center;
+}
+
+label.exerciseyes {
+    padding-left: 60px;
+    position: relative;
+}
+
+label.exerciseyes::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    border: 3px solid #3D98C9;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: -4px;
+    height: 24px;
+    border-radius: 60px;
+}
+
+div#checkboxContainer input:checked label.exerciseyes::before {
+    content: "";
+    background: red;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.bannerContainer {
+    min-height: 600px;
+    background: #F4F8F1;
+    display: flex;
+    align-items: center;
+}
+
+.bannerContent {
+    max-width: 470px;
+}
+
+.bannerContent h2 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.bannerContent p {
+    font-size: 18px;
+    line-height: 29px;
+    margin: 20px 0px 0px;
+}
+
+.bannerContent h6 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
