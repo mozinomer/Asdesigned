@@ -246,8 +246,53 @@ div#checkboxContainer input:checked label.exerciseyes::before {
     font-size: 16px;
     font-weight: 300;
 }
+input[type=checkbox], input[type=radio] {
+    display: none;
+}
+.termsandCondition input ~ label::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #cccccc47;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    box-shadow: rgb(149 157 165 / 44%) 0px 8px 24px;
+}
 
+.termsandCondition input ~ label {
+    padding-left: 32px;
+}
 
+label {
+    cursor: pointer;
+}
+
+.termsandCondition input:checked ~ label::after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 10px;
+    border: 3px solid #3d98c9;
+    position: absolute;
+    left: 8px;
+    top: 0px;
+    bottom: 0;
+    margin: auto;
+    border-left: 0;
+    border-top: 0;
+    transform: rotate(45deg);
+}
+
+.termsandCondition input:checked ~ label::before {
+    border-color: #3d98c9;
+}
+.termsandCondition a {
+    color: #000;
+}
 
 
 
