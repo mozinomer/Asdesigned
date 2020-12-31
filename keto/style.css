@@ -269,6 +269,7 @@ input[type=checkbox], input[type=radio] {
 
 label {
     cursor: pointer;
+    user-select: none;
 }
 
 .termsandCondition input:checked ~ label::after {
