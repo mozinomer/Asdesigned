@@ -26,202 +26,202 @@ p {
 	opacity: 0.6;
 }
 .topbar {
-    padding: 10px;
-    background: #2E2E2E;
-    color: #fff;
-    text-align: center;
-    font-size: 14px;
-    font-family: 'Comfortaa', cursive;
-    font-weight: 700;
+	padding: 10px;
+	background: #2E2E2E;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
 }
 .topbar p {
 	color: #fff;
 	opacity: 1;
 }
 header .container-fluid {
-    max-width: 1650px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 40px;
+	max-width: 1650px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 40px;
 }
 
 .rightHeaderMenuContainer ul {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .rightHeaderMenuContainer li {
-    margin-left: 30px;
+	margin-left: 30px;
 }
 
 .formSearch input {
-    border: none;
-    border-bottom: 1px solid #70707045;
-    font-size: 14px;
-    height: 40px;
+	border: none;
+	border-bottom: 1px solid #70707045;
+	font-size: 14px;
+	height: 40px;
 }
 
 button {
-    border: none;
-    background: none;
+	border: none;
+	background: none;
 }
 
 .formSearch button {
-    position: absolute;
-    right: 0px;
-    top: 0;
-    bottom: 0;
-    margin: auto;
+	position: absolute;
+	right: 0px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
 }
 
 li {
-    position: relative;
+	position: relative;
 }
 
 .logoContainer {
-    width: 120px;
+	width: 120px;
 }
 
 dis {}
 
 .menuMobileContainer {
-    display: none;
+	display: none;
 }
 
 ul {
-    padding: 0px;
+	padding: 0px;
 }
 
 .mainMenu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: max-content;
-    margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: max-content;
+	margin: auto;
 }
 
 .menuContainer {
-    border-top: 1px solid #70707052;
-    padding: 13px 20px;
-    display: block;
+	border-top: 1px solid #70707052;
+	padding: 13px 20px;
+	display: block;
 }
 
 .menuContainer li:nth-child(even) {
-    margin: 0px 20px;
+	margin: 0px 20px;
 }
 
 .menuContainer a {
-    color: #000;
-    font-family: 'Comfortaa', cursive;
-    font-size: 14px;
-    font-weight: 400;
+	color: #000;
+	font-family: 'Comfortaa', cursive;
+	font-size: 14px;
+	font-weight: 400;
 }
 
 .bannerMain {
-    min-height: 600px;
-    display: flex;
-    align-items: center;
+	min-height: 600px;
+	display: flex;
+	align-items: center;
 }
 
 .contentContainerInBanner h2 {
-    font-family: 'Comfortaa', cursive;
-    font-size: 40px;
-    font-weight: 700;
-    max-width: 250px;
-    line-height: 48px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 40px;
+	font-weight: 700;
+	max-width: 250px;
+	line-height: 48px;
 }
 
 .shopNow {
-    background: #198FD5;
-    border: 2px solid #198FD5;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: max-content;
-    padding: 10px 40px;
-    transition: 0.5s all;
-    font-family: 'Comfortaa', cursive;
-    text-transform: capitalize;
-    line-height: normal;
-    font-size: 14px;
+	background: #198FD5;
+	border: 2px solid #198FD5;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: max-content;
+	padding: 10px 40px;
+	transition: 0.5s all;
+	font-family: 'Comfortaa', cursive;
+	text-transform: capitalize;
+	line-height: normal;
+	font-size: 14px;
 }
 
 .contentContainerInBanner a {
-    margin: 40px 0px 0px;
+	margin: 40px 0px 0px;
 }
 
 .shopNow:hover {
-    color: #198FD5;
-    background: none;
+	color: #198FD5;
+	background: none;
 }
 
 .aboutSection {
-    padding: 100px 0px;
-    text-align: center;
-    background: #F8F8F8;
+	padding: 100px 0px;
+	text-align: center;
+	background: #F8F8F8;
 }
 
 .subHeading {
-    font-family: 'Comfortaa', cursive;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 18px;
-    opacity: 0.6;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 18px;
+	opacity: 0.6;
 }
 
 .headingSection {
-    font-family: 'Comfortaa', cursive;
-    font-size: 30px;
-    font-weight: 600;
-    margin: 10px 0px 30px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 30px;
+	font-weight: 600;
+	margin: 10px 0px 30px;
 }
 
 .aboutContainer p {
-    font-size: 14px;
-    font-family: 'Comfortaa', cursive;
-    line-height: 30px;
-    max-width: 1000px;
-    margin: auto;
-    margin-bottom: 40px;
-    opacity: 0.7;
+	font-size: 14px;
+	font-family: 'Comfortaa', cursive;
+	line-height: 30px;
+	max-width: 1000px;
+	margin: auto;
+	margin-bottom: 40px;
+	opacity: 0.7;
 }
 
 .aboutContainer a {
-    margin: auto;
+	margin: auto;
 }
 
 body {
-    color: #000;
+	color: #000;
 }
 
 .shopSection {
-    text-align: center;
-    padding: 100px 0px;
+	text-align: center;
+	padding: 100px 0px;
 }
 .pad0 {
-    padding: 0px;
-    height: 100%;
+	padding: 0px;
+	height: 100%;
 }
 
 .colsi {
-    align-items: center;
-    background: #F8F8F8;
+	align-items: center;
+	background: #F8F8F8;
 }
 
 .margi0 {
-    margin: 0px;
-    position: relative;
+	margin: 0px;
+	position: relative;
 }
 
 .colsi .col-md-4 {
-    /* background: #F8F8F8; */
-    height: 100%;
-    min-height: 50px;
-    padding: 60px;
-    display: flex;
-    align-items: center;
+	/* background: #F8F8F8; */
+	height: 100%;
+	min-height: 50px;
+	padding: 60px;
+	display: flex;
+	align-items: center;
 }
 .colsi a {
 	margin: 40px 0px 0px;
@@ -236,258 +236,467 @@ body {
 	margin: 0 -15px;
 }
 .imageContainerShop {
-    background: #F8F8F8;
-    padding: 20px;
-    max-width: 360px;
-    max-height: 360px;
-    min-height: 360px;
-    display: flex;
-    align-items: center;
+	background: #F8F8F8;
+	padding: 20px;
+	max-width: 360px;
+	max-height: 360px;
+	min-height: 360px;
+	display: flex;
+	align-items: center;
 }
 
 .imageContainerShop img {
-    margin: auto;
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-    max-width: 360px;
-    max-height: 360px;
+	margin: auto;
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
+	max-width: 360px;
+	max-height: 360px;
 }
 
 .slideContainerContent {
-    text-align: left;
+	text-align: left;
 }
 
 .slideContainerContent h6 {
-    font-family: 'Comfortaa', cursive;
-    font-size: 16px;
-    font-weight: 700;
-    margin: 20px 0px 5px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 16px;
+	font-weight: 700;
+	margin: 20px 0px 5px;
 }
 
 .slideContainerContent p {
-    font-family: 'Comfortaa', cursive;
-    /* font-size: 14px; */
+	font-family: 'Comfortaa', cursive;
+	/* font-size: 14px; */
 }
 .banenrCTA {
-    min-height: 700px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+	min-height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 
 .boxContainer {max-width: 540px;margin-left: auto;background: #fff;padding: 60px 40px;}
 
 .boxContainer strong {
-    color: #A5A5A5;
-    opacity: 1;
-    font-size: 18px;
-    display: block;
-    margin: 20px 0px 30px;
+	color: #A5A5A5;
+	opacity: 1;
+	font-size: 18px;
+	display: block;
+	margin: 20px 0px 30px;
 }
 
 .boxContainer p {
-    max-width: 90%;
+	max-width: 90%;
 }
 .imageContainerBlog {
-    height: 200px;
-    overflow: hidden;
-    transition: 0.6s all;
+	height: 200px;
+	overflow: hidden;
+	transition: 0.6s all;
 }
 
 .imageContainerBlog img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    transition: 0.6s all;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	transition: 0.6s all;
 }
 
 .slideContainerContentBlog:hover img {
-    transform: scale(1.5);
-    transition: 0.6s all;
+	transform: scale(1.5);
+	transition: 0.6s all;
 }
 
 .slideContainerContentBlog {
-    text-align: left;
+	text-align: left;
 }
 
 .dateCounter {opacity: 0.4;font-size: 13px;font-family: 'Comfortaa', cursive;display: block;margin: 10px 0px 5px;}
 
 .slideContainerContentBlog p {
-    opacity: 1;
-    line-height: 22px;
-    max-width: 100%;
+	opacity: 1;
+	line-height: 22px;
+	max-width: 100%;
 }
 
 .slideContainerContentBlog a {
-    font-family: 'Comfortaa', cursive;
-    text-transform: uppercase;
-    font-weight: 700;
-    display: block;
-    margin: 20px 0px 0px;
-    color: #000;
-    text-decoration: underline;
+	font-family: 'Comfortaa', cursive;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: block;
+	margin: 20px 0px 0px;
+	color: #000;
+	text-decoration: underline;
 }
 
 .shopSection .shopNow {
-    margin: 70px auto 0px;
+	margin: 70px auto 0px;
 }
 .mailSection {
-    min-height: 700px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-attachment: fixed;
+	min-height: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-attachment: fixed;
 }
 
 .boxCOntainerMail {
-    background: #1C8FD5;
-    color: #fff;
-    padding: 50px 100px;
-    max-width: 600px;
-    margin: auto;
-    min-height: 340px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    border-radius: 6px;
+	background: #1C8FD5;
+	color: #fff;
+	padding: 50px 100px;
+	max-width: 600px;
+	margin: auto;
+	min-height: 340px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	border-radius: 6px;
 }
 
 .banenrCTA {
-    background-attachment: fixed;
+	background-attachment: fixed;
 }
 
 .bannerMain {
-    background-attachment: fixed;
-    background-position: top left;
+	background-attachment: fixed;
+	background-position: top left;
 }
 .inputMail {
-    display: flex;
-    width: 100%;
+	display: flex;
+	width: 100%;
 }
 
 .mailButton {
-    background: #000;
-    color: #fff;
-    padding: 10px 20px;
-    min-height: 50px;
-    font-size: 14px;
-    font-family: 'Comfortaa', cursive;
+	background: #000;
+	color: #fff;
+	padding: 10px 20px;
+	min-height: 50px;
+	font-size: 14px;
+	font-family: 'Comfortaa', cursive;
 }
 
 .inputMail input {
-    width: 100%;
-    padding: 0px 30px 0px 10px;
-    font-size: 14px;
-    border: none;
-    font-family: 'Comfortaa', cursive;
-    height: 50px;
+	width: 100%;
+	padding: 0px 30px 0px 10px;
+	font-size: 14px;
+	border: none;
+	font-family: 'Comfortaa', cursive;
+	height: 50px;
 }
 
 .boxCOntainerMail h2 {
-    font-family: 'Comfortaa', cursive;
-    font-size: 35px;
-    font-weight: 700;
+	font-family: 'Comfortaa', cursive;
+	font-size: 35px;
+	font-weight: 700;
 }
 
 .boxCOntainerMail p {
-    opacity: 1;
-    margin-bottom: 40px;
+	opacity: 1;
+	margin-bottom: 40px;
 }
 footer {
-    background: #F5F5F5;
-    padding: 50px 0px 100px;
+	background: #F5F5F5;
+	padding: 50px 0px 100px;
 }
 
 .rightContainerFooter {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .rightContainerFooter > div {
-    width: 100%;
+	width: 100%;
 }
 
 .rightContainerFooter a {
-    font-size: 13px;
-    color: #000;
-    opacity: 0.6;
-    font-family: 'Comfortaa', cursive;
-    display: block;
-    margin-bottom: 10px;
-    max-width: 90%;
+	font-size: 13px;
+	color: #000;
+	opacity: 0.6;
+	font-family: 'Comfortaa', cursive;
+	display: block;
+	margin-bottom: 10px;
+	max-width: 90%;
 }
 
 .rightContainerFooter h6 {
-    font-family: 'Comfortaa', cursive;
-    font-weight: 700;
-    font-size: 16px;
-    margin-bottom: 30px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 30px;
 }
 
 footer .container {
-    max-width: 1650px;
-    padding: 0px 40px;
+	max-width: 1650px;
+	padding: 0px 40px;
 }
 
 .inputfotoer {
-    display: flex;
-    margin: 20px 0px 40px;
+	display: flex;
+	margin: 20px 0px 40px;
 }
 
 .inputfotoer input {height: 40px;border: 1px solid #ccc;background: none;font-size: 13px;width: 100%;padding: 0px 13px;}
 
 .footersubmit {
-    background: #1C8FD5;
-    width: 50px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	background: #1C8FD5;
+	width: 50px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .newsletter h5 {
-    font-size: 17px;
-    font-family: 'Comfortaa', cursive;
-    font-weight: 700;
+	font-size: 17px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
 }
 footer p {
 	font-size: 13px;
 	line-height: 22px;
 }
 .logoContainerFoor img {
-    width: 130px;
-    margin-bottom: 20px;
-    display: block;
+	width: 130px;
+	margin-bottom: 20px;
+	display: block;
 }
 
 .logoContainerFoor p {max-width: 90%;margin-bottom: 40px;}
 
 .logoContainerFoor ul {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .logoContainerFoor li {
-    margin-right: 20px;
+	margin-right: 20px;
 }
 
 .logoContainerFoor a {
-    color: #000;
-    opacity: 0.5;
+	color: #000;
+	opacity: 0.5;
 }
 .copyrightContent {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 0px;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 0px;
 }
 
 .copyrightContent p {
-    font-size: 13px;
+	font-size: 13px;
 }
 
 .copyrights .container {
-    max-width: 1650px;
-    padding: 0px 50px;
+	max-width: 1650px;
+	padding: 0px 50px;
+}
+
+
+
+/* media */
+@media only screen and (max-width: 767px) {
+	.mainMenu {
+		display: block;
+		width: 100%;
+		max-width: 100%;
+		padding-top: 10px;
+		display: none;
+	}
+
+	.mainMenu li {
+		margin: 0px !important;
+		text-align: center;
+	}
+
+	.mainMenu a {
+		display: block;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #ccc;
+		width: 100%;
+		padding-bottom: 10px;
+	}
+
+	.menuContainer {
+		padding: 0px;
+	}
+
+	.menuContainer .container {
+		padding: 0px;
+	}
+
+	.rightContainerFooter ul {
+		display: none;
+	}
+
+	.rightContainerFooter {
+		display: block;
+		padding: 20px 0px 0px 0px;
+	}
+
+	.menuMobileContainer {
+		display: block;
+		text-align: center;
+		border-bottom: 1px solid #ccc;
+		padding: 10px;
+	}
+
+	.menuMobileContainer h6 {
+		margin: 0;
+	}
+
+	header .container-fluid {
+		padding: 10px;
+	}
+
+	li.formSearch {
+		display: none;
+	}
+
+	.bannerMain {
+		min-height: 300px;
+		background-attachment: scroll;
+		background-size: cover;
+	}
+
+	.contentContainerInBanner h2 {
+		font-size: 23px;
+		line-height: 32px;
+		max-width: 180px;
+	}
+
+	.contentContainerInBanner a {
+		margin: 20px 0px 0px;
+	}
+
+	.shopNow {
+		font-size: 13px;
+		padding: 7px 15px;
+	}
+
+	.aboutSection {
+		padding: 30px 0px;
+	}
+
+	.subHeading {
+		font-size: 13px;
+	}
+
+	.headingSection {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	p {
+		font-size: 12px !important;
+		line-height: 23px !important;
+	}
+
+	.shopSection {
+		padding: 30px 0px;
+	}
+
+	.slideContainerContent h6 {
+		font-size: 15px;
+	}
+
+	.colsi .col-md-4 {
+		padding: 50px 30px;
+	}
+
+	.copyrightContent {
+		display: block;
+		text-align: center;
+	}
+
+	.copyrightContent p {
+		margin-bottom: 10px;
+	}
+
+	.rightContainerFooter h6 {
+		font-size: 13px;
+	}
+
+	.logoContainerFoor {
+		text-align: center;
+	}
+
+	.logoContainerFoor img {
+		margin: 0px auto 20px;
+	}
+
+	.logoContainerFoor ul {
+		justify-content: center;
+	}
+
+	footer .container {
+		padding: 0px 10px;
+	}
+
+	footer {
+		padding: 50px 0px 20px;
+	}
+
+	.boxCOntainerMail {
+		padding: 50px 20px;
+		min-height: auto;
+	}
+
+	.boxCOntainerMail h2 {
+		font-size: 19px;
+	}
+
+	.inputMail {
+		max-width: 80%;
+	}
+
+	.inputMail input, .inputMail button {
+		font-size: 11px;
+		height: 36px;
+		padding: 0px 10px;
+		min-height: auto;
+	}
+	.mainMenu li:last-child a {
+		margin: 0px;
+	}
+	.logoContainer {
+		width: 80px;
+		margin-left: 10px;
+	}
+	ul.slick-dots {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 20px 0px 0px;
+	}
+
+	ul.slick-dots li {
+		font-size: 0;
+		width: 15px;
+		height: 15px;
+		background: none;
+		border-radius: 50%;
+		margin: 0px 5px;
+		border: 2px solid #ccc;
+	}
+
+	ul.slick-dots li.slick-active {
+		background: #188fd5;
+		border-color: #188fd5;
+	}
+
+	ul.slick-dots button {
+		display: none;
+	}
+
+	.slideContainerContent {
+		text-align: center;
+	}
+
+	.sliderProductgallery {
+		margin: 40px 0px;
+	}
+	.imageContainerShop {
+		max-width: 100%;
+	}
 }
