@@ -5,7 +5,7 @@ var yourweight = 0;
 var yourheight = 0;
 var fatPercentage = 0;
 var activityLevelCheck = 0;
-var leanMass = yourweight * (1 - fatPercentage);
+
 
 /* variables For the Values */
 $('#genderCheck input').on('change', function(e) {
@@ -28,7 +28,7 @@ $('#yourheights input').on('change', function(e) {
 	// console.log('yourheight Level ' + yourheight);
 })
 $('#fatPercentages input').on('change', function(e) {
-	return fatPercentages = $(this).val();
+	return fatPercentage = $(this).val();
 	// console.log('fatPercentages Level ' + fatPercentages);
 })
 $('#meterUnit input').on('change', function(e) {
@@ -40,6 +40,7 @@ $('#meterUnit input').on('change', function(e) {
 	}
 });
 $('#calculateresult').click( function(e) {
+	var leanMass = yourweight * (1 - (fatPercentage));
 	console.log('yourage' + yourage);
 	console.log('yourweight' + yourweight);
 	console.log('yourheight' + yourheight);
