@@ -5,31 +5,31 @@ var yourweight = 0;
 var yourheight = 0;
 var fatPercentage = 0;
 var activityLevelCheck = 0;
-var leanMass = 
+var leanMass = yourweight * (1 - fatPercentage);
 
 /* variables For the Values */
 $('#genderCheck input').on('change', function(e) {
 	// console.log($(this).val())
 })
 $('#yourweightValue input').on('change', function(e) {
-	yourweight = $(this).val() * 10;
-	console.log('your weight ' + yourweight);
+	return yourweight = $(this).val() * 10;
+	// console.log('your weight ' + yourweight);
 })
 $('#activityLevelCheck input').on('change', function(e) {
-	activityLevelCheck = $(this).val()
-	console.log('activity Level ' + activityLevelCheck);
+	return activityLevelCheck = $(this).val()
+	// console.log('activity Level ' + activityLevelCheck);
 })
 $('#yourageCheck input').on('change', function(e) {
-	yourage = $(this).val() * 5;
-	console.log('yourageCheck Level ' + yourage);
+	return yourage = $(this).val() * 5;
+	// console.log('yourageCheck Level ' + yourage);
 })
 $('#yourheights input').on('change', function(e) {
-	yourheight = $(this).val() * 6.25;
-	console.log('yourheight Level ' + yourheight);
+	return yourheight = $(this).val() * 6.25;
+	// console.log('yourheight Level ' + yourheight);
 })
 $('#fatPercentages input').on('change', function(e) {
-	fatPercentages = $(this).val();
-	console.log('fatPercentages Level ' + fatPercentages);
+	return fatPercentages = $(this).val();
+	// console.log('fatPercentages Level ' + fatPercentages);
 })
 $('#meterUnit input').on('change', function(e) {
 	var unitType = $(this).val();
@@ -38,4 +38,12 @@ $('#meterUnit input').on('change', function(e) {
 	} else {
 		$('#yourweight').attr("placeholder", "write weight in lbs");
 	}
+});
+$('#calculateresult').click( function(e) {
+	console.log('yourage' + yourage);
+	console.log('yourweight' + yourweight);
+	console.log('yourheight' + yourheight);
+	console.log('fatPercentage' + fatPercentage);
+	console.log('activityLevelCheck' + activityLevelCheck);
+	console.log('leanMass' + leanMass);
 })
