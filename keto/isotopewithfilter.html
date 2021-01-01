@@ -1,154 +1,164 @@
-<html lang="en"><head>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<meta charset="UTF-8">
-	<title>CodePen - Portfolio Isotope Filter</title>
-	<style>
-		body {
+	<title>YSV | Home</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"	 />
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<style type="text/css">
+* { box-sizing: border-box; }
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+body {
   font-family: sans-serif;
-  margin: 0 auto;
-  padding: 20px;
-  width: 80%;
 }
 
-p {
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: .18em;
-  text-align: center;
-  padding-top: 30px;
+/* ---- isotope ---- */
+
+.grid {
+  background: #DDD;
 }
 
-a {
-  text-decoration: none;
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
 }
 
-.brand {
-  text-align: center;
-}
+/* ---- .grid-item ---- */
 
-.brand img {
-  width: 50px;
-}
 
-.p1:hover, .p2:hover {
-	opacity: .3;
-  cursor: pointer;
-}
-
-h4 {
-	color: grey;
-	font-size: 24px;
-	font-weight: 400;
-}
-
-#portfolio p {
-	color: grey;
-	font-size: 12px;
-	font-weight: 200;
-}
-
-.content {
-	width: 100%;
-	margin: 0 auto;
-	padding: 0px;
-	text-align: center;
-}
-
-.single-content img {
-	width: 290px;
-	height: 100%;
-	margin: 10px;
-}
-
-.filters {
-	width: 100%;
-	text-align: center;
-}
-
-ul {
-	list-style: none;
-	padding: 20px 0;
-}
-
-li {
-	display: inline;
-	padding: 10px 25px;
-	font-size: 14px;
-	color: #636363;
-	font-weight: 400;
-	cursor: pointer;
-  	text-transform: uppercase;
-  	letter-spacing: .2em;
-}
-
-li:hover {
-	color: #a6a6a6;
-}
-
-li.active {
-	color: #ccc;
-	border: 1px solid #ccc;
-	border-radius: 15px;
-}
-.grid-item {display: block;min-height: 100px;height: inherit;}
 	</style>
-
 </head>
+<body>
+	<h1>Isotope - filtering</h1>
 
-<body translate="no" data-new-gr-c-s-check-loaded="14.990.0" data-gr-ext-installed="">
-	<div class="brand"> <a href="https://www.aylinmarie.co"><img src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/t/58debb8be58c62f81cbf17d7/1494191752948/"></a></div>
-
-	<div class="filters filter-button-group">
-		<ul><h4>
-			<li class="" data-filter="*">All</li>
-			<li data-filter=".webdesign" class="">Web Design</li>
-			<li data-filter=".webdev" class="">Web Development</li>
-			<li data-filter=".brand" class="active">Brand Identity</li>
-		</h4></ul>
+	<div class="button-group filters-button-group">
+		<button class="button is-checked" data-filter="*">show all</button>
+		<button class="button" data-filter=".metal">metal</button>
+		<button class="button" data-filter=".transition">transition</button>
+		<button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
+		<button class="button" data-filter=":not(.transition)">not transition</button>
+		<button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
+		<button class="button" data-filter="numberGreaterThan50">number > 50</button>
+		<button class="button" data-filter="ium">name ends with &ndash;ium</button>
 	</div>
 
-	<div class="content grid" style="position: relative; height: 627.5px;">
-		<div class="single-content webdesign webdev grid-item">
-			<img class="p2" src="../images/profilepic.png">
+	<div class="grid">
+		<div class="grid-item transition metal " data-category="transition">
+			 <img src="https://picsum.photos/300/600/?random">
 		</div>
-		<div class="single-content brand webdesign grid-item" >
-			<img class="p2" src="../images/blog1.png">
+		<div class="grid-item metalloid " data-category="metalloid">
+			<img src="">
 		</div>
-		<div class="single-content brand grid-item" >
-			<img class="p2" src="../images/blogpic.png">
+		<div class="grid-item post-transition metal " data-category="post-transition">
+			    <img src="https://picsum.photos/600/300/?random">
 		</div>
-		<div class="single-content webdesign grid-item" >
-			<img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/5b71a4cd0ebbe87857c695de/1534181858373/Portfolio+Template+AMD-11.png">
+		<div class="grid-item post-transition metal " data-category="post-transition">
+			    <img src="https://picsum.photos/200/200/?random">
 		</div>
-		<div class="single-content webdesign grid-item" >
-			<img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/59da3b4bf7e0ab21edcb9aa1/1507480179530/Portfolio+Template+AMD-06.png">
+		<div class="grid-item transition metal " data-category="transition">
+			    <img src="https://picsum.photos/200/500/?random">
 		</div>
-		<div class="single-content webdesign brand grid-item" >
-			<img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/59da46128419c28f51bc28b1/1534175868854/Portfolio+Template+AMD-04.png">
+		<div class="grid-item alkali metal " data-category="alkali">
+			    <img src="https://picsum.photos/200/400/?random">
 		</div>
-		<div class="single-content webdesign grid-item" >
-			<img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/5b71c1e221c67c0feefe2a10/1534182546003/Portfolio+Template+AMD-03.png">
+		<div class="grid-item alkali metal " data-category="alkali">
+			    <img src="https://picsum.photos/200/250/?random">
 		</div>
-		<div class="single-content webdesign webdev grid-item">
-			<img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/59d9455546c3c4655adade94/1507480179518/Portfolio+Template+AMD-01.png">
+		<div class="grid-item transition metal " data-category="transition">
+			<img src="https://picsum.photos/200/100/?random">
+		</div>
+		<div class="grid-item alkaline-earth metal " data-category="alkaline-earth">
+			<img src="">
+		</div>
+		<div class="grid-item transition metal " data-category="transition">
+			<img src="">
+		</div>
+		<div class="grid-item post-transition metal " data-category="post-transition">
+			<img src="">
+		</div>
+		<div class="grid-item metalloid " data-category="metalloid">
+			<img src="">
+		</div>
+		<div class="grid-item transition metal " data-category="transition">
+			<img src="">
+		</div>
+		<div class="grid-item lanthanoid metal inner-transition " data-category="lanthanoid">
+			<img src="">
+		</div>
+		<div class="grid-item noble-gas nonmetal " data-category="noble-gas">
+			<img src="">
+		</div>
+		<div class="grid-item diatomic nonmetal " data-category="diatomic">
+			<img src="">
+		</div>
+		<div class="grid-item actinoid metal inner-transition " data-category="actinoid">
+			<img src="">
+		</div>
+		<div class="grid-item actinoid metal inner-transition " data-category="actinoid">
+			<img src="">
 		</div>
 	</div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-<script id="rendered-js">
-	$(document).ready(function () {
-		$('.grid').isotope({
-			itemSelector: '.grid-item', 
-			layoutMode: 'sloppyMasonry',
-		});
-		$('.filter-button-group').on('click', 'li', function () {
-			var filterValue = $(this).attr('data-filter');
-			$('.grid').isotope({ filter: filterValue });
-			$('.filter-button-group li').removeClass('active');
-			$(this).addClass('active');
-		});
-	});
-</script>
 </body>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<!-- or -->
+<script src="https://npmcdn.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script type="text/javascript">
+// external js: isotope.pkgd.js
+
+// init Isotope
+var $grid = $('.grid').imagesLoaded( function() {
+  $grid.isotope({
+    itemSelector: '.grid-item',
+    percentPosition: true,
+    masonry: {
+      columnWidth: '.grid-sizer'
+    }
+  });
+});
+
+// filter functions
+var filterFns = {
+  // show if number is greater than 50
+  numberGreaterThan50: function() {
+  	var number = $(this).find('.number').text();
+  	return parseInt( number, 10 ) > 50;
+  },
+  // show if name ends with -ium
+  ium: function() {
+  	var name = $(this).find('.name').text();
+  	return name.match( /ium$/ );
+  }
+};
+// bind filter button click
+$('.filters-button-group').on( 'click', 'button', function() {
+	var filterValue = $( this ).attr('data-filter');
+  // use filterFn if matches value
+  filterValue = filterFns[ filterValue ] || filterValue;
+  $grid.isotope({ filter: filterValue, masonry: {
+	    columnWidth: 100
+	  } });
+});
+// change is-checked class on buttons
+$('.button-group').each( function( i, buttonGroup ) {
+	var $buttonGroup = $( buttonGroup );
+	$buttonGroup.on( 'click', 'button', function() {
+		$buttonGroup.find('.is-checked').removeClass('is-checked');
+		$( this ).addClass('is-checked');
+	});
+});
+
+</script>
 </html>
