@@ -236,5 +236,9 @@
 	.sliderProductgallery {
 		max-width: 90%;
 		margin: auto;
+		
+	}
+	.newsletter * {
+		display: flex !important;
 	}
 }
