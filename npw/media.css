@@ -241,4 +241,38 @@
 	.newsletter * {
 		display: flex !important;
 	}
+	.aboutContent {
+		max-width: 100%;
+		padding: 0px 10px;
+	}
+
+	.aboutContent > h2 {
+		font-size: 22px;
+	}
+
+	.pageBanner {
+		margin-bottom: 20px;
+		min-height: auto;
+		padding: 50px 0px;
+		background-size: cover;
+	}
+
+	.aboutContent .row .col-md-6 {
+		padding: 0px;
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.contentColumnsAbout h2 {
+		font-size: 22px;
+	}
+
+	.aboutContent .row:nth-child(even) {
+		margin: 0px 0px;
+	}
+
+	.aboutContent .row {
+		margin-bottom: 0px;
+	}
 }
