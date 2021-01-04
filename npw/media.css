@@ -206,4 +206,35 @@
 	.imageContainerShop {
 		max-width: 100%;
 	}
+	.bannerMain .container, .shopSection .container, .banenrCTA .container {
+		max-width: 100%;
+		padding: 0px 20px;
+	}
+	.row.margi0.colsi {
+		display: block;
+	}
+
+	.colsi .col-md-8, .colsi .col-md-4 {
+		max-width: 100%;
+	}
+
+	footer .row .col-md-9, footer .row .col-md-3 {
+		max-width: 100%;
+	}
+	.container {
+		overflow: hidden;
+	}
+
+	.shopSection {
+		overflow: hidden;
+	}
+
+	.shopSection .container {
+		padding: 0px !important;
+	}
+
+	.sliderProductgallery {
+		max-width: 90%;
+		margin: auto;
+	}
 }
