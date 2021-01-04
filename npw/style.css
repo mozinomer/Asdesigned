@@ -18,7 +18,9 @@ img {
 .comfort {
 	font-family: 'Comfortaa', cursive;
 }
-
+* {
+	font-family: 'Comfortaa', cursive;
+}
 p {
 	font-size: 15px;
 	line-height: 30px;
@@ -491,212 +493,143 @@ footer p {
 	max-width: 1650px;
 	padding: 0px 50px;
 }
+.shopPage .container {
+    max-width: 1650px;
+    padding: 0px 40px;
+}
 
+.pageBanner {
+    min-height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 42px;
+}
 
+.pageBanner h2 {
+    font-size: 42px;
+}
 
-/* media */
-@media only screen and (max-width: 767px) {
-	.mainMenu {
-		display: block;
-		width: 100%;
-		max-width: 100%;
-		padding-top: 10px;
-		display: none;
-	}
+.breadCrumbs {
+    padding: 14px 0px;
+    border-bottom: 1px solid #70707029;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+}
 
-	.mainMenu li {
-		margin: 0px !important;
-		text-align: center;
-	}
+.breadCrumbs a {
+    color: #000;
+}
 
-	.mainMenu a {
-		display: block;
-		margin-bottom: 10px;
-		border-bottom: 1px solid #ccc;
-		width: 100%;
-		padding-bottom: 10px;
-	}
+.breadCrumbs a:hover {
+    text-decoration: underline;
+}
+.leftFilters {
+    position: relative;
+    margin-left: -15px;
+}
 
-	.menuContainer {
-		padding: 0px;
-	}
+.headingShop {
+    max-width: 404px;
+    padding: 30px 0px;
+    border-bottom: 1px solid #cccc;
+    margin-bottom: 30px;
+}
 
-	.menuContainer .container {
-		padding: 0px;
-	}
+.headingShop p {
+    line-height: 24px;
+    font-size: 14px;
+}
 
-	.rightContainerFooter ul {
-		display: none;
-	}
+.leftFilters a {
+    display: block;
+    color: #000;
+    opacity: 0.8;
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
 
-	.rightContainerFooter {
-		display: block;
-		padding: 20px 0px 0px 0px;
-	}
+.leftFilters a:hover {
+    opacity: 1;
+}
 
-	.menuMobileContainer {
-		display: block;
-		text-align: center;
-		border-bottom: 1px solid #ccc;
-		padding: 10px;
-	}
+.leftFilters ul {
+    border-bottom: 1px solid #cccc;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.displayFlex {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-	.menuMobileContainer h6 {
-		margin: 0;
-	}
+.containerProductShopPage {
+    width: 31%;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
 
-	header .container-fluid {
-		padding: 10px;
-	}
+.imageContainerProductSop {
+    background: #F5F5F5;
+    padding: 20px;
+}
 
-	li.formSearch {
-		display: none;
-	}
+.containerProductShopPage:nth-child(3n-1) {
+    margin: 0px 34px;
+}
 
-	.bannerMain {
-		min-height: 300px;
-		background-attachment: scroll;
-		background-size: cover;
-	}
+.containerProductShopPage h5 {
+    font-size: 17px;
+    margin: 20px 0px 10px;
+}
+.containerProductShopPage {
+	display: none;
+}
+.price {
+    font-weight: 700;
+    opacity: 1;
+    font-size: 16px;
+    display: block;
+    margin: 10px 0px;
+}
 
-	.contentContainerInBanner h2 {
-		font-size: 23px;
-		line-height: 32px;
-		max-width: 180px;
-	}
+.containerProductShopPage a {
+    max-width: 100%;
+}
+.noContent {
+  color: #000;
+  background-color: transparent;
+  pointer-events: none;
+}
+#loadMore {
+	margin: 40px auto;
+}
+.recentlyViewedShop h3 {
+    font-size: 20px;
+    font-weight: 800;
+}
 
-	.contentContainerInBanner a {
-		margin: 20px 0px 0px;
-	}
+.recentViewedItemsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
-	.shopNow {
-		font-size: 13px;
-		padding: 7px 15px;
-	}
+ul.recentViewedItemsList li {
+    max-width: 45%;
+}
 
-	.aboutSection {
-		padding: 30px 0px;
-	}
+.recentViewedItemsList h6 {
+    font-size: 14px;
+}
 
-	.subHeading {
-		font-size: 13px;
-	}
-
-	.headingSection {
-		font-size: 18px;
-		margin-bottom: 10px;
-	}
-
-	p {
-		font-size: 12px !important;
-		line-height: 23px !important;
-	}
-
-	.shopSection {
-		padding: 30px 0px;
-	}
-
-	.slideContainerContent h6 {
-		font-size: 15px;
-	}
-
-	.colsi .col-md-4 {
-		padding: 50px 30px;
-	}
-
-	.copyrightContent {
-		display: block;
-		text-align: center;
-	}
-
-	.copyrightContent p {
-		margin-bottom: 10px;
-	}
-
-	.rightContainerFooter h6 {
-		font-size: 13px;
-	}
-
-	.logoContainerFoor {
-		text-align: center;
-	}
-
-	.logoContainerFoor img {
-		margin: 0px auto 20px;
-	}
-
-	.logoContainerFoor ul {
-		justify-content: center;
-	}
-
-	footer .container {
-		padding: 0px 10px;
-	}
-
-	footer {
-		padding: 50px 0px 20px;
-	}
-
-	.boxCOntainerMail {
-		padding: 50px 20px;
-		min-height: auto;
-	}
-
-	.boxCOntainerMail h2 {
-		font-size: 19px;
-	}
-
-	.inputMail {
-		max-width: 80%;
-	}
-
-	.inputMail input, .inputMail button {
-		font-size: 11px;
-		height: 36px;
-		padding: 0px 10px;
-		min-height: auto;
-	}
-	.mainMenu li:last-child a {
-		margin: 0px;
-	}
-	.logoContainer {
-		width: 80px;
-		margin-left: 10px;
-	}
-	ul.slick-dots {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		margin: 20px 0px 0px;
-	}
-
-	ul.slick-dots li {
-		font-size: 0;
-		width: 15px;
-		height: 15px;
-		background: none;
-		border-radius: 50%;
-		margin: 0px 5px;
-		border: 2px solid #ccc;
-	}
-
-	ul.slick-dots li.slick-active {
-		background: #188fd5;
-		border-color: #188fd5;
-	}
-
-	ul.slick-dots button {
-		display: none;
-	}
-
-	.slideContainerContent {
-		text-align: center;
-	}
-
-	.sliderProductgallery {
-		margin: 40px 0px;
-	}
-	.imageContainerShop {
-		max-width: 100%;
-	}
+ul.recentViewedItemsList p.price {
+    font-weight: 800;
+    opacity: 1;
+    font-size: 15px;
 }

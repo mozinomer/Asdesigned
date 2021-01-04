@@ -1,0 +1,209 @@
+
+
+
+/* media */
+@media only screen and (max-width: 767px) {
+	.mainMenu {
+		display: block;
+		width: 100%;
+		max-width: 100%;
+		padding-top: 10px;
+		display: none;
+	}
+
+	.mainMenu li {
+		margin: 0px !important;
+		text-align: center;
+	}
+
+	.mainMenu a {
+		display: block;
+		margin-bottom: 10px;
+		border-bottom: 1px solid #ccc;
+		width: 100%;
+		padding-bottom: 10px;
+	}
+
+	.menuContainer {
+		padding: 0px;
+	}
+
+	.menuContainer .container {
+		padding: 0px;
+	}
+
+	.rightContainerFooter ul {
+		display: none;
+	}
+
+	.rightContainerFooter {
+		display: block;
+		padding: 20px 0px 0px 0px;
+	}
+
+	.menuMobileContainer {
+		display: block;
+		text-align: center;
+		border-bottom: 1px solid #ccc;
+		padding: 10px;
+	}
+
+	.menuMobileContainer h6 {
+		margin: 0;
+	}
+
+	header .container-fluid {
+		padding: 10px;
+	}
+
+	li.formSearch {
+		display: none;
+	}
+
+	.bannerMain {
+		min-height: 300px;
+		background-attachment: scroll;
+		background-size: cover;
+	}
+
+	.contentContainerInBanner h2 {
+		font-size: 23px;
+		line-height: 32px;
+		max-width: 180px;
+	}
+
+	.contentContainerInBanner a {
+		margin: 20px 0px 0px;
+	}
+
+	.shopNow {
+		font-size: 13px;
+		padding: 7px 15px;
+	}
+
+	.aboutSection {
+		padding: 30px 0px;
+	}
+
+	.subHeading {
+		font-size: 13px;
+	}
+
+	.headingSection {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	p {
+		font-size: 12px !important;
+		line-height: 23px !important;
+	}
+
+	.shopSection {
+		padding: 30px 0px;
+	}
+
+	.slideContainerContent h6 {
+		font-size: 15px;
+	}
+
+	.colsi .col-md-4 {
+		padding: 50px 30px;
+	}
+
+	.copyrightContent {
+		display: block;
+		text-align: center;
+	}
+
+	.copyrightContent p {
+		margin-bottom: 10px;
+	}
+
+	.rightContainerFooter h6 {
+		font-size: 13px;
+	}
+
+	.logoContainerFoor {
+		text-align: center;
+	}
+
+	.logoContainerFoor img {
+		margin: 0px auto 20px;
+	}
+
+	.logoContainerFoor ul {
+		justify-content: center;
+	}
+
+	footer .container {
+		padding: 0px 10px;
+	}
+
+	footer {
+		padding: 50px 0px 20px;
+	}
+
+	.boxCOntainerMail {
+		padding: 50px 20px;
+		min-height: auto;
+	}
+
+	.boxCOntainerMail h2 {
+		font-size: 19px;
+	}
+
+	.inputMail {
+		max-width: 80%;
+	}
+
+	.inputMail input, .inputMail button {
+		font-size: 11px;
+		height: 36px;
+		padding: 0px 10px;
+		min-height: auto;
+	}
+	.mainMenu li:last-child a {
+		margin: 0px;
+	}
+	.logoContainer {
+		width: 80px;
+		margin-left: 10px;
+	}
+	ul.slick-dots {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 20px 0px 0px;
+	}
+
+	ul.slick-dots li {
+		font-size: 0;
+		width: 15px;
+		height: 15px;
+		background: none;
+		border-radius: 50%;
+		margin: 0px 5px;
+		border: 2px solid #ccc;
+	}
+
+	ul.slick-dots li.slick-active {
+		background: #188fd5;
+		border-color: #188fd5;
+	}
+
+	ul.slick-dots button {
+		display: none;
+	}
+
+	.slideContainerContent {
+		text-align: center;
+	}
+
+	.sliderProductgallery {
+		margin: 40px 0px;
+	}
+	.imageContainerShop {
+		max-width: 100%;
+	}
+}
