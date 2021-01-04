@@ -580,7 +580,7 @@ footer p {
 }
 
 .containerProductShopPage:nth-child(3n-1) {
-    margin: 0px 34px;
+    margin: 0px 24px;
 }
 
 .containerProductShopPage h5 {
@@ -632,4 +632,7 @@ ul.recentViewedItemsList p.price {
     font-weight: 800;
     opacity: 1;
     font-size: 15px;
+}
+.productsShopContainer {
+    padding: 30px 0px;
 }
