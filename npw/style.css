@@ -636,3 +636,6 @@ ul.recentViewedItemsList p.price {
 .productsShopContainer {
     padding: 30px 0px;
 }
+.checked {
+	color: orange
+}
