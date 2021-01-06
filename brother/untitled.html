@@ -1,0 +1,63 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YSV | Home</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"  />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body data-new-gr-c-s-check-loaded="14.990.0" data-gr-ext-installed="" data-gr-ext-disabled="forever">
+    
+        <script type="text/javascript">
+        
+        function sortUnorderedList(ul, sortDescending) {
+          if(typeof ul == "string")
+            ul = document.getElementById(ul);
+
+          var lis = ul.getElementsByTagName("LI");
+          var vals = [];
+
+          for(var i = 0, l = lis.length; i < l; i++)
+            vals.push(lis[i].innerHTML);
+
+          vals.sort();
+
+          if(sortDescending)
+            vals.reverse();
+
+          for(var i = 0, l = lis.length; i < l; i++)
+            lis[i].innerHTML = vals[i];
+        }
+        
+        window.onload = function() {
+          var desc = false;
+          $('#test').hover( function(e){
+            sortUnorderedList("list", desc);
+            desc = !desc;
+            return false;
+          })
+        }
+        
+        </script>
+    
+    
+        <input type="button" id="test" value="Sort List (click again to reverse)">
+        <ul id="list">
+            <li>Vicki</li>
+            <li>Peter</li>
+            <li>Paul</li>
+            <li>Mary</li>
+            <li>James</li>
+            <li>Helen</li>
+            <li>Gil</li>
+            <li>Frank</li>
+            <li>Dana</li>
+            <li>Brock</li>
+            <li>Allen</li>
+        </ul>
+    
+
+</body></html>
