@@ -295,6 +295,48 @@ label {
     color: #000;
 }
 
+.macros-heading h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.macros-heading p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+
+.macros-data .macros-main h5 {
+    font-size: 18px;
+}
+
+.macros-data .macros-main h5 span {
+    color: #87C6A8;
+    margin-left: 5px;
+}
+
+
+
+.macros-table tbody tr:nth-child(odd) {
+    background-color: rgba(135,198,168,.5);
+}
+
+.macros-table tbody tr {
+    background-color: rgba(61,152,201,.5);
+    /* padding: 37px; */
+    height: 50px;
+    font-size: 18px;
+}
+
+.macros-table tbody tr td:first-child {
+    font-weight: 700;
+    padding: 0 25px;
+}
+
+.macros-table {
+    margin-top: 30px;
+}
 
 
 

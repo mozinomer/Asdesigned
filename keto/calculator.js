@@ -92,28 +92,42 @@ $('#calculateresult').click( function(e) {
 	var caloriesFromFatInPercent = (caloriesFromFats / totalCalories) * 100;
 	var caloriesFromProtiensInPercent = (protiens / totalCalories) * 100;
 	var caloriesFromCarbsInPercent = (caloriesFromCarbs / totalCalories) * 100;
+	var bmr_round =  BMR.toFixed(0);
+	// var carbsinGrams_round =  carbsinGrams.toFixed(0);
+	var protiens_round =  protiens.toFixed(0);
+	var FromCarbs =  caloriesFromCarbs.toFixed(0);
+	var totalCalories_round =  totalCalories.toFixed(0);
+	var FromFats =  caloriesFromFats.toFixed(0);
+	var FatsInGrams =  caloriesFromFatsInGrams.toFixed(0);
+	var PerKgOfLeanMass =  caloriesFromProtiensInGramsPerKgOfLeanMass.toFixed(0);
+	var FatInPercent =  caloriesFromFatInPercent.toFixed(2);
+	var ProtiensInPercent =  caloriesFromProtiensInPercent.toFixed(2);
+	var CarbsInPercent =  caloriesFromCarbsInPercent.toFixed(2);
+
+
 
 	console.log(Unit);
 
-	console.log('BMR = ' + BMR);
-	console.log('Carbs in Grams = ' + carbsinGrams);
-	console.log('Calories from Protiens = ' + protiens);
-	console.log('calories From Carbs = ' + caloriesFromCarbs);
-	console.log('is Male = ' + Male);
-	console.log('is Unit Lbs = ' + Male);
-	console.log('yourage = ' + yourage);
-	console.log('Your Weight = ' + yourweight);
-	console.log('Your Height = ' + yourheight);
-	console.log('fatPercentage = ' + fatPercentage);
-	console.log('activityLevelCheck = ' + activityLevelCheck);
-	console.log('leanMass = ' + leanMass);
-	console.log('Gender Value = ' + genderValue);
-	console.log('Total Calories = ' + totalCalories);
-	console.log('Calories From Fats = ' + caloriesFromFats);
-	console.log('Calories From Fats In Grams = ' + caloriesFromFatsInGrams);
-	console.log('calories From Protiens In Grams = ' + caloriesFromProtiensInGrams);
-	console.log('Calories From Protiens In Grams Per Kg Of Lean Mass = ' + caloriesFromProtiensInGramsPerKgOfLeanMass);
-	console.log('calories From Fat In Percent = ' + caloriesFromFatInPercent);
-	console.log('calories From Protiens In Percent = ' + caloriesFromProtiensInPercent);
-	console.log('calories From Carbs In Percent = ' + caloriesFromCarbsInPercent);
+	$('.bmr').text(bmr_round + ' cal');
+	$('.gcarbs').text(carbsinGrams + ' grams');
+	$('.kprotein').text(protiens_round + ' cal');
+	$('.kcarbs').text(FromCarbs + ' cal');
+	// $('.').text(Male);
+	// $('.').text(Male);
+	// $('.').text(yourage);
+	// $('.').text(yourweight);
+	// $('.').text(yourheight);
+	// $('.').text(fatPercentage);
+	// $('.').text(activityLevelCheck);
+	// $('.').text(leanMass);
+	// $('.').text(genderValue);
+	$('.consume').text(totalCalories_round + ' cal');
+	
+	$('.kfat').text(FromFats + ' cal');
+	$('.gfat').text(FatsInGrams + ' grams');
+	// $('.').text(caloriesFromProtiensInGrams);
+	$('.gprotein').text(PerKgOfLeanMass + ' grams');
+	$('.percentfat').text(FatInPercent + ' %');
+	$('.percentprotein').text(ProtiensInPercent + ' %');
+	$('.percentcarbs').text(CarbsInPercent + ' %');
 })
