@@ -33,7 +33,7 @@
 					<h5>What unit type do you prefer?</h5>
 					<div class="row" id="meterUnit">
 						<div class="col-md-6">
-							<input value="metricSelected" type="radio" name="unitytype" id="Metric">
+							<input checked="checked" value="metricSelected" type="radio" name="unitytype" id="Metric">
 							<label for="Metric">Metric <span class="checkedLabel"></span></label>
 						</div>
 						<div class="col-md-6">
@@ -61,13 +61,13 @@
 				</div>
 				<div class="col-md-6 margini" id="yourweightValue">
 					<h5>Your Weight</h5>
-					<input type="number" name="" placeholder="write weight in lbs" id="yourweight">
+					<input type="number" name="" placeholder="write weight in Kg" id="yourweight">
 				</div>
 				<div class="col-md-6 margini">
 					<h5>Your Height</h5>
 					<div class="row" id="yourheights">
 						<div class="col-md-12">
-							<input type="number" name="" placeholder="cm" id="yourheight">
+							<input type="number" name="" placeholder="In cm" id="yourheight">
 						</div>
 					</div>
 				</div>
@@ -127,21 +127,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-12 margini" id="checkboxContainer">
-					<h5>Do you exercise?</h5>
-					<div class="inputexcersize">
-						<label for="exercise" class="exerciseno">No</label>
-						<input type="checkbox" name="exercise" id="exercise">
-						<label for="exercise" class="exerciseyes">Yes</label>
-					</div>
-				</div>
-				<div class="col-md-12 margini">
-					<h5>How intense is your exercise?</h5>
-					<select><option>Exercise 1-2x/Week (Low Intensity)</option></select>
-				</div>
 				<div class="col-md-12 margini">
 					<h5>How many carbs do you want to consume?</h5>
-					<select><option>write body fat percentage in %</option></select>
+					<input type="number" name="" placeholder="Write Carbs intake in grams" id="carbsinGrams">
 				</div>
 				<div class="col-md-12 margini">
 					<button class="calculateBUtton" id="calculateresult">Calculate Results</button>
