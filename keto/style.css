@@ -337,7 +337,13 @@ label {
 .macros-table {
     margin-top: 30px;
 }
+.boxContainer {
+    /* display: none; */
+}
 
+.calculated-macros {
+    display: none;
+}
 
 
 
