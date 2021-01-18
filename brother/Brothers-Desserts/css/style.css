@@ -250,7 +250,7 @@ header .hamburger.active span:nth-last-child(2) {
     width: 22px;
 }
 button.navbar-toggler span {
-    background: #337278;
+    background: #fff;
 }
 button.navbar-toggler {
     outline: none;
@@ -651,7 +651,7 @@ a.br-red:hover {
 } */
 
 .inner-slide.one p {
-    font-size: 16px;
+    font-size: 12px;
     max-width: 95%;
     margin: 0 auto;
     font-family: 'Inter';
