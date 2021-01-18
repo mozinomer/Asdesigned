@@ -783,6 +783,7 @@ section.home-third::after {
     display: flex;
     align-items: center;
     justify-content: center;
+    display: inline-block;
 }
 .shalimar h2 {
     color: #949D28;
@@ -879,7 +880,7 @@ a.shop-now {
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 11px;
 }
 a.shop-now:hover {
     background: transparent;
@@ -921,6 +922,9 @@ a.shop-now:hover {
     padding-bottom: 10px;
     font-family: 'Gilroy' , sans-serif;
     color: #336578;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: normal;
 }
 
 .about-descript p {
@@ -931,6 +935,8 @@ a.shop-now:hover {
     padding: 10px 0px 20px;
     max-width: 85%;
     margin: 0 auto;
+    line-height: 22px;
+    font-weight: 300;
 }
 a.shop-shop {
     border: 2px solid #336578;
@@ -1039,6 +1045,8 @@ span.fa.fa-search.form-control-feedback {
     font-weight: 100;
     padding-bottom: 10px;
     font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 21px;
 }
 .selec-cate {
     width: 180px;
@@ -1083,6 +1091,8 @@ span.fa.fa-search.form-control-feedback {
     color: #336578;
     font-size: 16px;
     padding-bottom: 5px;
+    font-size: 12px;
+    font-weight: 400;
 }
 .inner-address {
     padding: 10px 0px;
@@ -1106,6 +1116,9 @@ ul.quest-list li.active p {
     font-size: 15px;
     line-height: 1.6;
     padding: 10px 0px;
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 300;
 }
 ul.quest-list li {
     cursor: pointer;
@@ -1113,6 +1126,7 @@ ul.quest-list li {
     padding: 5px 0px;
     color: #000;
     font-size: 16px;
+    margin-bottom: 10px;
 }
 ul.quest-list li h6 {
     display: contents;
@@ -1142,14 +1156,18 @@ ul.quest-list li svg {
     font-size: 30px;
     font-weight: 100;
     color: #337278;
+    font-weight: 600;
+    font-size: 21px;
 }
 
 .testimonial-text p {
-    font-size: 14px;
+    font-size: 12px;
     font-family: 'Inter';
-    font-weight: 400;
+    font-weight: 300;
     color: #000;
     padding-top: 20px;
+    max-width: 90%;
+    margin: auto;
 }
 .test-moon .item {
     padding: 100px 100px 0px;
@@ -1663,6 +1681,9 @@ form.foot-form {
     font-size: 16px;
     font-family: 'Inter';
     font-weight: 500;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 12px !important;
 }
 .footer-lists {
     padding: 40px 0 70px 0;
@@ -1757,10 +1778,13 @@ section.footer.footer-clip.padding-main {
 
 ul.btft-left, ul.btft-right {
     display: inline-flex;
+    padding: 0px;
+    justify-content: center;
 }
 
 ul.btft-right li {
     padding-left: 20px;
+    padding: 0px 10px;
 }
 
 ul.btft-left li {
@@ -1955,7 +1979,7 @@ i.org:hover {
         max-width: 1300px;
     }
     ul.quest-list li h6 {
-        font-size: 16px;
+        font-size: 13px;
     }
     .main-text p {
         font-size: 18px;
@@ -2107,6 +2131,7 @@ i.org:hover {
     }
     form.foot-form input {
         width: 150px;
+        width: 100%;
     }
     section.seven-center::after {
         background-size: 100% 100%;
@@ -2125,6 +2150,7 @@ i.org:hover {
     }
     .inner-address h6 {
         max-width: 90%;
+        font-size: 12px;
     }
     .inner-address {
         max-width: 95%;
@@ -2289,6 +2315,7 @@ i.org:hover {
     .addresses {
         width: 100%;
         margin: 10px 0px;
+        padding: 0px 20px;
     }
     .inner-slide {
         width: 100%;
@@ -2341,6 +2368,7 @@ i.org:hover {
     }
     .footer-icons {
         max-width: 100%;
+        max-width: 33%;
     }
     .footer-lists {
         padding: 40px 0 10px 0;
@@ -2353,6 +2381,7 @@ i.org:hover {
     }
     ul.btft-right {
         justify-content: start;
+        justify-content: center;
     }
     .pdp-content {
         flex-flow: row wrap;
@@ -2377,7 +2406,7 @@ i.org:hover {
         padding: 150px 0px 0px;
     }
 }
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
     .padding-main {
         padding: 40px 0;
     }
@@ -2405,11 +2434,12 @@ i.org:hover {
         display: none;
     }
     .top-left a, .main-text p, a.shop-pink, .four-text p, .shalimar p, .snowflur p, .footer-icons p, .foot-list1 p, ul.list-bottom li a, ul.btft-left li a, ul.btft-right li a {
-        font-size: 14px;
+        font-size: 12px;
+        padding-bottom: 10px;
     }
     .main-text h2, .slice-desceript h2, .align-text h2, .four-text.two h2, .brother-logo h2, .shalimar h2, .snowflur h2, .four-text.the-h h2, .spb-content h2 {
-        font-size: 30px;
-
+        font-size: 21px;
+        font-weight: 600;
     }
     .spb-content h2 {
         color: #fff;
@@ -2422,9 +2452,13 @@ i.org:hover {
     }
     .align-text h2 > span {
         justify-content: center;
+        display: inline-block;
     }
     .align-text p, .four-text p {
         max-width: 95%;
+        line-height: 22px;
+        font-weight: 300;
+        font-size: 12px;
     }
     .main-text {
         margin-top: 0px;
@@ -2433,9 +2467,13 @@ i.org:hover {
     }
     section.home-third {
         min-height: 50vh;
+        min-height: auto;
+        background-blend-mode: multiply;
+        background-color: #FFCBD1;
     }
     section.home-third::after {
         background-size: 100%;
+        min-height: auto;
     }
     .four-text {
         margin-bottom: 20px;
@@ -2458,25 +2496,43 @@ i.org:hover {
     }
     .shalimar h2, .snowflur h2 {
         max-width: 90%;
+        font-size: 21px;
+        font-weight: 700;
+        margin-bottom: 10px;
     }
     .shalimar, .snowflur {
         min-height: 40vh;
+        min-height: auto;
     }
     .home-slider .owl-prev {
         margin-bottom: 0px !important;
     }
     .home-slider .owl-nav {
         width: 100%;
-        max-width: max-content;
+        /* max-width: max-content; */
         position: relative;
         height: 100%;
         flex-flow: row;
+        max-width: 100%;
+        justify-content: space-between;
     }
     .slider-counter {
         position: relative;
         align-items: center;
         text-align: center;
         width: 100%;
+        margin: auto;
+        display: flex;
+        max-width: 200px;
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 0px;
+        z-index: 999;
+        top: auto;
+        height: max-content;
+        left: 0;
+        right: 0;
         margin: auto;
     }
     .align-text {
@@ -2502,6 +2558,9 @@ i.org:hover {
     }
     .inner-moon p {
         padding-bottom: 30px;
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 300;
     }
     .test-moon .owl-nav {
         position: absolute;
@@ -2518,4 +2577,12 @@ i.org:hover {
         left: auto;
         bottom: -40px;
     }
+    .footer-socio.row.display.dis-one {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0px 20px;
+}
+}
+.container {
+    position: relative;
 }
