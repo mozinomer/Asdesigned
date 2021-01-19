@@ -85,8 +85,23 @@ $('#carbsinGrams').on('change', function(e) {
 $('#calculateresult').click( function(e) {
 	console.clear();
 
-	if ($("input[name='emailAdd']").val().length <= 0 &&  $("input[name='lastName']").val().length <= 0 && $("input[name='firstName']").val().length <= 0) {
-		alert("please Fill the Form to see the result")
+	if 	(
+			$("input[name='emailAdd']").val().length <= 0 
+			&&  $("input[name='lastName']").val().length <= 0 
+			&& $("input[name='firstName']").val().length <= 0 
+			|| yourage <= 0
+			|| yourweight <= 0
+			|| yourheight <= 0
+			|| fatPercentage <= 0
+			|| activityLevelCheck <= 0
+		) {
+		alert("please Fill all the fields to see the result")
+		$('#yourageCheck input, #yourweightValue input, #yourheights input, #fatPercentages input').val('');
+		console.log(yourage);
+		console.log(yourweight);
+		console.log(yourheight);
+		console.log(fatPercentage);
+		console.log(activityLevelCheck);
 	} else {
 		$('.calculated-macros').slideDown();
 
