@@ -564,7 +564,18 @@ input#subs {
     color: #337278;
     border: 1px solid #337278;
 }
+section.pro-slider .inner-item h6 {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+}
 
+.inner-item {
+    position: relative;
+}
 
 
 
@@ -3625,5 +3636,154 @@ section.fouth {
     }
     .sbp-section{
         padding:50px 0px ;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    h2.cent {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    .about-descript h3 {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    .about-descript p {
+        line-height: 22px;
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    .store-text h3 {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    .has-search .form-control {
+        padding: 0px 10px;
+        font-size: 13px;
+        min-height: 40px;
+    }
+
+    .inner-address h6 {
+        font-size: 14px;
+    }
+
+    .inner-address a {
+        font-size: 13px;
+    }
+
+    .inner-address p {font-weight: 500;}
+
+    ul.quest-list li h6 {
+        font-size: 13px;
+    }
+
+    ul.quest-list li.active p {
+        font-size: 13px;
+        line-height: 22px;
+        font-weight: 400;
+        letter-spacing: normal;
+    }
+
+    .testimonial-text h4 {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    .testimonial-text p {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .inner-moon p {
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 22px;
+    }
+
+    .footer-socio.row.display.dis-one {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 0px 20px;
+        align-items: flex-start;
+    }
+
+    .footer-socio.row.display.dis-one .footer-icons.col-md-4 {
+        max-width: 28%;
+        text-align: center;
+        word-break: break-all;
+        font-size: 11px;
+    }
+
+    .footer-icons.col-md-4 p span {
+        display: block;
+        font-size: 13px;
+        line-height: normal;
+        font-weight: 300;
+    }
+
+    .foot-list1 p {
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    .three h2 {
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    .three p {
+        font-size: 13px;
+        line-height: 22px;
+        font-weight: 300;
+    }
+
+    .ohs-text p {
+        font-size: 13px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+
+    .ohs-text {
+        padding-bottom: 30px;
+    }
+
+    .ohs-box h3 {
+        font-size: 21px;
+        font-weight: 500;
+    }
+
+    .ohs-box p {
+        font-size: 13px;
+        line-height: 22px;
+        /* font-weight: 400; */
+    }
+
+    .abmain-sec.row p {
+        font-size: 13px;
+        line-height: 22px;
+        font-weight: 400;
+    }
+
+    .leftt h1 {
+        margin: 0px 0px 20px;
+        font-weight: 600;
+        font-size: 21px;
+    }
+
+    .ipb-content h1 {
+        font-size: 32px;
+    }
+    .sbp-content > h3 {
+        font-size: 21px;
+    }
+
+    p {
+        line-height: 22px;
+        font-size: 13px;
     }
 }
