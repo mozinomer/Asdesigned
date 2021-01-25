@@ -3786,4 +3786,8 @@ section.fouth {
         line-height: 22px;
         font-size: 13px;
     }
+    .main-text h2, .slice-desceript h2, .align-text h2, .four-text.two h2, .brother-logo h2, .shalimar h2, .snowflur h2, .four-text.the-h h2, .spb-content h2 {
+        font-size: 28px;
+        font-weight: 600;
+    }
 }
