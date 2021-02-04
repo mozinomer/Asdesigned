@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- addding the cdn's -->
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+	crossorigin="anonymous"></script>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+	integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+</head>
+<style type="text/css">
+
+	body {
+		padding: 20px;
+	}
+	.inputcheckbos input {display: none;}
+
+	.inputcheckbos input[type="checkbox"] ~ label {
+		font-size: 14px;
+		padding-left: 30px;
+		position: relative;
+		opacity: 0.6;
+	}
+
+	.inputcheckbos input[type="checkbox"] ~ label::after {content: "";display: block;width: 16px;height: 16px;border: 1px solid #c1b381;position: absolute;left: 0;top: 2px;}
+
+	.inputcheckbos input[type="checkbox"]:checked ~ label::before {content: "";display: block;width: 4px;height: 8px;border: 2px solid #c1b381;position: absolute;left: 6px;transform: rotate(45deg);border-left: 0;border-top: 0;top: 5px;}
+
+	.inputcheckbos input[type="checkbox"]:checked ~ label::after {border-color: #c1b381;}
+
+	.inputcheckbos input[type="checkbox"]:checked ~ label {
+		opacity: 1;
+	}
+
+	.radiosContainers input ~ label {
+		position: relative;
+		padding-left: 29px;
+		font-size: 14px;
+	}
+
+	.radiosContainers input ~ label::after {content: "";width: 16px;height: 16px;border: 2px solid #000;position: absolute;left: 0;top: 2px;border-radius: 50%;}
+
+	.radiosContainers input:checked ~ label::after {
+		background: #c1b381;
+		border-color: #c1b381;
+	}
+
+	.inputContainerSimples input {
+		width: 100%;
+		height: 45px;
+		padding: 0px 10px;
+		font-size: 14px;
+		border-radius: 5px;
+		border: 1px solid #ccc;
+	}
+
+	.textareaContainerSimples textarea {min-height: 150px;width: 100%;padding: 10px;font-size: 14px;border-radius: 5px;border: 1px solid #ccc;}
+
+	.inputContainerSimples {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	.radiosContainers {
+		/* margin-bottom: 20px; */
+	}
+
+	.inputcheckbos {
+		margin-bottom: 10px;
+	}
+	.inptuContainerFile input {
+		display: none;
+	}
+
+	.inptuContainerFile input ~ label span {
+		font-size: 14px;
+		border: 2px solid #c1b381;
+		color: #000;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 10px 40px;
+	}
+
+	.inptuContainerFile input ~ label span:hover {
+		background: #c1b381;
+		color: #fff;
+		cursor: pointer;
+	}
+
+	.input-preview__src {
+		display: none;
+	}
+
+	.input-preview {
+		border-radius: 4px;
+		width: 200px;
+		height: 200px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		position: relative;
+		transition: ease-in-out 750ms;
+	}
+
+	.input-preview::after {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		transform: translateY(50%);
+		content: "Choose a file...";
+		font-style: italic;
+		font-size: 1em;
+		color: white;
+		background: #c1b381;
+		max-width: max-content;
+		margin: auto;
+		left: 0;
+		right: 0;
+		padding: 5px 20px;
+		font-size: 14px;
+		bottom: 0;
+		top: auto;
+	}
+
+	.has-image::before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(50, 50, 50, 0.5);
+		content: " ";
+		transition: ease-in-out 750ms;
+	}
+
+	.has-image::after {
+		content: "Choose another file...";
+		color: white;
+		background: #c1b381;
+		max-width: max-content;
+		margin: auto;
+		left: 0;
+		right: 0;
+		padding: 5px 20px;
+		font-size: 14px;
+		bottom: 0;
+		top: auto;
+	}
+
+</style>
+<body>
+
+
+	<div class="inputcheckbos">
+		<input type="checkbox" name="" id="checki1">
+		<label for="checki1">Whatever your text will show up here</label>
+	</div>
+
+	<div class="inputcheckbos">
+		<div class="radiosContainers">
+			<input type="radio" name="raioss" id="checki22">
+			<label for="checki22">Whatever your text will show up here</label>
+		</div>
+		<div class="radiosContainers">
+			<input type="radio" name="raioss" id="checki23">
+			<label for="checki23">Whatever your text will show up here</label>
+		</div>
+	</div>
+	<div class="simpleInputContainer">
+		<div class="inputContainerSimples">
+			<input type="text" name="" placeholder="your palceholder comes Here">
+		</div>
+		<div class="textareaContainerSimples">
+			<textarea placeholder="your palceholder comes Here"></textarea>
+		</div>
+	</div>
+	<div class="filecoNtianenew">
+		<div class="inptuContainerFile">
+			<!-- <input type="file" name="" id="fileInputConrtainer"> -->
+			<label class="input-preview" for="img">
+				<input class="input-preview__src" name="img" id="img" type="file"/>
+			</label>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<script type="text/javascript">
+		const fileImage = document.querySelector('.input-preview__src');
+		const filePreview = document.querySelector('.input-preview');
+
+		fileImage.onchange = function () {
+			const reader = new FileReader();
+
+			reader.onload = function (e) {
+        filePreview.style.backgroundImage  = "url("+e.target.result+")";
+        filePreview.classList.add("has-image");
+    };
+    reader.readAsDataURL(this.files[0]);
+};
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
