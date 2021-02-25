@@ -1,0 +1,115 @@
+@media only screen and (max-width: 767px) {
+	.contentContainersection2Homepage {
+		padding: 20px 0px;
+	}
+
+	.contentContainersection2Homepage h6 {
+		font-size: 14px;
+	}
+
+	.contentContainersection2Homepage h2 {
+		font-size: 22px;
+		line-height: normal;
+	}
+
+	.contentContainersection2Homepage p {
+		font-size: 13px;
+		line-height: 22px;
+	}
+
+	.section2HOmePage {
+		margin: 20px 0px 0px;
+	}
+
+	.contentContainersection3 h2 {
+		font-size: 22px;
+	}
+
+	.section3HomePahge p {
+		font-size: 13px;
+		line-height: 22px;
+	}
+
+	a.containerminiBoxs img {
+		width: 50px;
+	}
+
+	.flexedBox h3 {
+		font-size: 13px;
+	}
+
+	.containerminiBoxs {
+		margin-bottom: 20px;
+		padding: 30px 10px;
+	}
+
+	.section3HomePahge .col {
+		flex: 0 50%;
+	}
+
+	.section3HomePahge {
+		padding: 20px 0px;
+	}
+
+	.section2HOmePage img {
+		height: 200px;
+		width: 100%;
+		object-fit: cover;
+		border-radius: 9px;
+	}
+
+	.cardContainer {
+		margin-bottom: 10px;
+	}
+
+	.imageCOtainer img {
+		width: 80px;
+	}
+
+	.containerTextHOmpaeCardContainer h4 {
+		font-size: 15px;
+		margin: 0px 0px;
+	}
+
+	.contentContainersection2Homepage li img {
+		width: 20px;
+		height: auto;
+	}
+
+	.contentContainersection2Homepage li {
+		font-size: 13px;
+	}
+
+	.footerUppaer p {
+		margin: 0px;
+		max-width: 100%;
+		margin-bottom: 30px;
+		line-height: 22px;
+		font-size: 14px;
+	}
+
+	.footerUppaer {
+		padding: 40px 0px;
+		min-height: auto;
+	}
+
+	.footerUppaer a {
+		min-height: auto;
+		height: auto;
+		padding: 10px 40px;
+		font-size: 13px;
+	}
+
+	.footerInnerContainer ul {
+		display: none;
+	}
+
+	.footerInnerContainer {
+		text-align: center;
+		justify-content: center;
+	}
+
+	.footerInnerContainer img {
+		width: 100%;
+	}
+}
