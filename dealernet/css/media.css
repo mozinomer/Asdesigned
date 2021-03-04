@@ -1,0 +1,332 @@
+@media only screen and (max-width: 767px) {
+	/*about page*/
+	.photo-enhance-banner {min-height: auto;padding: 100px 0px 140px;display: flex;align-items: center;justify-content: center;}
+
+	.photo-enhance-banner .photo-enhance-title h2 {
+		font-size: 28px;
+	}
+
+	.deal-about-text h2 {
+		margin: 10px 0px 10px;
+		font-size: 22px;
+		font-weight: 700;
+		padding-bottom: 0px;
+	}
+
+	.deal-about-text h4 {
+		line-height: 22px;
+		font-size: 14px;
+	}
+
+	.deal-about-text p {
+		font-size: 13px;
+		line-height: 22px;
+		color: #000000ab;
+	}
+
+	.dealnet-about .row {
+		margin-bottom: 20px;
+	}
+
+	.deal-about-text .name p {
+		font-size: 14px;
+		font-weight: 700;
+	}
+
+	.deal-about-text.core-value h2 {
+		margin: 10px 0px 10px;
+		padding: 10px 0px 10px;
+	}
+
+	.choose-us-heading.media-heading h2 {
+		font-size: 22px;
+		font-weight: 600;
+	}
+
+	.choose-us-heading {
+		padding-bottom: 20px;
+	}
+
+	.media-carousel.owl-theme .owl-dots {
+		/* display: flex; */
+		/* flex-wrap: wrap; */
+		/* max-width: 90%; */
+		/* block-size: inherit; */
+	}
+
+	.media-carousel.owl-theme .owl-nav .owl-next, .media-carousel.owl-theme .owl-nav .owl-prev {
+		background: #000;
+		z-index: 999;
+	}
+
+	section.advantage {
+		padding: 20px 0px 20px;
+	}
+
+	.advantage-main-heading {
+		font-size: 22px;
+	}
+
+	.advantage-faq .advantage-faq-heading .advantage-icon span {
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.advantage-para p {
+		font-size: 13px;
+		line-height: 22px;
+		color: #000;
+		font-weight: 300;
+		opacity: 1;
+	}
+
+	h3.advantage-main-heading {
+		margin: 20px 0px 0px;
+		font-size: 18px;
+		padding-bottom: 10px;
+		font-weight: 700;
+	}
+
+	.testimonial-unit .content h5 {
+		font-size: 15px;
+		margin: 20px 0px 10px;
+		text-align: center;
+	}
+
+	.testimonial-unit .content p {
+		text-align: center;
+		font-size: 13px;
+		line-height: 22px;
+	}
+
+	.testimonial-unit .testimonial-meta .author {
+		font-size: 14px;
+		font-weight: 600;
+	}
+
+	.testimonial-unit .testimonial-meta .author-car {
+		font-size: 14px;
+		font-weight: 500;
+		color: #000;
+	}
+
+	.choose-us-heading.team-heading h2 {
+		font-size: 22px;
+		font-weight: 700;
+	}
+
+	.bottom-footer {
+		text-align: center;
+	}
+
+	footer .bottom-footer .row {
+		justify-content: center;
+	}
+
+	footer .bottom-footer .row ul li:first-child {
+		margin: 0px;
+	}
+
+	footer .bottom-footer p, .bottom-footer a {
+		font-size: 12px;
+		flex: 0 100%;
+	}
+
+	footer .bottom-footer {
+		padding: 10px 0px;
+	}
+
+	footer .top-footer {
+		padding: 30px 0px 10px;
+	}
+
+	.newsletter .newsletter-heading p {
+		font-size: 13px;
+		font-weight: 500;
+		line-height: 22px;
+		color: #fff;
+		opacity: 1;
+	}
+
+	footer h4 {
+		font-size: 15px;
+		font-weight: 600;
+		margin: 10px 0px;
+	}
+
+	footer .address a {
+		font-size: 12px;
+	}
+
+	footer .address a br {
+		display: none;
+	}
+
+	footer .address {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	/* home page*/
+	.banner-slider.owl-carousel .owl-item img {
+		height: 300px;
+	}
+
+	section.home-banner {
+		margin-top: 79px;
+	}
+
+	.banner-slider.owl-carousel.owl-theme .owl-nav [class*=owl-] {
+		width: 35px;
+		height: 35px;
+		font-size: 17px;
+	}
+
+	.banner-slider.owl-carousel.owl-theme .owl-dots span {width: 8px;height: 8px;}
+
+	.dealer-store .dealer-top-tabs .dealer-store-heading h2 {
+		font-size: 22px;
+		text-align: center;
+		font-weight: 700;
+	}
+
+	.dealer-store .dealer-top-tabs .nav-tabs {
+		justify-content: center;
+	}
+
+	.store-data .store-text h4 {
+		margin: 20px 0px 10px;
+	}
+
+	.store-data .store-text p {
+		font-size: 13px;
+		line-height: 22px;
+		color: #000;
+	}
+
+	.store-data .store-text a {
+		font-size: 13px;
+	}
+
+	.ad-cast-box {
+		padding: 10px 40px 20px;
+		margin-bottom: 20px;
+	}
+
+	.ad-cast-box .icon-box-link-btn {
+		font-weight: 400;
+		font-size: 14px;
+		min-height: auto;
+		height: auto;
+		padding: 11px 20px;
+		font-size: 13px;
+		font-weight: 600;
+	}
+
+	.lot-service-heading h2 {
+		font-size: 22px;
+		font-weight: 700;
+	}
+
+	.lot-service .lot-service-heading a {
+		text-align: right;
+		margin-left: auto;
+		max-width: max-content;
+		font-size: 13px;
+	}
+
+	.lot-service .lot-service-heading a span {
+		font-size: 13px;
+	}
+
+	.lot-service .lot-service-text .req-service a {
+		max-width: max-content;
+		padding: 10px 20px;
+		font-size: 12px;
+		font-weight: 600;
+	}
+
+	.lot-service .lot-service-text .req-service h4 {
+		width: auto;
+		font-size: 13px;
+		line-height: normal;
+	}
+
+	.lot-service .lot-service-text .req-service {
+		align-items: center;
+	}
+
+	.lot-service .lot-service-text p {line-height: 22px;font-size: 13px;letter-spacing: 0.2px;}
+
+	.choose-us-heading h2 {
+		font-size: 22px;
+		font-weight: 700;
+	}
+
+	.choose-us-heading {
+		padding-bottom: 15px;
+	}
+
+	section.choose-us {
+		padding: 30px 0px 30px;
+	}
+
+	.choose-us-data  .col-md-6:first-child .choose-us-box {
+		margin-top: 0px;
+	}
+
+
+	.choose-us-data .choose-us-box .choose-us-text p {
+		line-height: 19px;
+		font-size: 13px;
+		color: #000;
+		opacity: 0.7;
+	}
+
+	.choose-us-icon {width: 23%;display: flex;align-items: center;justify-content: center;}
+
+	.choose-us-box {
+		flex-wrap: wrap;
+	}
+
+	.choose-us-text {
+		width: 76%;
+	}
+
+	.choose-us-data .choose-us-box .choose-us-text h6 {
+		font-weight: 700;
+	}
+
+	.reviews .review-data .review-text p {
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.reviews .review-data .customer-img {
+		width: 80px;
+		height: 80px;
+	}
+
+	.reviews .review-data .customer-name span.name {
+		font-weight: 700;
+	}
+
+	.call-to-action .call-to-action-text h2 {
+		font-size: 22px;
+		line-height: 33px;
+	}
+
+	.call-to-action ul>li.feedback a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		/* padding: 10px 30px; */
+		min-height: 50px;
+		margin: 20px 0px 0px;
+		font-weight: 700;
+	}
+
+	.call-to-action ul>li.feedback a i {
+		margin-right: 10px;
+	}
+}
