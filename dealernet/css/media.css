@@ -333,6 +333,7 @@
 	.perfect-photo .perfect-photo-text .perfect-photo-heading h2 {
 		letter-spacing: normal;
 		font-size: 22px;
+		text-align: center;
 	}
 
 	.perfect-photo .perfect-photo-text .perfect-photo-heading p {
@@ -515,5 +516,66 @@
 
 	.submit-note {
 		margin: 20px 0px;
+	}
+	/* store */
+	section.store-filters {
+		padding: 20px 0px;
+	}
+
+	.filters-header .product-showing p {
+		font-size: 13px;
+		line-height: 22px;
+		color: #000;
+	}
+
+	.filter-product-text h5 {
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 25px;
+	}
+
+	ul.page-numbers li > a {
+		width: 20px;
+		height: 20px;
+		font-size: 11px;
+	}
+
+	.stm-blog-pagination .stm-btn {
+		width: 30px;
+		height: 30px;
+	}
+	/* walk world */
+	.video-walk .video-walk-data h3 {
+		margin: 20px 0px 10px;
+		animation: ;
+		font-weight: 700;
+		font-size: 22px;
+		text-align: center;
+	}
+
+	.video-walk-data p {
+		text-align: center;
+		font-size: 13px;
+		line-height: 22px;
+		color: #000;
+	}
+
+	.video-walk .video-walk-data ol>li {
+		font-size: 13px;
+		line-height: normal;
+		margin-bottom: 10px;
+		color: #000;
+	}
+}
+@media only screen and (max-width: 400px) {
+	a.bloglogo img {
+		max-width: 130px;
+	}
+	.dealer-store .dealer-top-tabs .nav-tabs {
+		flex-wrap: nowrap;
+	}
+
+	.dealer-store .dealer-top-tabs .nav-tabs li a {
+		font-size: 11px;
 	}
 }
