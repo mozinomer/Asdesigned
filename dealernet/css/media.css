@@ -1,6 +1,12 @@
 @media only screen and (max-width: 767px) {
 	/*about page*/
-	.photo-enhance-banner {min-height: auto;padding: 100px 0px 140px;display: flex;align-items: center;justify-content: center;}
+	.photo-enhance-banner {
+		min-height: auto;
+		padding: 100px 0px 140px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 
 	.photo-enhance-banner .photo-enhance-title h2 {
 		font-size: 28px;
